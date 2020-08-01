@@ -19,6 +19,14 @@ body {
    color: #1F0A07;
      text-decoration:none;
 }
+.header_link:active  {
+   color: #1F0A07;
+     text-decoration:none;
+}
+.header_link:visited  {
+   color: #1F0A07;
+     text-decoration:none;
+}
 a:active  {
    color: #1F0A07;
      text-decoration:none;

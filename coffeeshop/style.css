@@ -1,0 +1,736 @@
+body {
+   
+    background-color: #FFEAB6;
+}
+
+.screen {
+    background-color: #250100;
+    min-height: 100%;
+        min-width: 1024px;
+        /* Set up proportionate scaling */
+        width: 100%;
+        
+        /* Set up positioning */
+       
+        top: 0;
+        left: 0;
+}
+.header_link:hover  {
+   color: #1F0A07;
+     text-decoration:none;
+}
+a:active  {
+   color: #1F0A07;
+     text-decoration:none;
+}
+a:visited  {
+   color: #1F0A07;
+     text-decoration:none;
+}
+a:hover  {
+   color: #1F0A07;
+     text-decoration:none;
+}
+.header_link {
+    display: inline-block;
+    color: #1F0A07;
+    line-height: 1.5;
+    text-decoration:none;
+    cursor: pointer;
+    
+}
+.header_link:after {
+    background-color: #1F0A07;
+    display: block;
+    content: "";
+    height: 2px;
+    width: 0%;
+    -webkit-transition: width .3s ease-in-out;
+    -moz--transition: width .3s ease-in-out;
+    transition: width .3s ease-in-out;
+}
+.header_link:hover:after,
+.header_link:focus:after {
+    width: 100%;
+}
+
+.container {
+    max-width: 1180px;
+    margin: 0px auto;
+    padding: 0px 10px; 
+}
+.header{
+    position: relative;
+    width: 100%;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.header:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+.header_body {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+    width: 100%;
+    height: 100;
+        
+}
+.header_logo {
+    flex: 0 0 200px;
+    overflow: hidden;
+    position: relative;
+    z-index: 5;
+    margin-left: 185px;
+    margin-top: 43px;
+}
+.header_logo img{
+    width: 122px;
+    display: block;
+}
+.header_link {
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+}
+.header_list {
+    display: flex;
+    position: relative;
+    z-index: 2;
+    margin-right: 400px;
+    margin-top: 70px;
+    font-family: 'Noto Sans', sans-serif;
+}
+.header_list li {
+    list-style: none;
+    margin: 0px 0px 0px 20px;
+}
+
+.zerna {
+    margin-left: 230px;
+    width: 15%;
+    margin-bottom: 0px;
+    position: absolute;
+}
+
+.coffee {
+    margin-left: 200px;
+    margin-top: 190px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 60px;
+    
+    color: #250100;
+    text-shadow: #c7b198 1px 1px 0, #c7b198 1px 1px 0, 
+                 #c7b198 1px 1px 0, #c7b198 2px 2px 0, 
+                 #c7b198 1px 1px 0;
+}
+
+.cool_coffee {
+     margin-left: 200px;
+    font-family: 'Open Sans', sans-serif;
+    color: #250100;
+    margin-top: 30px;
+    font-size: 15px;
+     text-shadow: #c7b198 0.2px 0.2px 0, #c7b198 0.2px 0.2px 0, 
+                 #c7b198 0.2px 0.2px 0, #c7b198 0.2px 0.2px 0, 
+                 #c7b198 0.2px 0.2px 0;
+}
+.button_coffee {
+    background-color: #B47E6E;
+    border-radius: 9px;
+   border: 0px;
+    margin: 20px;
+    font-size: 35px;
+    margin-top: 30px;
+    margin-left: 200px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: #250100;
+    text-shadow: #c7b198 1px 1px 0, #c7b198 1px 1px 0, 
+                 #c7b198 1px 1px 0, #c7b198 2px 2px 0, 
+                 #c7b198 1px 1px 0;
+}
+.text_coffee {
+    margin: 15px 50px;
+   
+}
+button:active, button:focus {
+  outline: none;
+}
+button::-moz-focus-inner {
+  border: 0;
+}
+.img_coffee {
+    
+    width: 60%;
+    position: absolute;
+  margin-left: 700px;
+    margin-top: 70px;
+    
+
+    
+}
+
+.why_we {
+    margin-top: 350px;
+    margin-left: 310px;
+    font-size: 55px;
+    font-family: 'Oswald', sans-serif;
+    color: #250100;
+    z-index: 50;
+}
+.list {
+    width: 400px;
+    position: absolute;
+    z-index: 1;
+    margin-top: 150px;
+}
+.why_photo {
+    margin-left: 280px;
+    margin-bottom: 80px;
+}
+.title_drink {
+    color: #FFEAB6;
+    font-family: 'Open Sans Condensed', sans-serif;
+    margin-left: 150px;
+    margin-top: 80px;
+    font-size: 45px;
+    margin-bottom: 50px;
+}
+.img_drink {
+    width: 300px;
+    height: 450px;
+    margin-left: 280px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.img_drink1 {
+    
+    width: 300px;
+    height: 450px;
+    margin-left: 160px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.img_drink2 {
+    
+    width: 300px;
+    height: 450px;
+    margin-left: 160px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.img_drink3 {
+    
+    width: 300px;
+    height: 450px;
+    margin-left: 280px;
+    margin-top: 10px;
+    margin-bottom: 100px;
+}
+.img_drink4 {
+    width: 300px;
+    height: 450px;
+    margin-left: 160px;
+    margin-top: 10px;
+    margin-bottom: 100px;
+}
+.img_drink5 {
+    width: 300px;
+    height: 450px;
+    margin-left: 160px;
+    margin-top: 10px;
+    margin-bottom: 100px;
+}
+
+.sale {
+    color: #250100;
+    font-family: 'Open Sans Condensed', sans-serif;
+    margin-left: 150px;
+    margin-top: 80px;
+    font-size: 45px;
+    margin-bottom: 50px;
+}
+.img_sale {
+    margin-left: 180px;
+    margin-bottom: 80px;
+}
+.img_sale1 {
+    margin-left: 180px;
+    margin-bottom: 80px;
+}
+.img_footer {
+    margin-left: 180px;
+    margin-top: 50px;
+}
+.email {
+    color: #FFEAB6;
+    margin-top: 70px;
+    font-size: 15px;
+    margin-bottom: 50px;
+    font-family: 'Montserrat', sans-serif;
+}
+.admin {
+    color: #FFEAB6;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+@media (max-width:767px){
+    .header_body {
+        height: 50px;
+    }
+    body.lock {
+        overflow: hidden;
+    }
+    .header_link {
+        font-size: 20px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        margin: 0px;
+        margin-right: 0px;
+    }
+    .header_logo{
+        flex: 0 0 40px;
+    }
+    .header_burger{
+        display: block;
+        position: relative;
+        width: 30px;
+        height: 20px;
+        z-index: 3;
+       
+    }
+    .header_burger:before,
+    .header_burger:after{
+        content: '';
+        background-color: #250100;
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        left: 0;
+        transition: all 0.3s ease 0s;
+         
+    }
+    .header_burger:before{
+        top: 0;
+    }
+    .header_burger:after{
+        bottom: 0;
+    }
+    .header_burger span{
+        position: absolute;
+        background-color: #250100;
+        left: 0;
+        width: 100%;
+        height: 2px;
+        top: 9px;
+        transition: all 0.3s ease 0s;
+        margin-right: 0px;
+    }
+    .header_burger.active:before{
+        transform: rotate(45deg);
+        top: 9px;
+    }
+    .header_burger.active:after{
+        transform: rotate(-45deg);
+        bottom: 9px;
+    }
+    .header_burger.active span{
+        transform: scale(0);
+    }
+    .header_menu {
+        position: fixed;
+        top: -100%;
+        left: 0;
+        width: 100%;
+        height: 100%;
+       transition: all 0.3s ease 0s;
+        padding: 50px 0px 20px 10px;
+        overflow: auto;
+        
+    }
+    .header_menu.active{
+        top: 0px;
+        
+    }
+    .header_list {
+        display: block;
+        margin-top: 20px;
+    }
+    .header_list li {
+       
+        margin: 0px 0px 20px 0px;
+        z-index: 1;
+    }
+    .header_logo {
+        flex: 0 0 200px;
+        overflow: hidden;
+        position: relative;
+        z-index: 50;
+        margin-top: 10px;
+        margin-left: 30px;
+    } 
+    .header_logo img {
+        max-width: 500%;
+        display: flex;
+         z-index: 50;
+    }
+}
+@media (max-width:1024px) {
+    
+    .coffee {
+        font-size: 45px;
+        margin-left: 30px;
+    }
+    .zerna {
+        margin-left: 100px;
+    }
+    .header_logo {
+        margin-left: 60px;
+    }
+    .header_list {
+        margin-right: 50px;
+        margin-left: 0px;
+    }
+    .button_coffee {
+        font-size: 20px;
+        margin-left: 30px;
+    }
+    .cool_coffee {
+        margin-left: 30px;
+    }
+    .why_we {
+        font-size: 40px;
+        margin-left: 170px;
+        margin-top: 100px;
+    }
+    .why_photo {
+        width: 900px;
+        margin-left: 70px;
+        margin-top: 30px;
+    }
+    .list {
+        width: 270px;
+        margin-top: 00px;
+    }
+    .img_coffee {
+        margin-left: 460px;
+        width: 550px;
+        margin-top: 130px;
+       
+    }
+    
+    .title_drink {
+        font-size: 35px;
+    }
+    .img_drink {
+        
+        padding: 10px;
+        margin-left: 100px;
+        width: 250px;
+        height: 400px;
+    }
+    .img_drink1 {
+        padding: 10px;
+        margin-left: 0px;
+        width: 250px;
+        height: 400px;
+    }
+    .img_drink2 {
+        padding: 10px;
+        margin-left: 0px;
+        width: 250px;
+        height: 400px;
+    }
+    .img_drink3 {
+        margin-top: 0px;
+        padding: 10px;
+        margin-left: 100px;
+        width: 250px;
+        height: 400px;
+    }
+    .img_drink4 {
+        margin-top: 0px;
+        padding: 10px;
+        margin-left: 0px;
+        width: 250px;
+        height: 400px;
+    }
+    .img_drink5 {
+        margin-top: 0px;
+        padding: 10px;
+        margin-left: 0px;
+        width: 250px;
+        height: 400px;
+        margin-right: 0px;
+    }
+    
+    .sale {
+        font-size: 35px;
+    }
+    .img_sale {
+        width: 400px;
+        margin-left: 60px;
+    }
+    .img_sale1 {
+        width: 400px;
+        margin-left: 60px;
+    }
+}
+@media (max-width:768px) {
+    .header_list {
+        margin-left: 140px;
+    }
+    .zerna {
+        width: 150px;
+    }
+    .img_sale1 {
+        width: 400px;
+        margin-left: 200px;
+    }
+}
+@media (max-width:375px){
+    .header_burger {
+        font-size: 30px;
+        margin-top: 20px;
+}
+.header_burger:before,
+    .header_burger:after{
+        margin-left: 600px;
+        
+        
+    }
+    .header_burger span {
+        margin-left: 600px;
+       
+    }
+    .header_link {
+        margin-left: 570px;
+        font-size: 40px;
+        background-color: #FFEAB6;
+        border-radius: 20px;
+        padding-left: 10px;
+        padding-right: 20px;
+    }
+    .header_logo img{
+        width: 140px;
+        margin-top: 30px;
+        margin-left: 0px;
+    }
+    .img_coffee {
+        position: absolute;
+        margin-top: 100px;
+        width: 570px;
+        margin-left: 440px;
+    }
+    .img_drink {
+         padding: 0px;
+        position: absolute;
+        margin-left: 190px;
+        max-width: 100%;
+        margin-top: 00px;
+        width: 300px;
+        height: 450px;
+    }
+    .img_drink1 {
+        position: absolute;
+         padding: 0px;
+        margin-left: 520px;
+        margin-bottom: 20px;
+        margin-top: 0px;
+        width: 300px;
+        height: 450px;
+    }
+    .img_drink2 {
+        padding: 0px;
+        position: absolute;
+        margin-left: 190px;
+        max-width: 100%;
+        margin-top: 500px;
+        width: 300px;
+        height: 450px;
+    }
+    .img_drink3 {
+        position: absolute;
+         padding: 0px;
+        margin-left: 520px;
+        margin-bottom: 20px;
+        margin-top: 500px;
+        width: 300px;
+        height: 450px;
+    }
+    .img_drink4 {
+        padding: 0px;
+   
+        margin-left: 190px;
+        max-width: 100%;
+        margin-top: 1000px;
+       width: 300px;
+        height: 450px;
+    }
+    .img_drink5 {
+             position: absolute;
+         padding: 0px;
+        margin-left: 30px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        margin-top: 1000px;
+        width: 300px;
+        height: 450px;
+    }
+    .title_drink {
+        font-size: 55px;}
+    .zerna {
+        margin-left: 130px;
+    }
+    .coffee {
+        font-size: 42px;
+        width: 100%;
+       margin-left: 100px; 
+        margin-right: 0px;
+        margin-top: 130px;
+    }
+    .cool_coffee {
+        margin-left: 100px;
+        font-size: 15px;
+    }
+    
+    .button_coffee{
+        margin-left: 100px;
+        margin-right: 0px;
+        font-size: 20px;
+    }
+    .why_we {
+        margin-top: 100px;
+        margin-left: 100px;
+    }
+    .list {
+        margin-top: 0px;
+    }
+    .why_photo {
+        width: 1000px;
+        margin-left: 0px;
+    }
+    .img_sale1 {
+        width: 600px;
+        margin-left: 200px;
+    }
+    .img_sale {
+         width: 600px;
+        
+    margin-left: 200px;
+        margin-top: 0px;}
+    .sale {
+        font-size: 55px;
+    }
+    .img_footer {
+        margin-left: 440px;
+        margin-bottom: 20px;
+        margin-top: 15px;
+    }
+    .email {
+       text-align: center;
+        margin-top: 20px;
+    }
+    
+}
+@media (max-width:320px){
+    .why_we {
+        font-size: 37px;
+    }
+    .button_coffee {
+        font-size: 25px;
+        margin-left: 25px;
+    }
+}
+@media (min-width: 1028px) and (max-width: 1800px) {
+    .coffee{
+        font-size: 50px;
+        margin-left: 60px;
+    }
+    .cool_coffee {
+        margin-left: 60px;
+    }
+    .button_coffee {
+        margin-left: 60px;
+    }
+    .img_coffee {
+        width: 53%;
+        margin-left: 600px;
+        margin-top: 80px;
+    }
+    .why_we {
+        font-size: 50px;
+        margin-top: 150px;
+        margin-left: 100px;
+    }
+    .list {
+        width: 250px;
+        margin-top: 80px;
+    }
+    .why_photo {
+        margin-left: 170px;
+        width: 1100px;
+    }
+    .img_drink {
+        
+        padding: 10px;
+        margin-left: 280px;
+        width: 300px;
+        height: 450px;
+    }
+    .img_drink1 {
+        padding: 10px;
+        margin-left: 0px;
+        width: 300px;
+        height: 450px;
+    }
+    .img_drink2 {
+        padding: 10px;
+        margin-left: 0px;
+        width: 300px;
+        height: 450px;
+    }
+    .img_drink3 {
+        margin-top: 0px;
+        padding: 10px;
+        margin-left: 280px;
+        width: 300px;
+        height: 450px;
+    }
+    .img_drink4 {
+        margin-top: 0px;
+        padding: 10px;
+        margin-left: 0px;
+        width: 300px;
+        height: 450px;
+    }
+    .img_drink5 {
+        margin-top: 0px;
+        padding: 10px;
+        margin-left: 0px;
+       width: 300px;
+        height: 450px;
+        margin-right: 0px;
+    }
+    .img_sale {
+        width: 600px;
+        margin-left: 100px;
+    }
+    .img_sale1 {
+        width: 600px;
+        margin-left: 100px;
+    }
+}

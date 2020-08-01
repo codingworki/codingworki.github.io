@@ -19,23 +19,7 @@ body {
    color: #1F0A07;
      text-decoration:none;
 }
-.header_link:active  {
-   color: #1F0A07;
-     text-decoration:none;
-}
-.header_link:visited  {
-   color: #1F0A07;
-     text-decoration:none;
-}cc
-.header_link:link  {
-   color: #1F0A07;
-     text-decoration:none;
-}
 a:active  {
-   color: #1F0A07;
-     text-decoration:none;
-}
-a:link  {
    color: #1F0A07;
      text-decoration:none;
 }
@@ -44,6 +28,10 @@ a:visited  {
      text-decoration:none;
 }
 a:hover  {
+   color: #1F0A07;
+     text-decoration:none;
+}
+a:link  {
    color: #1F0A07;
      text-decoration:none;
 }
@@ -323,10 +311,10 @@ button::-moz-focus-inner {
     .header_burger{
         display: block;
         position: relative;
-        width: 30px;
-        height: 20px;
+        width: 50px;
+        height: 60px;
         z-index: 3;
-       
+       top: 20px;
     }
     .header_burger:before,
     .header_burger:after{
@@ -334,7 +322,7 @@ button::-moz-focus-inner {
         background-color: #250100;
         position: absolute;
         width: 100%;
-        height: 2px;
+        height: 3px;
         left: 0;
         transition: all 0.3s ease 0s;
          
@@ -343,25 +331,25 @@ button::-moz-focus-inner {
         top: 0;
     }
     .header_burger:after{
-        bottom: 0;
+        bottom: 39px;
     }
     .header_burger span{
         position: absolute;
         background-color: #250100;
         left: 0;
         width: 100%;
-        height: 2px;
+        height: 3px;
         top: 9px;
         transition: all 0.3s ease 0s;
         margin-right: 0px;
     }
     .header_burger.active:before{
         transform: rotate(45deg);
-        top: 9px;
+        top: 17px;
     }
     .header_burger.active:after{
         transform: rotate(-45deg);
-        bottom: 9px;
+        bottom: 39px;
     }
     .header_burger.active span{
         transform: scale(0);
@@ -391,7 +379,7 @@ button::-moz-focus-inner {
         z-index: 1;
     }
     .header_logo {
-        flex: 0 0 200px;
+        flex: 0 0 250px;
         overflow: hidden;
         position: relative;
         z-index: 50;
@@ -399,7 +387,7 @@ button::-moz-focus-inner {
         margin-left: 30px;
     } 
     .header_logo img {
-        max-width: 500%;
+        max-width: 100%;
         display: flex;
          z-index: 50;
     }
@@ -413,15 +401,12 @@ button::-moz-focus-inner {
     .zerna {
         margin-left: 100px;
     }
-    .header_logo {
-        margin-left: 60px;
-    }
     .header_list {
         margin-right: 50px;
         margin-left: 0px;
     }
     .button_coffee {
-        font-size: 20px;
+        font-size: 20x;
         margin-left: 30px;
     }
     .cool_coffee {
@@ -451,6 +436,7 @@ button::-moz-focus-inner {
     .title_drink {
         font-size: 35px;
     }
+    
     .img_drink {
         
         padding: 10px;
@@ -532,6 +518,7 @@ button::-moz-focus-inner {
         margin-left: 600px;
        
     }
+   
     .header_link {
         margin-left: 570px;
         font-size: 40px;
@@ -541,9 +528,9 @@ button::-moz-focus-inner {
         padding-right: 20px;
     }
     .header_logo img{
-        width: 140px;
-        margin-top: 30px;
-        margin-left: 0px;
+        width: 160px;
+        margin-top: 40px;
+        margin-left: 20px;
     }
     .img_coffee {
         position: absolute;
@@ -749,4 +736,5 @@ button::-moz-focus-inner {
         width: 600px;
         margin-left: 100px;
     }
+    
 }

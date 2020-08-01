@@ -26,8 +26,16 @@ body {
 .header_link:visited  {
    color: #1F0A07;
      text-decoration:none;
+}cc
+.header_link:link  {
+   color: #1F0A07;
+     text-decoration:none;
 }
 a:active  {
+   color: #1F0A07;
+     text-decoration:none;
+}
+a:link  {
    color: #1F0A07;
      text-decoration:none;
 }

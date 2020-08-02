@@ -703,7 +703,7 @@ button::-moz-focus-inner {
       
     }
 }
-@media only screen and (min-width: 1600px) {
+@media (min-width: 1600px) and (max-width: 1820px) {
     .why_photo {
     margin-left: 100px;
     margin-bottom: 80px;

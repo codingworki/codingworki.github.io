@@ -779,7 +779,7 @@ button::-moz-focus-inner {
 }
 @media (min-width: 1029px) and (max-width: 1599px) {
      .why_photo {
-    margin-left: 200px;
+    margin-left: 150px;
     margin-bottom: 80px;
         width: 1200px;}
     .img_coffee {
@@ -800,7 +800,7 @@ button::-moz-focus-inner {
      .img_drink {
         
         padding: 10px;
-        margin-left: 300px;
+        margin-left: 250px;
          width: 300px;
         height: 450px;
     }
@@ -819,7 +819,7 @@ button::-moz-focus-inner {
     .img_drink3 {
         margin-top: 0px;
         padding: 10px;
-        margin-left: 300px;
+        margin-left: 250px;
         width: 300px;
         height: 450px;
     }

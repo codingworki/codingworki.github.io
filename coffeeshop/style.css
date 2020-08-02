@@ -777,28 +777,28 @@ button::-moz-focus-inner {
 }
 @media (min-width: 1029px) and (max-width: 1599px) {
      .why_photo {
-    margin-left: 100px;
+    margin-left: 200px;
     margin-bottom: 80px;
-        width: 1000px;}
+        width: 1200px;}
     .img_coffee {
-        margin-top: 150px;
-        margin-left: 550px;
+        margin-top: 100px;
+        margin-left: 700px;
        width: 700px;
     
     }
     .coffee {
-        margin-left: 50px;
+        margin-left: 80px;
     }
     .cool_coffee {
-        margin-left: 50px;
+        margin-left: 80px;
     }
     .button_coffee {
-        margin-left: 50px;
+        margin-left: 80px;
     }
      .img_drink {
         
         padding: 10px;
-        margin-left: 200px;
+        margin-left: 300px;
          width: 300px;
         height: 450px;
     }
@@ -817,7 +817,7 @@ button::-moz-focus-inner {
     .img_drink3 {
         margin-top: 0px;
         padding: 10px;
-        margin-left: 200px;
+        margin-left: 300px;
         width: 300px;
         height: 450px;
     }

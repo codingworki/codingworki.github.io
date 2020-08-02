@@ -707,8 +707,8 @@ button::-moz-focus-inner {
 }
 @media (min-width: 1600px) and (max-width: 1820px) {
     .why_photo {
-        margin-top: 60px;
-    margin-left: 150px;
+        margin-top: 100px;
+    margin-left: 100px;
     margin-bottom: 80px;
         width: 1450px;}
     .img_coffee {

@@ -394,6 +394,20 @@ button::-moz-focus-inner {
         display: flex;
          z-index: 50;
     }
+    
+    .
+    .sale {
+        font-size: 55px;
+    }
+    .img_footer {
+        margin-left: 440px;
+        margin-bottom: 20px;
+        margin-top: 15px;
+    }
+    .email {
+       text-align: center;
+        margin-top: 20px;
+    }
 }
 @media (max-width:1028px) {
     .header_logo {
@@ -504,10 +518,9 @@ button::-moz-focus-inner {
     .zerna {
         width: 150px;
     }
-    .img_sale1 {
-        width: 400px;
-        margin-left: 200px;
-    }
+    
+}
+@media (max-width:767px) {
     .img_sale1 {
         width: 600px;
         margin-left: 200px;
@@ -517,18 +530,6 @@ button::-moz-focus-inner {
         
     margin-left: 200px;
         margin-top: 0px;}
-    .sale {
-        font-size: 55px;
-    }
-    .img_footer {
-        margin-left: 440px;
-        margin-bottom: 20px;
-        margin-top: 15px;
-    }
-    .email {
-       text-align: center;
-        margin-top: 20px;
-    }
 }
 @media (max-width:375px){
     

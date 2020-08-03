@@ -1048,9 +1048,9 @@ button::-moz-focus-inner {
     }
     .img_coffee {
         position: absolute;
-        margin-top: 100px;
+        margin-top: 150px;
         width: 570px;
-        margin-left: 400px;
+        margin-left: 450px;
     }
     .img_drink {
          padding: 0px;
@@ -1059,7 +1059,7 @@ button::-moz-focus-inner {
         max-width: 100%;
         margin-top: 00px;
         width: 400px;
-        height: 550px;
+        height: 600px;
     }
     .img_drink1 {
         position: absolute;
@@ -1068,34 +1068,34 @@ button::-moz-focus-inner {
         margin-bottom: 20px;
         margin-top: 0px;
         width: 400px;
-        height: 550px;
+        height: 600px;
     }
     .img_drink2 {
         padding: 0px;
         position: absolute;
         margin-left: 80px;
         max-width: 100%;
-        margin-top: 600px;
+        margin-top: 650px;
         width: 400px;
-        height: 550px;
+       height: 600px;
     }
     .img_drink3 {
         position: absolute;
          padding: 0px;
         margin-left: 500px;
         margin-bottom: 20px;
-        margin-top: 600px;
+        margin-top: 650px;
         width: 400px;
-        height: 550px;
+       height: 600px;
     }
     .img_drink4 {
         padding: 0px;
    
         margin-left: 80px;
         max-width: 100%;
-        margin-top: 1200px;
+        margin-top: 1300px;
       width: 400px;
-        height: 550px;
+        height: 600px;
     }
     .img_drink5 {
              position: absolute;
@@ -1103,9 +1103,9 @@ button::-moz-focus-inner {
         margin-left: 20px;
         margin-right: 0px;
         margin-bottom: 0px;
-        margin-top: 1200px;
+        margin-top: 1300px;
         width: 400px;
-        height: 550px;
+        height: 600px;
     }
     .title_drink {
         font-size: 55px;}
@@ -1113,29 +1113,29 @@ button::-moz-focus-inner {
         margin-left: 130px;
     }
     .coffee {
-        font-size: 42px;
+        font-size: 47px;
         width: 100%;
         padding-right: 0px;
-       margin-left: 80px; 
+       margin-left: 50px; 
         margin-right: 0px;
-        margin-top: 130px;
+        margin-top: 200px;
     }
     .cool_coffee {
-        margin-left: 80px;
-        font-size: 15px;
+        margin-left: 50px;
+        font-size: 20px;
     }
     
     .button_coffee{
-        margin-left: 80px;
+        margin-left: 50px;
         margin-right: 0px;
-        font-size: 20px;
+        font-size: 25px;
     }
     .why_we {
         margin-top: 100px;
         margin-left: 100px;
     }
     .list {
-        margin-top: 0px;
+        margin-top: 20px;
     }
     .why_photo {
         width: 975px;
@@ -1177,7 +1177,9 @@ button::-moz-focus-inner {
 }
 
 @media (max-width:375px){
-    
+    .img_coffee {
+        margin-left: 400px;
+    }
 
     
 }
@@ -1187,7 +1189,7 @@ button::-moz-focus-inner {
     }
     .button_coffee {
         font-size: 25px;
-        margin-left: 25px;
+        margin-left: 20px;
     }
 .header_burger:before,
     .header_burger:after{

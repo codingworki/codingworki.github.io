@@ -196,7 +196,7 @@ button::-moz-focus-inner {
     z-index: 50;
 }
 .list {
-    width: 25%;
+    width: 450px;
     position: absolute;
     z-index: 1;
     margin-top: 120px;
@@ -318,6 +318,7 @@ button::-moz-focus-inner {
         height: 60px;
         z-index: 3;
        top: 20px;
+        
     }
     .header_burger:before,
     .header_burger:after{
@@ -328,6 +329,7 @@ button::-moz-focus-inner {
         height: 3px;
         left: 0;
         transition: all 0.3s ease 0s;
+        margin-left: 200px;
          
     }
     .header_burger:before{
@@ -345,6 +347,7 @@ button::-moz-focus-inner {
         top: 9px;
         transition: all 0.3s ease 0s;
         margin-right: 0px;
+        margin-left: 200px;
     }
     .header_burger.active:before{
         transform: rotate(45deg);
@@ -409,6 +412,211 @@ button::-moz-focus-inner {
         margin-top: 20px;
     }
 }
+@media (min-width: 1200px) and (max-width: 1820px) {
+    .why_photo {
+        margin-top: 100px;
+    margin-left: 100px;
+    margin-bottom: 80px;
+        width: 1450px;}
+    .img_coffee {
+         
+        margin-left: 700px;
+       width: 800px;
+    
+    }
+    .why_we {
+        margin-top: 200px;
+        margin-left: 250px;
+    }
+    .list {
+        margin-top: 100px;
+        width: 350px;
+    }
+    .coffee {
+        margin-left: 80px;
+    }
+    .cool_coffee {
+        margin-left: 80px;
+    }
+    .button_coffee {
+        margin-left: 80px;
+    }
+     .img_drink {
+        
+        padding: 10px;
+        margin-left: 250px;
+         width: 350px;
+        height: 500px;
+    }
+    .img_drink1 {
+        padding: 10px;
+        margin-left: 0px;
+        width: 350px;
+        height: 500px;
+    }
+    .img_drink2 {
+        padding: 10px;
+        margin-left: 0px;
+         width: 350px;
+        height: 500px;
+    }
+    .img_drink3 {
+        margin-top: 0px;
+        padding: 10px;
+        margin-left: 250px;
+         width: 350px;
+        height: 500px;
+    }
+    .img_drink4 {
+        margin-top: 0px;
+        padding: 10px;
+        margin-left: 0px;
+        width: 350px;
+        height: 500px;
+    }
+    .img_drink5 {
+        margin-top: 0px;
+        padding: 10px;
+        margin-left: 0px;
+         width: 350px;
+        height: 500px;
+        margin-right: 0px;
+    }
+    .img_sale1 {
+        width: 600px;
+        margin-left: 100px;
+    }
+    .img_sale {
+         width: 600px;
+        
+    margin-left: 100px;
+        margin-top: 0px;}
+}
+@media (min-width: 1029px) and (max-width: 1599px) {
+     .why_photo {
+    margin-left: 150px;
+    margin-bottom: 80px;
+        width: 1200px;}
+    .img_coffee {
+        margin-top: 100px;
+        margin-left: 700px;
+       width: 700px;
+    
+    }
+    .coffee {
+        margin-left: 80px;
+    }
+    .cool_coffee {
+        margin-left: 80px;
+    }
+    .button_coffee {
+        margin-left: 80px;
+    }
+     .img_drink {
+        
+        padding: 10px;
+        margin-left: 250px;
+         width: 300px;
+        height: 450px;
+    }
+    .img_drink1 {
+        padding: 10px;
+        margin-left: 0px;
+        width: 300px;
+        height: 450px;
+    }
+    .img_drink2 {
+        padding: 10px;
+        margin-left: 0px;
+         width: 300px;
+        height: 450px;
+    }
+    .img_drink3 {
+        margin-top: 0px;
+        padding: 10px;
+        margin-left: 250px;
+        width: 300px;
+        height: 450px;
+    }
+    .img_drink4 {
+        margin-top: 0px;
+        padding: 10px;
+        margin-left: 0px;
+        width: 300px;
+        height: 450px;
+    }
+    .img_drink5 {
+        margin-top: 0px;
+        padding: 10px;
+        margin-left: 0px;
+        width: 300px;
+        height: 450px;
+        margin-right: 0px;
+    }
+    .img_sale1 {
+        width: 500px;
+        margin-left: 100px;
+    }
+    .img_sale {
+         width: 500px;
+        
+    margin-left: 100px;
+        margin-top: 0px;}
+}
+@media (max-width:1400px) {
+    .img_drink {
+        margin-left: 150px;
+    }
+    .img_drink3 {
+        margin-left: 150px;
+    }
+    .why_photo {
+        margin-left: 20px;
+        margin-top: 100px;
+    }
+    .img_coffee {
+        margin-left: 570px;
+    }
+    .why_we {
+        margin-top: 200px;
+    }
+}
+@media (min-width:1029px) and (max-width:1305px) {
+    .why_photo {
+        width: 1100px;
+        margin-left: 40px;
+        margin-top: 100px;
+    }
+    .img_coffee {
+        width: 600px;
+        margin-left: 600px;
+        margin-top: 150px;
+    }
+    .img_drink {
+        margin-left: 50px;
+    }
+    .img_drink3 {
+        margin-left: 50px;
+    }
+    .why_we {
+        margin-top: 100px;
+        margin-left: 250px;
+    }
+    .img_sale {
+        width: 450px;
+        margin-left: 50px;
+    }
+    .img_sale1 {
+        width: 450px;
+        margin-left: 100px;
+    }
+    .list {
+        width: 270px;
+        margin-top: 00px;
+    }
+    
+}
+
 @media (max-width:1028px) {
     .header_logo {
         margin-left: 60px;
@@ -508,6 +716,14 @@ button::-moz-focus-inner {
     .img_sale1 {
         width: 400px;
         margin-left: 60px;
+    }
+}
+@media (max-width: 970px) {
+    .img_sale {
+      width: 350px;  
+    }
+    .img_sale1 {
+      width: 350px;  
     }
 }
 @media (max-width:768px) {
@@ -726,148 +942,5 @@ button::-moz-focus-inner {
         margin-left: 550px;
       
     }
-}
-@media (min-width: 1200px) and (max-width: 1820px) {
-    .why_photo {
-        margin-top: 100px;
-    margin-left: 100px;
-    margin-bottom: 80px;
-        width: 1450px;}
-    .img_coffee {
-         
-        margin-left: 700px;
-       width: 800px;
-    
-    }
-    .coffee {
-        margin-left: 80px;
-    }
-    .cool_coffee {
-        margin-left: 80px;
-    }
-    .button_coffee {
-        margin-left: 80px;
-    }
-     .img_drink {
-        
-        padding: 10px;
-        margin-left: 250px;
-         width: 350px;
-        height: 500px;
-    }
-    .img_drink1 {
-        padding: 10px;
-        margin-left: 0px;
-        width: 350px;
-        height: 500px;
-    }
-    .img_drink2 {
-        padding: 10px;
-        margin-left: 0px;
-         width: 350px;
-        height: 500px;
-    }
-    .img_drink3 {
-        margin-top: 0px;
-        padding: 10px;
-        margin-left: 250px;
-         width: 350px;
-        height: 500px;
-    }
-    .img_drink4 {
-        margin-top: 0px;
-        padding: 10px;
-        margin-left: 0px;
-        width: 350px;
-        height: 500px;
-    }
-    .img_drink5 {
-        margin-top: 0px;
-        padding: 10px;
-        margin-left: 0px;
-         width: 350px;
-        height: 500px;
-        margin-right: 0px;
-    }
-    .img_sale1 {
-        width: 600px;
-        margin-left: 100px;
-    }
-    .img_sale {
-         width: 600px;
-        
-    margin-left: 100px;
-        margin-top: 0px;}
-}
-@media (min-width: 1029px) and (max-width: 1599px) {
-     .why_photo {
-    margin-left: 150px;
-    margin-bottom: 80px;
-        width: 1200px;}
-    .img_coffee {
-        margin-top: 100px;
-        margin-left: 700px;
-       width: 700px;
-    
-    }
-    .coffee {
-        margin-left: 80px;
-    }
-    .cool_coffee {
-        margin-left: 80px;
-    }
-    .button_coffee {
-        margin-left: 80px;
-    }
-     .img_drink {
-        
-        padding: 10px;
-        margin-left: 250px;
-         width: 300px;
-        height: 450px;
-    }
-    .img_drink1 {
-        padding: 10px;
-        margin-left: 0px;
-        width: 300px;
-        height: 450px;
-    }
-    .img_drink2 {
-        padding: 10px;
-        margin-left: 0px;
-         width: 300px;
-        height: 450px;
-    }
-    .img_drink3 {
-        margin-top: 0px;
-        padding: 10px;
-        margin-left: 250px;
-        width: 300px;
-        height: 450px;
-    }
-    .img_drink4 {
-        margin-top: 0px;
-        padding: 10px;
-        margin-left: 0px;
-        width: 300px;
-        height: 450px;
-    }
-    .img_drink5 {
-        margin-top: 0px;
-        padding: 10px;
-        margin-left: 0px;
-        width: 300px;
-        height: 450px;
-        margin-right: 0px;
-    }
-    .img_sale1 {
-        width: 500px;
-        margin-left: 100px;
-    }
-    .img_sale {
-         width: 500px;
-        
-    margin-left: 100px;
-        margin-top: 0px;}
 }
 

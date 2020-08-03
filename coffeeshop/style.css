@@ -131,7 +131,7 @@ a:link  {
 }
 
 .coffee {
-    margin-left: 200px;
+    margin-left: 150px;
     margin-top: 190px;
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 60px;
@@ -143,7 +143,7 @@ a:link  {
 }
 
 .cool_coffee {
-     margin-left: 200px;
+     margin-left: 150px;
     font-family: 'Open Sans', sans-serif;
     color: #250100;
     margin-top: 30px;
@@ -159,7 +159,7 @@ a:link  {
     margin: 20px;
     font-size: 35px;
     margin-top: 30px;
-    margin-left: 200px;
+    margin-left: 150px;
     font-family: 'Open Sans Condensed', sans-serif;
     color: #250100;
     text-shadow: #c7b198 1px 1px 0, #c7b198 1px 1px 0, 
@@ -217,7 +217,7 @@ button::-moz-focus-inner {
 .img_drink {
     width: 300px;
     height: 450px;
-    margin-left: 280px;
+    margin-left: 290px;
     margin-top: 10px;
     margin-bottom: 20px;
 }
@@ -241,7 +241,7 @@ button::-moz-focus-inner {
     
    width: 300px;
     height: 450px;
-    margin-left: 280px;
+    margin-left: 290px;
     margin-top: 10px;
     margin-bottom: 100px;
 }
@@ -334,9 +334,11 @@ button::-moz-focus-inner {
     }
     .header_burger:before{
         top: 0;
+        margin-left: 00px;
     }
     .header_burger:after{
         bottom: 39px;
+        margin-left: 00px;
     }
     .header_burger span{
         position: absolute;
@@ -1019,7 +1021,7 @@ button::-moz-focus-inner {
         margin-left: 100px;
     }
 }
-@media only screen and (max-width:768px) {
+@media only screen and (max-width:767px) {
     .header_burger:before,
     .header_burger:after{
         margin-left: 200px;
@@ -1161,7 +1163,18 @@ button::-moz-focus-inner {
         margin-top: 20px;
     }
 } 
-
+@media only screen and (max-width:644px) {
+    .header_burger:before,
+    .header_burger:after{
+        margin-left: 400px;
+        
+        
+    }
+    .header_burger span {
+        margin-left: 400px;
+      
+    }
+}
 
 @media (max-width:375px){
     

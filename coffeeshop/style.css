@@ -1190,8 +1190,8 @@ button::-moz-focus-inner {
         font-size: 37px;
     }
     .button_coffee {
-        font-size: 25px;
-        margin-left: 20px;
+        font-size: 20px;
+        margin-left: 15px;
     }
 .header_burger:before,
     .header_burger:after{

@@ -8801,6 +8801,21 @@ color: #FEFDFD;
     color: #1A1915;
     font-family: 'Roboto', sans-serif;
     }
+    .description_under {
+    position: absolute;
+    width: 745px;
+    height: 82px;
+    left: 50px;
+    top: 145px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+    color: #1A1915;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+    
+    }
 @media (max-width:320px){
 .header_burger:before,
     .header_burger:after{

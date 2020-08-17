@@ -8773,7 +8773,34 @@ color: #FEFDFD;
        top: 35px;
     
 
+    }
+    .text_of_music {
+    position: absolute;
+    width: 619px;
+    height: 83px;
+    left: 100px;
+    top: 400px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 16px;
+    color: #FFFFFF;
 }
+    .themosttopmusic {
+    position: absolute;
+    width: 693px;
+    height: 86px;
+    left: 50px;
+    top: 40px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 53px;
+    color: #1A1915;
+    font-family: 'Roboto', sans-serif;
+    }
 @media (max-width:320px){
 .header_burger:before,
     .header_burger:after{

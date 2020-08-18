@@ -387,9 +387,9 @@ button::-moz-focus-inner {
         z-index: 1;
     }
     .header_logo {
-        flex: 0 0 250px;
+        flex: 0 0 00px;
         overflow: hidden;
-        position: relative;
+        position: absolute;
         z-index: 50;
         margin-top: 10px;
         margin-left: 30px;
@@ -1023,14 +1023,18 @@ button::-moz-focus-inner {
     }
 }
 @media only screen and (max-width:767px) {
+    .header_burger {
+        margin-top: 40px;
+    }
     .header_burger:before,
     .header_burger:after{
-        margin-left: 200px;
+        margin-left: 880px;
+      
         
         
     }
     .header_burger span {
-        margin-left: 200px;
+        margin-left: 880px;
       
     }
    
@@ -1168,12 +1172,39 @@ button::-moz-focus-inner {
 @media only screen and (max-width:644px) {
     .header_burger:before,
     .header_burger:after{
-        margin-left: 400px;
+        margin-left: 880px;
+      
         
         
     }
     .header_burger span {
-        margin-left: 400px;
+        margin-left: 880px;
+      
+    }
+}
+@media only screen and (max-width:581px) {
+    .header_burger:before,
+    .header_burger:after{
+        margin-left: 880px;
+      
+        
+        
+    }
+    .header_burger span {
+        margin-left: 880px;
+      
+    }
+}
+@media only screen and (max-width:495px) {
+    .header_burger:before,
+    .header_burger:after{
+        margin-left: 880px;
+      
+        
+        
+    }
+    .header_burger span {
+        margin-left: 880px;
       
     }
 }
@@ -1182,7 +1213,14 @@ button::-moz-focus-inner {
     .img_coffee {
         margin-left: 400px;
     }
-
+    .header_burger {
+        margin-left: 10px;
+    }
+   .button_coffee{
+        margin-left: 50px;
+        margin-right: 0px;
+        font-size: 22px;
+    }
     
 }
 @media (max-width:320px){
@@ -1195,12 +1233,13 @@ button::-moz-focus-inner {
     }
 .header_burger:before,
     .header_burger:after{
-        margin-left: 550px;
+        margin-left: 880px;
+      
         
         
     }
     .header_burger span {
-        margin-left: 550px;
+        margin-left: 880px;
       
     }
     .header_logo {
@@ -1208,10 +1247,13 @@ button::-moz-focus-inner {
     }
 }
 @media (max-width:360px){
-    
+  .heager_burger {
+        margin-top: 40px;
+    }  
 .header_burger:before,
     .header_burger:after{
         margin-left: 550px;
+        
         
         
     }
@@ -1219,8 +1261,12 @@ button::-moz-focus-inner {
         margin-left: 550px;
       
     }
+    .heager_burger {
+        margin-top: 40px;
+    }
     .header_logo {
-        margin-left: 0px;
+        margin-left: 60px;
+        flex: 0 0 10;
     }
 }
 
@@ -1228,12 +1274,13 @@ button::-moz-focus-inner {
 @media (max-width: 414px) {
     .header_burger:before,
     .header_burger:after{
-        margin-left: 550px;
+        margin-left: 880px;
+      
         
         
     }
     .header_burger span {
-        margin-left: 550px;
+        margin-left: 880px;
       
     }
 }

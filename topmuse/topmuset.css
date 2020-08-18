@@ -6654,7 +6654,7 @@ color: #FEFDFD;
     .header_burger{
         display: block;
         position: fixed;
-        margin-left: 700px;
+        margin-left: 900px;
         width: 40px;
         height: 60px;
         z-index: 3;
@@ -7702,7 +7702,7 @@ color: #FEFDFD;
     .header_burger{
         display: block;
         position: fixed;
-        margin-left: 700px;
+        margin-left: 800px;
         width: 40px;
         height: 60px;
         z-index: 3;
@@ -8751,8 +8751,32 @@ color: #FEFDFD;
         z-index: 3;
        top: 35px;
 }
-
-@media only screen and (max-width:375px){
+@media (max-width: 414px) {
+    .header_burger:before,
+    .header_burger:after{
+        margin-left: 550px;
+        
+        
+    }
+    .header_burger span {
+        margin-left: 550px;
+      
+    }
+    .header_burger:before,
+    .header_burger:after{
+        left: -200px;
+        
+        
+    }
+    .header_burger span {
+        left: -200px;
+      
+    }
+    .header_burger {
+        margin-left: 400px;
+    }
+    
+@media only screen and (max-width:377px){
   .header_burger:before,
     .header_burger:after{
         left: -200px;
@@ -8773,49 +8797,7 @@ color: #FEFDFD;
        top: 35px;
     
 
-    }
-    .text_of_music {
-    position: absolute;
-    width: 619px;
-    height: 83px;
-    left: 100px;
-    top: 400px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 16px;
-    color: #FFFFFF;
 }
-    .themosttopmusic {
-    position: absolute;
-    width: 693px;
-    height: 86px;
-    left: 50px;
-    top: 40px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 50px;
-    line-height: 53px;
-    color: #1A1915;
-    font-family: 'Roboto', sans-serif;
-    }
-    .description_under {
-    position: absolute;
-    width: 745px;
-    height: 82px;
-    left: 50px;
-    top: 145px;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 24px;
-    line-height: 28px;
-    color: #1A1915;
-    font-family: 'Noto Sans JP', sans-serif;
-}
-    
-    }
 @media (max-width:320px){
 .header_burger:before,
     .header_burger:after{
@@ -8849,25 +8831,5 @@ color: #FEFDFD;
 }
 
 
-@media (max-width: 414px) {
-    .header_burger:before,
-    .header_burger:after{
-        margin-left: 550px;
-        
-        
-    }
-    .header_burger span {
-        margin-left: 550px;
-      
-    }
-    .header_burger:before,
-    .header_burger:after{
-        left: -200px;
-        
-        
-    }
-    .header_burger span {
-        left: -200px;
-      
-    }
+
 }

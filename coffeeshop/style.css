@@ -1224,10 +1224,17 @@ button::-moz-focus-inner {
         margin-left: 880px;
       
     }
+    .img_coffee {
+        margin-top: 170px;
+        width: 570px;
+        margin-left: 430px;
+    }
 }
 
 @media (max-width:375px){
     .img_coffee {
+        margin-top: 200px;
+        width: 600px;
         margin-left: 400px;
     }
     .header_burger {

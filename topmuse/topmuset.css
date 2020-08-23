@@ -6746,16 +6746,18 @@ color: #FEFDFD;
     } 
     .header_logo img {
         margin-top: 20px;
-        max-width: 100%;
+        max-width: 150%;
         display: flex;
          z-index: 50;
+        width: 240px;
+        height: 40px;
     }
      .text_block {
     
 width: 767px;
 height: 241px;
 margin-left: 100px;
-margin-top: 100px;
+margin-top: 120px;
 
 font-family: Montserrat;
 font-style: normal;
@@ -6775,12 +6777,12 @@ position: absolute;
 width: 619px;
 height: 83px;
 left: 100px;
-top: 449px;
+top: 420px;
 
 font-family: Roboto;
 font-style: normal;
 font-weight: normal;
-font-size: 14px;
+font-size: 18px;
 line-height: 16px;
 
 color: #FFFFFF;
@@ -8790,30 +8792,7 @@ color: #FEFDFD;
         transform: rotate(-45deg);
         bottom: 77px;
     }
-@media (max-width: 414px) {
-    .header_burger:before,
-    .header_burger:after{
-        margin-left: 550px;
-        
-        
-    }
-    .header_burger span {
-        margin-left: 550px;
-      
-    }
-    .header_burger:before,
-    .header_burger:after{
-        left: -200px;
-        
-        
-    }
-    .header_burger span {
-        left: -200px;
-      
-    }
-    .header_burger {
-        margin-left: 400px;
-    }
+
     
 @media only screen and (max-width:377px){
   .header_burger{

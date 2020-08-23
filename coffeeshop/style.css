@@ -180,7 +180,7 @@ button::-moz-focus-inner {
     
     width: 900px;
     position: absolute;
-  margin-left: 700px;
+  margin-left: 800px;
     margin-top: 70px;
     
 
@@ -202,7 +202,7 @@ button::-moz-focus-inner {
     margin-top: 120px;
 }
 .why_photo {
-    margin-left: 200px;
+    margin-left: 250px;
     margin-bottom: 80px;
     width: 1400px;
 }
@@ -293,6 +293,16 @@ button::-moz-focus-inner {
     font-size: 15px;
     text-align: center;
     margin-bottom: 30px;
+}
+@media only screen and (max-width:1700px) {
+    .img_coffee {
+        margin-left: 700px;
+    }
+    .why_photo {
+        margin-left: 150px;
+    }
+    
+    
 }
 
 @media only screen and (max-width:1615px) {

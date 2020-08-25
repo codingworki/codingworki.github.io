@@ -1,8 +1,25 @@
 <?php 
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+if (!empty($_POST['user_name']) && !empty($_POST['user_mail'])){
+  if (isset($_POST['user_name'])) {
+    if (!empty($_POST['user_name'])){
+  $name = strip_tags($_POST['user_name']);
+  $nameFieldset = "Имя пославшего: ";
+  }
+}
+ 
+
+if (isset($_POST['user_mail'])) {
+  if (!empty($_POST['user_mail'])){
+  $email = strip_tags($_POST['mail']);
+  $emailFieldset = "Email: ";
+  }
+}
+
 
 $name = $_POST['user_name'];
 $phone = $_POST['user_phone'];
-$email = $_POST['user_email'];
+$email = $_POST['user_mail'];
 
 $token = "997818438:AAFD7nf4U7Nc3BFkunTAiOtvGnyHSvi5znw";
 $shat_id = "-424655960";

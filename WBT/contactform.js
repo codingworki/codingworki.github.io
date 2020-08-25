@@ -6,7 +6,7 @@ $document.ready(function() {
             url: "contact.php",
             data: $(this).serialize()
         }).done(function() {
-            alert("Спасибо за заявку!")Ж
+            alert("Спасибо за заявку!");
         })
         return false;
         

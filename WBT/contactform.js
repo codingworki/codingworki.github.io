@@ -1,12 +1,12 @@
-$(document).ready(function() {
-    $("#form").submit(function() {
-        let form_data = $(this).serialize();
-        let formNm = $('#' + formID);
+$(document).ready(function () {
+    $("#form").submit(function () {
+        var formID = $(obj).attr("id");;
+        var formNm = $('#' + formID);
         $.ajax({
             type: "POST",
-            url: "contact.php",
-            data: form_data.serialize(),
-            success: swal({
+            url: 'contact.php',
+            data: formNm.serialize(),
+            success: function (data) {
                 title: "Спасибо за заявку!",
                 type: "success",
                 showConfirmButton: false,

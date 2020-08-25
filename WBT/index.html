@@ -16,7 +16,7 @@
     
     <meta name="description" content="">
     <meta name="author" content="">
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
 	<title>WEBDEV</title>
     <link rel="shortcut icon" href="134-1340439_coffee-cup-drink-coffee-mug-clipart-png.png">
 	<link rel="stylesheet" href="font-awesome.min.css">
@@ -28,8 +28,11 @@
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
   />
+    <script src = "https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src = "script.js"></script>
 	<link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="sweetalert.min.css">
+    
      
     
 </head>
@@ -46,7 +49,7 @@
                     <nav class="header_menu">
                         <ul class = "header_list">
                         <li>
-                            <div class = "header_link"><a href="#">О нас</a></div>
+                            <div class = "header_link"><a href="#"><div class="text_abus">О нас</div></a></div>
                             </li>
                             <li>
                                 <div class = "header_link"><a href="#">Портфолио</a></div>
@@ -55,7 +58,7 @@
                                <div class = "header_link"><a href="#">Услуги</a></div>
                             </li>
                             <li>
-                                <div class = "header_link"> <a href="#">Связаться с нами</a></div>
+                                <div class = "header_link"> <a href="#"><div class="text_linkus">Связаться с нами</div></a></div>
                             </li>
                             <li>
                             <button class="button_call">
@@ -108,7 +111,7 @@
     
     
     
-    
+<div class="to_chto_nizhe_why_we">    
     <div class="container-fluid">
 	<div class="row">
 		<div class="col-md-12">
@@ -116,13 +119,12 @@
                 <div class="text_uslugi">Наши Услуги</div>
 			</h3>
 			<div class="row">
-				<div class="col-md-4">
+				<div class="col-md-12">
 					<img class="photo_uslugi" src="Group%2014%20(1).png" />
-				</div>
-				<div class="col-md-4">
+				
 					<img class="photo_uslugi1" src="Group%2015%20(1).png" />
-				</div>
-				<div class="col-md-4">
+				
+				
 					<img class="photo_uslugi2" src="Group%2016%20(3).png" />
 				</div>
 			</div>
@@ -170,7 +172,7 @@
 			<h3>
                 <div class="text_portfolio">Портфолио</div>
 			</h3>
-            
+            <div class="slider_adap">
             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                 
                 <ol class="carousel-indicators">
@@ -206,7 +208,7 @@
                 
             
             </div>
-            
+            </div>
             
             
 		</div>
@@ -224,7 +226,7 @@
         
         <div class="col-md-12">
             <div class="back_form">
-        <form id="form">
+        <form id="form" action="contact.php" method="post">
             <legend><div class="text_form">Заполните форму ниже и получите проект</div></legend>
             
             <div class="form-group">
@@ -242,7 +244,7 @@
                 <input type="text" class="form-control" id="user_email" name = "user_mail" placeholder="Введите Email ">
             </div>
             
-            <button type="submit" class="button_form">Заказать Проект</button>
+            <button type="submit" class="button_form" action="contact.php" method="post">Заказать Проект</button>
             
             </form>
         </div>
@@ -251,10 +253,62 @@
     
     </div>
     
+    <div class="screen1"><div class="container-fluid">
+	<div class="row">
+		<div class="col-md-12">
+			<div class="row">
+				<div class="col-md-3">
+                    <div class="img_footer"><img src="Group 6.png" /></div>
+				</div>
+				<div class="col-md-9">
+					<div class="row">
+						<div class="col-md-1">
+							<h3>
+                                <div class="text_footer1">О нас</div> 
+							</h3>
+						</div>
+						<div class="col-md-1">
+							<h3>
+								<div class="text_footer2">Портфолио</div> 
+							</h3>
+						</div>
+						<div class="col-md-1">
+							<h3>
+								<div class="text_footer3">Услуги</div> 
+							</h3>
+						</div>
+						<div class="col-md-1">
+							<h3>
+								<div class="text_footer4">Связаться с нами</div> 
+							</h3>
+						</div>
+						<div class="col-md-1">
+							 
+							<button class="button_call1">
+                                 <a href="#"><div class="button_text1">Заказать звонок</div></a>
+                            </button>   
+						</div>
+						<div class="col-md-2">
+						</div>
+					</div>
+				</div>
+			</div>
+			<h3>
+                <div class="pochta">webdewsdreamteam@gmail.ru</div>
+			</h3>
+		</div>
+	</div>
+        </div></div>
+    
+</div>    
+    
+    
 
-    <script src = "https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
-    <script src = "script.js"></script>
-    <script src = "contactform.js"></script>
+    
+    
+    
+    
     
 </body>    
+    
 </html>

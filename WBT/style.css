@@ -65,12 +65,17 @@ a:link  {
     padding: 0px 10px; 
 }
 .header{
+    
     position: relative;
     width: 100%;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
+    
+    
+    
+    
 }
 .header:before {
     content: '';
@@ -82,11 +87,10 @@ a:link  {
     z-index: 2;
 }
 .header_body {
-    position: relative;
-    z-index: 2;
+    
     display: flex;
     justify-content: space-between;
-    height: 80px;
+    height: 50px;
     align-items: center;
     width: 100%;
     height: 100;
@@ -298,18 +302,17 @@ color: #FFFFFF;
 }
 
 .photo_uslugi {
-    margin-left: 200px;
+    margin-left: 230px;
     margin-top: 80px;
 }
 .photo_uslugi1 {
-    margin-left: 100px;
+    margin-left: 130px;
     margin-top: 80px;
 }
 
 .photo_uslugi2 {
-    margin-left: 0px;
+    margin-left: 130px;
     margin-top: 80px;
-    margin-bottom: 50px;
 }
 
 .text_team {
@@ -373,19 +376,14 @@ color: #FFFFFF;
 }
 
 
-.carousel-item {
+.slider_adap {
     width: 800px;
-    margin-left: 500px;
+    margin-left: 520px;
     animation: fadeInRight;
     animation-duration: 1s;
     margin-top: 50px;
 }
-.carousel-control-prev {
-    margin-left: 400px;
-}
-.carousel-control-next {
-    margin-right: 450px;
-}
+
 .title_form {
     margin-left: 150px;
 margin-top: 100px;
@@ -404,10 +402,12 @@ color: #FFFFFF;
 
 .back_form {
     background-color: white;
-    margin-left: 600px;
-    margin-right: 600px;
+    width: 750px;
+    height: 420px;
+    margin-left: 520px;
+    margin-right: 620px;
      margin-bottom: 100px;
-    margin-top: 100px;
+    margin-top: 60px;
          padding: 32px; 
          border-radius: 10px; 
          box-shadow: 0 4px 16px #ccc; 
@@ -445,8 +445,8 @@ color: #000000;
 }
 
 .form-control {
-    margin-left: 50px;
-    width: 400px;
+    margin-left: 80px;
+    width: 500px;
     
          padding: 0 0 10px 0;
          border: none; 
@@ -461,6 +461,8 @@ color: #000000;
 
 
 .button_form {
+    margin-top: 20px;
+    margin-left: 80px;
       padding: 10px 20px;
          border: none;
          border-radius: 5px; 
@@ -478,27 +480,653 @@ color: #000000;
          background-color: rgba(#191919, 0.7);  
  }
 
+.screen1 {
+    background-color: #191919;
+    
+}
+
+.text_footer1 {
+    margin-left: 468px;
+margin-top: 70px;
+width: 100px;
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 22px;
+    color: #FFFFFF;
+}
+.text_footer2 {
+    margin-left: 468px;
+margin-top: 70px;
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 22px;
+    color: #FFFFFF;
+}
+.text_footer3 {
+    margin-left: 488px;
+margin-top: 70px;
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 22px;
+    color: #FFFFFF;
+}
+.text_footer4 {
+    margin-left: 468px;
+margin-top: 70px;
+    width: 200px;
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 22px;
+    color: #FFFFFF;
+}
+
+.button_call1{
+    margin-left: 580px;
+    margin-top: 50px;
+    height: 50px;
+    width: 160px;
+    border: 2px solid #FFFFFF;
+    background-color: #191919;
+}
+
+.button_text1{
+margin: 10px 10px 10px 10px;
+font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 22px;
+margin-top: 5px;    
+
+/* identical to box height */
+
+color: #FFFFFF;
+}
+
+.pochta {
+    text-align: center;
+margin-top: 110px;
+    margin-bottom: 50px;
+
+font-family: Oranienbaum;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+
+text-align: center;
+
+color: #FFFFFF;
+}
+
+
+.img_footer {
+    margin-left: 200px;
+    margin-top: 20px;
+}
+
+/*--------------------------------------*/
+
+@media only screen and (max-width: 1760px){
+.photo_uslugi {
+    margin-left: 165px;
+    margin-top: 80px;
+}
+.photo_uslugi1 {
+    margin-left: 130px;
+    margin-top: 80px;
+}
+
+.photo_uslugi2 {
+    margin-left: 130px;
+    margin-top: 80px;
+}
+}
+
+
+
+@media only screen and (max-width: 1664px){
+    .photo_team {
+    margin-left: 310px;
+    margin-top: 40px;
+}
+.photo_team1 {
+    margin-left: 130px;
+    margin-top: 50px;
+}
+.photo_team2 {
+    margin-left: -60px;
+    margin-top: 50px;
+}
+.photo_team3 {
+    margin-left: 325px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.photo_team4 {
+    margin-left: 130px;
+    margin-top: 50px;
+}
+.photo_team5 {
+    margin-left: -60px;
+    margin-top: 50px;
+}
+.slider_adap{
+    margin-left: 420px;
+    }
+    .back_form{
+    margin-left: 435px;    
+    }  
+    
+    .photo_uslugi{
+        margin-left: 170px;
+    }
+    .photo_uslugi1{
+        margin-left: 80px;
+    }
+    .photo_uslugi2{
+        
+        margin-left: 80px;
+    }
+}
+
+@media only screen and (max-width: 1572px){
+    .photo_team {
+    margin-left: 200px;
+    margin-top: 40px;
+}
+.photo_team1 {
+    margin-left: 90px;
+    margin-top: 50px;
+}
+.photo_team2 {
+    margin-left: -40px;
+    margin-top: 50px;
+}
+.photo_team3 {
+    margin-left: 215px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.photo_team4 {
+    margin-left: 90px;
+    margin-top: 50px;
+}
+.photo_team5 {
+    margin-left: -40px;
+    margin-top: 50px;
+}
+.slider_adap{
+    margin-left: 370px;
+    }
+.back_form{
+    margin-left: 385px;    
+    }
+.text_footer1{
+    margin-left: 280px;    
+    }
+.text_footer2{
+    margin-left: 300px;    
+    } 
+.text_footer3{
+    margin-left: 350px;    
+    } 
+.text_footer4{
+    margin-left: 350px;    
+    }
+.button_call1{
+    margin-left: 470px;
+    }
+    .wbt_text{
+    margin-left: -100px;    
+    } 
+    .text_under_wbt_text{
+    margin-left: -100px;     
+    }
+    .text-box{
+    margin-left: -100px;    
+    }
+    .why_we_text{
+    margin-left: -20px;
+    }
+    .photo_uslugi{
+        margin-left: 125px;
+    }
+}
+
+@media only screen and (max-width: 1505px){
+        .photo_uslugi{
+        margin-left: 100px;
+    }
+}
+
+@media only screen and (max-width: 1456px){
+
+.slider_adap{
+    margin-left: 310px;
+    }
+.back_form{
+    margin-left: 325px;    
+    }
+.text_footer1{
+    margin-left: 260px;    
+    }
+.text_footer2{
+    margin-left: 280px;    
+    } 
+.text_footer3{
+    margin-left: 300px;    
+    } 
+.text_footer4{
+    margin-left: 320px;    
+    }
+.button_call1{
+    margin-left: 450px;
+    }
+    .wbt_text{
+    margin-left: 0px;    
+    } 
+    .text_under_wbt_text{
+    margin-left: 0px;     
+    }
+    .text-box{
+    margin-left: 0px;    
+    }
+    .why_we_text{
+    margin-left: -20px;
+    }
+    .photo_uslugi{
+    margin-left: 160px;
+    height: 400px;
+    }
+    .photo_uslugi1{
+    margin-left: 100px;
+        height: 400px;
+    }
+    .photo_uslugi2{
+    margin-top: 100px;
+    margin-left: 440px;
+        height: 400px;
+    }
 
 
 
 
+    .why_we_one{
+        margin-left: 50px;
+    }
+    .why_we_two{
+        margin-left: 650px;
+    }
+    .why_we_three{
+        margin-left: 325px;
+        margin-top: 50px;
+    }
+    
+    
+    
+    
+    
+    
+.photo_team {
+    margin-left: 180px;
+    margin-top: 40px;
+}
+.photo_team1 {
+    margin-left: 90px;
+    margin-top: 50px;
+}
+.photo_team2 {
+    margin-left: -20px;
+    margin-top: 50px;
+}
+.photo_team3 {
+    margin-left: 195px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.photo_team4 {
+    margin-left: 90px;
+    margin-top: 50px;
+}
+.photo_team5 {
+    margin-left: -20px;
+    margin-top: 50px;
+}
+}
+
+
+@media only screen and (max-width: 1319px){
+
+.slider_adap{
+    margin-left: 310px;
+    }
+.back_form{
+    margin-left: 325px;    
+    }
+.text_footer1{
+    margin-left: 260px;    
+    }
+.text_footer2{
+    margin-left: 280px;    
+    } 
+.text_footer3{
+    margin-left: 300px;    
+    } 
+.text_footer4{
+    margin-left: 320px;    
+    }
+.button_call1{
+    margin-left: 450px;
+    }
+    .wbt_text{
+    margin-left: 0px;    
+    } 
+    .text_under_wbt_text{
+    margin-left: 0px;     
+    }
+    .text-box{
+    margin-left: 0px;    
+    }
+    .why_we_text{
+    margin-left: -20px;
+    }
+    .photo_uslugi{
+    margin-left: 115px;
+    height: 400px;
+    }
+    .photo_uslugi1{
+    margin-left: 100px;
+        height: 400px;
+    }
+    .photo_uslugi2{
+    margin-top: 100px;
+    margin-left: 410px;
+        height: 400px;
+    }
 
 
 
 
+    .why_we_one{
+        margin-left: 50px;
+    }
+    .why_we_two{
+        margin-left: 650px;
+    }
+    .why_we_three{
+        margin-left: 325px;
+        margin-top: 50px;
+    }
+    
+    
+    
+    
+    
+    
+.photo_team {
+    margin-left: 180px;
+    margin-top: 40px;
+}
+.photo_team1 {
+    margin-left: 90px;
+    margin-top: 50px;
+}
+.photo_team2 {
+    margin-left: -20px;
+    margin-top: 50px;
+}
+.photo_team3 {
+    margin-left: 195px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.photo_team4 {
+    margin-left: 90px;
+    margin-top: 50px;
+}
+.photo_team5 {
+    margin-left: -20px;
+    margin-top: 50px;
+}
+}
+
+@media only screen and (max-width: 1289px){
+
+.slider_adap{
+    margin-left: 240px;
+    }
+.back_form{
+    margin-left: 255px;    
+    }
+.text_footer1{
+    margin-left: 120px;    
+    }
+.text_footer2{
+    margin-left: 120px;    
+    } 
+.text_footer3{
+    margin-left: 160px;    
+    } 
+.text_footer4{
+    margin-left: 170px;    
+    }
+.button_call1{
+    margin-left: 300px;
+    }
+    .wbt_text{
+    margin-left: 0px;    
+    } 
+    .text_under_wbt_text{
+    margin-left: 0px;     
+    }
+    .text-box{
+    margin-left: 0px;    
+    }
+    .why_we_text{
+    margin-left: -20px;
+    }
+    .photo_uslugi{
+    margin-left: 95px;
+    height: 400px;
+    }
+    .photo_uslugi1{
+    margin-left: 100px;
+        height: 400px;
+    }
+    .photo_uslugi2{
+    margin-top: 100px;
+    margin-left: 390px;
+        height: 400px;
+    }
 
 
 
 
+    .why_we_one{
+        margin-left: 50px;
+    }
+    .why_we_two{
+        margin-left: 650px;
+    }
+    .why_we_three{
+        margin-left: 325px;
+        margin-top: 50px;
+    }
+    
+    
+    
+    
+    
+    
+.photo_team {
+    margin-left: 100px;
+    margin-top: 40px;
+}
+.photo_team1 {
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.photo_team2 {
+    margin-left: -20px;
+    margin-top: 50px;
+}
+.photo_team3 {
+    margin-left: 115px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.photo_team4 {
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.photo_team5 {
+    margin-left: -20px;
+    margin-top: 50px;
+}
+    .text_abus{
+        width: 50px;
+    }  
+    .text_linkus{
+        width: 160px;
+    }
+}
+
+@media only screen and (max-width: 1236px){
+
+.slider_adap{
+    margin-left: 200px;
+    }
+.back_form{
+   
+    margin-left: 215px;    
+    }
+.text_footer1{
+    margin-left: 120px;    
+    }
+.text_footer2{
+    margin-left: 120px;    
+    } 
+.text_footer3{
+    margin-left: 160px;    
+    } 
+.text_footer4{
+    margin-left: 170px;    
+    }
+.button_call1{
+    margin-left: 300px;
+    }
+    .wbt_text{
+    margin-left: 100px;    
+    } 
+    .text_under_wbt_text{
+    margin-left: 100px;     
+    }
+    .text-box{
+    margin-left: 100px;    
+    }
+    .why_we_text{
+    margin-left: 165px;
+    }
+    .photo_uslugi{
+    margin-left: 80px;
+    height: 340px;
+    }
+    .photo_uslugi1{
+    margin-left: 620px;
+        height: 350px;
+        margin-top: -370px;
+    }
+    .photo_uslugi2{
+    margin-top: 60px;
+    margin-left: 355px;
+        height: 350px;
+    }
+
+    .photos_of_members{
+        width: 500px;
+        margin-left: 600px;
+    }
 
 
+    .why_we_one{
+        margin-left: 50px;
+    }
+    .why_we_two{
+        margin-left: 650px;
+    }
+    .why_we_three{
+        margin-left: 325px;
+        margin-top: 50px;
+    }
+    
+    
+    
+    
+    
+    
+.photo_team {
+    margin-left: 50px;
+    margin-top: 40px;
+}
+.photo_team1 {
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.photo_team2 {
+    margin-left: 30px;
+    margin-top: 50px;
+}
+.photo_team3 {
+    margin-left: 65px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.photo_team4 {
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.photo_team5 {
+    margin-left: 30px;
+    margin-top: 50px;
+}
+    .text_abus{
+        width: 50px;
+    }  
+    .text_linkus{
+        width: 160px;
+    }
+}
 
+.screen {
+    width: 100%;
+    margin-right: 0px;
+}
 
 
 
 @media (max-width:767px){
     .header_body {
         height: 50px;
+        
+    }
+    .header {
+        height: 7%;
+        position: fixed;
+        z-index: 50;
+        background-color: #0F0F0F;
     }
     body.lock {
         
@@ -522,12 +1150,13 @@ color: #000000;
     }
     .header_burger{
          display: block;
-        position: relative;
+        position: fixed;
         margin-right: 00px;
         width: 70px;
         height: 100px;
         z-index: 3;
-       top: 35px;
+       top: 40px;
+        margin-left: 550px;
         
     }
     .header_burger:before,
@@ -539,7 +1168,7 @@ color: #000000;
         height: 3px;
         left: 0;
         transition: all 0.3s ease 0s;
-        margin-right: 550px;
+        
          
     }
     .header_burger:before{
@@ -608,9 +1237,10 @@ color: #000000;
     } 
      .header_logo img{
         width: 150px;
-        height: 80px;
+        height:90px;
         margin-top: 40px;
         margin-left: 20px;
+         
     }
     
     .
@@ -630,4 +1260,5 @@ color: #000000;
 
    
     
-   
+ 
+

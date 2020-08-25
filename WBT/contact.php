@@ -4,7 +4,7 @@ if (!empty($_POST['user_name']) && !empty($_POST['user_mail'])){
   if (isset($_POST['user_name'])) {
     if (!empty($_POST['user_name'])){
   $name = strip_tags($_POST['user_name']);
-  $phoneFieldset = "Имя пославшего: ";
+  $nameFieldset = "Имя пославшего: ";
   }
 }
  
@@ -12,7 +12,7 @@ if (!empty($_POST['user_name']) && !empty($_POST['user_mail'])){
 if (isset($_POST['user_mail']) ) {
   if (!empty($_POST['user_mail'])){
   $email = strip_tags($_POST['mail']);
-  $phoneFieldset = "Email: ";
+  $emailFieldset = "Email: ";
   }
 }
     
@@ -29,7 +29,7 @@ $phoneFieldset = $_POST['user_phone'];
 $emailFieldset = $_POST['user_mail'];
 
 $token = "997818438:AAFD7nf4U7Nc3BFkunTAiOtvGnyHSvi5znw";
-$shat_id = "-424655960";
+$shat_id = "-1001469624549";
 $sitename = "WBT";
 
 $arr = array (

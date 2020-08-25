@@ -1,6 +1,6 @@
 $(document).ready(function () {
     $("#form").submit(function () {
-        var formID = $(obj).attr("id");;
+        var formID = $(this).attr('id');
         var formNm = $('#' + formID);
         $.ajax({
             type: "POST",

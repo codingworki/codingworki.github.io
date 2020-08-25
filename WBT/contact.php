@@ -1,13 +1,25 @@
 <?php 
 
-$recepient = "danchik_fedorov@mail.ru";
+$name = $_POST['user_name'];
+$phone = $_POST['user_phone'];
+$email = $_POST['user_email'];
+
+$token = "997818438:AAFD7nf4U7Nc3BFkunTAiOtvGnyHSvi5znw";
+$shat_id = "-424655960";
 $sitename = "WBT";
 
-$name = trim($_POST["user_name"]);
-$phone = trim($_POST["user_phone"]);
-$email = trim($_POST["user_email"]);
-$message = "Имя: $name \n Телефон: $phone \n Почта: $email";
+$arr = array (
 
-$pagetitle = "Новая заявка с сайта \"$sitename\"";
-mail($recepient, $pagetitle, $message, "Content-type: text/plain; charset=\"utf-8\"\n From: $recepient");
+    'Заказ с сайта: ' => $sitename,
+    'Имя: ' => $name,
+    'Телефон: ' => $phone,
+    'Почта: ' => $email
+);
+
+foreach($arr as $key => $value) {
+    $txt .= "<b>".$key. "</b> ".$value."%0A";
+};
+
+$sendToTelegram = fopen("https://api.telegram.org/bot{$token}/sendMessage?chat_id={$chat_id}&parse_mode=html&text={$txt}", "r");
+
 ?>

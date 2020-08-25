@@ -8,7 +8,7 @@ jQuery(document).ready(function() {
             success: swal({
                 title: "Спасибо за заявку!",
                 type: "success",
-                showConfirmButton: false;
+                showConfirmButton: false,
                 timer: 2000
             })
         });

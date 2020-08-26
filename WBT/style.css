@@ -68,12 +68,14 @@ a:link  {
 }
 .header{
     
-    position: relative;
+    position: fixed;
     width: 100%;
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 100px;
+    background-color: #0F0F0F;
+    z-index: 50;
     
     
     
@@ -103,7 +105,8 @@ a:link  {
     overflow: hidden;
     position: relative;
     z-index: 5;
-    margin-left: 185px;
+    margin-right: 70px;
+    margin-left: 100px;
     margin-top: 43px;
 }
 .header_logo img{
@@ -258,7 +261,7 @@ margin-top: -400px;
 .text_uslugi {
     
 margin-left: 150px;
-margin-top: 118px;
+margin-top: 48px;
 
 font-family: Old Standard TT;
 font-style: normal;
@@ -273,8 +276,8 @@ color: #FFFFFF;
 }
 
 .why_we_text{
-margin-left: -185px;
-margin-top: 260px;
+margin-left: 150px;
+margin-top: 160px;
 
 font-family: Old Standard TT;
 font-style: normal;
@@ -289,7 +292,7 @@ color: #FFFFFF;
 }
 
 .why_we_one{
-    margin-top: 60px;
+    margin-top: 110px;
     margin-left: -140px;
 }
 
@@ -360,6 +363,10 @@ color: #FFFFFF;
     margin-left: -90px;
     margin-top: 50px;
 }
+.photo_team6 {
+    margin-left: 130px;
+    margin-top: 50px;
+}
 
 .text_portfolio {
     margin-left: 150px;
@@ -379,8 +386,8 @@ color: #FFFFFF;
 
 
 .slider_adap {
-    width: 800px;
-    margin-left: 520px;
+    width: 900px;
+    margin-left: 460px;
     animation: fadeInRight;
     animation-duration: 1s;
     margin-top: 50px;
@@ -629,8 +636,12 @@ color: #FFFFFF;
     margin-left: -60px;
     margin-top: 50px;
 }
+.photo_team6 {
+    margin-left: 130px;
+    margin-top: 50px;
+}
 .slider_adap{
-    margin-left: 420px;
+    margin-left: 370px;
     }
     .back_form{
     margin-left: 435px;    
@@ -674,6 +685,10 @@ color: #FFFFFF;
     margin-left: -40px;
     margin-top: 50px;
 }
+.photo_team6 {
+    margin-left: 90px;
+    margin-top: 50px;
+}
 .slider_adap{
     margin-left: 370px;
     }
@@ -705,7 +720,7 @@ color: #FFFFFF;
     margin-left: -100px;    
     }
     .why_we_text{
-    margin-left: -20px;
+    margin-left: 150px;
     }
     .photo_uslugi{
         margin-left: 125px;
@@ -716,12 +731,15 @@ color: #FFFFFF;
         .photo_uslugi{
         margin-left: 100px;
     }
+    .img_footer {
+        margin-left: 150px;
+    }
 }
 
 @media only screen and (max-width: 1456px){
 
 .slider_adap{
-    margin-left: 310px;
+    margin-left: 260px;
     }
 .back_form{
     margin-left: 325px;    
@@ -769,7 +787,9 @@ color: #FFFFFF;
 
 
 
-
+    .why_we_text {
+        margin-left: 150px;
+    }
     .why_we_one{
         margin-left: 50px;
     }
@@ -811,13 +831,23 @@ color: #FFFFFF;
     margin-left: -20px;
     margin-top: 50px;
 }
+.photo_team6 {
+    margin-left: 90px;
+    margin-top: 50px;
+}
+    .text_abus{
+        width: 50px;
+    }  
+    .text_linkus{
+        width: 160px;
+    }
 }
 
 
 @media only screen and (max-width: 1319px){
 
 .slider_adap{
-    margin-left: 310px;
+    margin-left: 260px;
     }
 .back_form{
     margin-left: 325px;    
@@ -847,7 +877,7 @@ color: #FFFFFF;
     margin-left: 0px;    
     }
     .why_we_text{
-    margin-left: -20px;
+    margin-left: 150px;
     }
     .photo_uslugi{
     margin-left: 115px;
@@ -907,12 +937,22 @@ color: #FFFFFF;
     margin-left: -20px;
     margin-top: 50px;
 }
+    .photo_team6 {
+    margin-left: 90px;
+    margin-top: 50px;
+}
+    .text_abus{
+        width: 50px;
+    }  
+    .text_linkus{
+        width: 160px;
+    }
 }
 
 @media only screen and (max-width: 1289px){
 
 .slider_adap{
-    margin-left: 240px;
+    margin-left: 190px;
     }
 .back_form{
     margin-left: 255px;    
@@ -942,7 +982,7 @@ color: #FFFFFF;
     margin-left: 0px;    
     }
     .why_we_text{
-    margin-left: -20px;
+    margin-left: 150px;
     }
     .photo_uslugi{
     margin-left: 95px;
@@ -1002,6 +1042,10 @@ color: #FFFFFF;
     margin-left: -20px;
     margin-top: 50px;
 }
+.photo_team6 {
+    margin-left: 50px;
+    margin-top: 50px;
+}
     .text_abus{
         width: 50px;
     }  
@@ -1013,11 +1057,11 @@ color: #FFFFFF;
 @media only screen and (max-width: 1211px){
 
 .slider_adap{
-    margin-left: 200px;
+    margin-left: 190px;
     }
 .back_form{
    
-    margin-left: 215px;    
+    margin-left: 260px;    
     }
 .text_footer1{
     margin-left: 120px;    
@@ -1062,19 +1106,20 @@ color: #FFFFFF;
     }
 
     .photos_of_members{
-        width: 500px;
+        width:550px;
         margin-left: 600px;
+        margin-top: -350px;
     }
 
 
     .why_we_one{
-        margin-left: 50px;
+        margin-left: 70px;
     }
     .why_we_two{
-        margin-left: 650px;
+        margin-left: 700px;
     }
     .why_we_three{
-        margin-left: 325px;
+        margin-left: 365px;
         margin-top: 50px;
     }
     
@@ -1084,28 +1129,32 @@ color: #FFFFFF;
     
     
 .photo_team {
-    margin-left: 50px;
+    margin-left: 80px;
     margin-top: 40px;
 }
 .photo_team1 {
-    margin-left: 50px;
+    margin-left: 80px;
     margin-top: 50px;
 }
 .photo_team2 {
-    margin-left: 30px;
+    margin-left: 60px;
     margin-top: 50px;
 }
 .photo_team3 {
-    margin-left: 65px;
+    margin-left: 95px;
     margin-top: 50px;
     margin-bottom: 50px;
 }
 .photo_team4 {
-    margin-left: 50px;
+    margin-left: 80px;
     margin-top: 50px;
 }
 .photo_team5 {
-    margin-left: 30px;
+    margin-left: 60px;
+    margin-top: 50px;
+}
+.photo_team6 {
+    margin-left: 80px;
     margin-top: 50px;
 }
     .text_abus{
@@ -1122,7 +1171,282 @@ color: #FFFFFF;
     overflow-x: hidden;
 }
 
+@media only screen and (max-width: 1099px){
 
+.slider_adap{
+    margin-left: 190px;
+    }
+.back_form{
+   
+    margin-left: 260px;    
+    }
+.text_footer1{
+    margin-left: 120px;    
+    }
+.text_footer2{
+    margin-left: 120px;    
+    } 
+.text_footer3{
+    margin-left: 160px;    
+    } 
+.text_footer4{
+    margin-left: 170px;    
+    }
+.button_call1{
+    margin-left: 300px;
+    }
+    .wbt_text{
+    margin-left: 100px;    
+    } 
+    .text_under_wbt_text{
+    margin-left: 100px;     
+    }
+    .text-box{
+    margin-left: 100px;    
+    }
+    .why_we_text{
+    margin-left: 165px;
+    }
+    .photo_uslugi{
+    margin-left: 130px;
+    height: 400px;
+    }
+    .photo_uslugi1{
+    margin-left: 670px;
+        height: 400px;
+        margin-top: -430px;
+    }
+    .photo_uslugi2{
+    margin-top: 60px;
+    margin-left: 405px;
+        height: 400px;
+    }
+
+    .photos_of_members{
+        width: 550px;
+        margin-left: 600px;
+    }
+
+
+    .why_we_one{
+        margin-left: 70px;
+    }
+    .why_we_two{
+        margin-left: 700px;
+    }
+    .why_we_three{
+        margin-left: 365px;
+        margin-top: 50px;
+    }
+    
+    
+    
+    
+    
+    
+.photo_team {
+    margin-left: 100px;
+    margin-top: 40px;
+}
+.photo_team1 {
+    margin-left: 120px;
+    margin-top: 50px;
+}
+.photo_team2 {
+    margin-left: 120px;
+    margin-top: 50px;
+}
+.photo_team3 {
+    margin-left: 115px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.photo_team4 {
+    margin-left: 120px;
+    margin-top: 50px;
+}
+.photo_team5 {
+    margin-left: 120px;
+    margin-top: 50px;
+}
+    .photo_team6 {
+    margin-left: 120px;
+    margin-top: 50px;
+}
+    .text_abus{
+        width: 50px;
+    }  
+    .text_linkus{
+        width: 160px;
+    }
+}
+
+.screen1 {
+    width: 100%;
+    margin-right: 0px;
+    overflow-x: hidden;
+}
+
+@media only screen and (max-width: 995px){
+
+.slider_adap{
+    margin-left: 190px;
+    }
+.back_form{
+   
+    margin-left: 260px;    
+    }
+.text_footer1{
+    margin-left: 120px;    
+    }
+.text_footer2{
+    margin-left: 120px;    
+    } 
+.text_footer3{
+    margin-left: 160px;    
+    } 
+.text_footer4{
+    margin-left: 170px;    
+    }
+.button_call1{
+    margin-left: 300px;
+    }
+    .wbt_text{
+    margin-left: 100px;    
+    } 
+    .text_under_wbt_text{
+    margin-left: 100px;     
+    }
+    .text-box{
+    margin-left: 100px;    
+    }
+    .why_we_text{
+    margin-left: 165px;
+    }
+    .photo_uslugi{
+    margin-left: 130px;
+    height: 400px;
+    }
+    .photo_uslugi1{
+    margin-left: 670px;
+        height: 400px;
+        margin-top: -430px;
+    }
+    .photo_uslugi2{
+    margin-top: 60px;
+    margin-left: 405px;
+        height: 400px;
+    }
+
+    .photos_of_members{
+        width: 550px;
+        margin-left: 600px;
+    }
+
+
+    .why_we_one{
+        margin-left: 70px;
+    }
+    .why_we_two{
+        margin-left: 700px;
+    }
+    .why_we_three{
+        margin-left: 365px;
+        margin-top: 50px;
+    }
+    
+    
+    
+    
+    
+    
+.photo_team {
+    margin-left: 105px;
+    margin-top: 40px;
+}
+.photo_team1 {
+    margin-left: 155px;
+    margin-top: 50px;
+}
+.photo_team2 {
+    margin-left: 185px;
+    margin-top: 50px;
+}
+.photo_team3 {
+    margin-left: 120px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.photo_team4 {
+    margin-left: 155px;
+    margin-top: 50px;
+}
+.photo_team5 {
+    margin-left: 185px;
+    margin-top: 50px;
+}
+.photo_team6 {
+    margin-left: 155px;
+    margin-top: 50px;
+}
+    .text_abus{
+        width: 50px;
+    }  
+    .text_linkus{
+        width: 160px;
+    }
+
+
+.screen1 {
+    width: 100%;
+    margin-right: 0px;
+    overflow-x: hidden;
+}
+}
+
+@media only screen and (max-width: 815px){
+    .title_form{
+        width: 650px;
+    }
+    .text_uslugi{
+        width: 650px;
+    }
+    .why_we_text{
+        width: 650px;
+    }
+}
+
+@media (max-width:883px){
+    .photo_team {
+    margin-left: 105px;
+    margin-top: 40px;
+}
+.photo_team1 {
+    margin-left: 195px;
+    margin-top: 50px;
+}
+.photo_team2 {
+    margin-left: 265px;
+    margin-top: 50px;
+}
+.photo_team3 {
+    margin-left: 125px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.photo_team4 {
+    margin-left: 195px;
+    margin-top: 50px;
+}
+.photo_team5 {
+    margin-left: 260px;
+    margin-top: 50px;
+}
+.photo_team6 {
+    margin-left: 195px;
+    margin-top: 50px;
+}
+}
 
 @media (max-width:767px){
     .header_body {
@@ -1130,7 +1454,7 @@ color: #FFFFFF;
         
     }
     .header {
-        height: 7%;
+        height: 120px;
         position: fixed;
         z-index: 50;
         background-color: #0F0F0F;
@@ -1139,19 +1463,43 @@ color: #FFFFFF;
         
     }
     .header_link {
+    
         margin-top: 50px;
         margin-left: 18px;
-        font-size: 25px;
-        background-color: ;
-        border-radius: 20px;
+        font-size: 35px;
+        
+        
         padding-left: 0px;
         padding-right: 20px;
        
     }
     .button_call {
+        width: 300px;
+        height: 100px;
         margin-top: 50px;
         margin-left: 0px;
     }
+    .text_abus {
+        width: 100px;
+    }
+    .text_linkus {
+        width: 300px;
+    }
+    
+
+.button_text{
+margin: 10px 10px 10px 10px;
+font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 22px;
+margin-top: 5px;    
+
+/* identical to box height */
+
+color: #FFFFFF;
+}
     .header_logo{
         flex: 0 0 40px;
     }
@@ -1163,7 +1511,7 @@ color: #FFFFFF;
         height: 100px;
         z-index: 3;
        top: 40px;
-        margin-left: 450px;
+        margin-left: 550px;
         
     }
     .header_burger:before,
@@ -1211,12 +1559,13 @@ color: #FFFFFF;
     .header_menu {
         position: fixed;
         top: -130%;
-        left: 17px;
+        left: 0px;
         width: 100%;
         height: 100%;
        transition: all 0.3s ease 0s;
         padding: 50px 0px 20px 10px;
         overflow: auto;
+        background-color: rgba(15,15,15, 0.5);
         
     }
     .header_menu.active{
@@ -1269,9 +1618,159 @@ color: #FFFFFF;
   
         
     }
+    
+
+
+.photo_team {
+    margin-left: 105px;
+    margin-top: 40px;
+    height: 800px;
+}
+.photo_team1 {
+    margin-left: 695px;
+    margin-top: -830px;
+    height: 770px;
+}
+.photo_team2 {
+    margin-left: 125px;
+    margin-top: 50px;
+    height: 770px;
+}
+.photo_team3 {
+    margin-left: 695px;
+    margin-top: -770px;
+    margin-bottom: 50px;
+    height: 770px;
+}
+.photo_team4 {
+    margin-left: 125px;
+    margin-top: 50px;
+    height: 770px;
+}
+.photo_team5 {
+    margin-left: 695px;
+    margin-top: -800px;
+    height: 770px;
+}
+.photo_team6 {
+    height: 770px;
+    margin-left: 400px;
+    margin-top: 50px;
 }
 
-   
+.img_footer{
+    margin-left: 100px;
+    }    
+.text_footer1{
+    margin-left: 550px;
+    margin-top: -65px;
+    }
+.text_footer2{
+    margin-left: 620px;
+    margin-top: -65px;
+    } 
+.text_footer3{
+    margin-left: 735px;
+    margin-top: -65px;
+    } 
+.text_footer4{
+    margin-left: 820px;
+    margin-top: -65px;
+    }
+.button_call1{
+    position: absolute;
+    margin-left: 1020px;
+    margin-top: -80px;
+}
+}
+
+@media (max-width: 600px) {
     
+}
+
+@media (max-width: 300px){
+.photos_of_members{
+    margin-left: 500px;
+    }
+.photo_team {
+    margin-left: 60px;
+    margin-top: 40px;
+    height: 800px;
+}
+.photo_team1 {
+    margin-left: 580px;
+    margin-top: -830px;
+    height: 770px;
+}
+.photo_team2 {
+    margin-left: 80px;
+    margin-top: 50px;
+    height: 770px;
+}
+.photo_team3 {
+    margin-left: 580px;
+    margin-top: -770px;
+    margin-bottom: 50px;
+    height: 770px;
+}
+.photo_team4 {
+    margin-left: 80px;
+    margin-top: 50px;
+    height: 770px;
+}
+.photo_team5 {
+    margin-left: 580px;
+    margin-top: -800px;
+    height: 770px;
+}
+.img_footer{
+    margin-left: 20px;
+    }    
+.text_footer1{
+    margin-left: 390px;
+    margin-top: -65px;
+    }
+.text_footer2{
+    margin-left: 490px;
+    margin-top: -65px;
+    } 
+.text_footer3{
+    margin-left: 590px;
+    margin-top: -65px;
+    } 
+.text_footer4{
+    margin-left: 690px;
+    margin-top: -65px;
+    }
+.button_call1{
+    position: absolute;
+    margin-left: 890px;
+    margin-top: -80px;
+}
+.why_we_one{
+    margin-left: 0px;
+    }
+.why_we_two{
+    margin-left: 500px;
+    }  
+.why_we_three{
+    margin-left: 250px;
+    }
+.photo_uslugi{
+    margin-left: 50px;
+    }
+.photo_uslugi1{
+    margin-left: 550px;
+    }  
+.photo_uslugi2{
+    margin-left: 300px;
+    }
+    .slider_adap{
+        margin-left: 125px;
+    }
+    .back_form{
+        margin-left: 145px;
+    }       
+}
  
 

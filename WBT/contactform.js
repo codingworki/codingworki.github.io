@@ -1,19 +1,19 @@
 $(document).ready(function () {
-    $("#form").submit(function () {
-        var formID = $(this).attr('id');
-        var formNm = $('#' + formID);
+    $(".form-element").submit(function () {
+        let formID = $(this).attr('id');
+        let formNm = $('#' + formID);
         $.ajax({
             type: "POST",
             url: 'contact.php',
             data: formNm.serialize(),
             success: function (data) {
-                title: "Спасибо за заявку!",
-                type: "success",
-                showConfirmButton: false,
-                timer: 2000
-            });
+              alert('good');
+            },
+            error: function (error) {
+                alert(error);
+               
+            }
         });
-        $(this).find('input,textarea').prop('disabled', true);
-        event.preventDefault();
+        return false;
     });
 });

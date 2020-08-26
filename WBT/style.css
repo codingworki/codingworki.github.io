@@ -1,7 +1,9 @@
 body {
-   
+  
     background-color: #0F0F0F;
+   
 }
+
 
 .screen {
     background-color: #250100;
@@ -482,11 +484,15 @@ color: #000000;
 
 .screen1 {
     background-color: #191919;
+       min-width: 1300px;  
+    
+    
+    
     
 }
 
 .text_footer1 {
-    margin-left: 468px;
+    margin-left: 500px;
 margin-top: 70px;
 width: 100px;
 font-family: Open Sans;
@@ -532,7 +538,7 @@ line-height: 22px;
 }
 
 .button_call1{
-    margin-left: 580px;
+    margin-left: 550px;
     margin-top: 50px;
     height: 50px;
     width: 160px;
@@ -555,7 +561,7 @@ color: #FFFFFF;
 }
 
 .pochta {
-    text-align: center;
+   text-align: center;
 margin-top: 110px;
     margin-bottom: 50px;
 
@@ -1004,7 +1010,7 @@ color: #FFFFFF;
     }
 }
 
-@media only screen and (max-width: 1236px){
+@media only screen and (max-width: 1211px){
 
 .slider_adap{
     margin-left: 200px;
@@ -1041,18 +1047,18 @@ color: #FFFFFF;
     margin-left: 165px;
     }
     .photo_uslugi{
-    margin-left: 80px;
-    height: 340px;
+    margin-left: 130px;
+    height: 400px;
     }
     .photo_uslugi1{
-    margin-left: 620px;
-        height: 350px;
-        margin-top: -370px;
+    margin-left: 670px;
+        height: 400px;
+        margin-top: -430px;
     }
     .photo_uslugi2{
     margin-top: 60px;
-    margin-left: 355px;
-        height: 350px;
+    margin-left: 405px;
+        height: 400px;
     }
 
     .photos_of_members{
@@ -1110,9 +1116,10 @@ color: #FFFFFF;
     }
 }
 
-.screen {
+.screen1 {
     width: 100%;
     margin-right: 0px;
+    overflow-x: hidden;
 }
 
 
@@ -1156,7 +1163,7 @@ color: #FFFFFF;
         height: 100px;
         z-index: 3;
        top: 40px;
-        margin-left: 550px;
+        margin-left: 450px;
         
     }
     .header_burger:before,
@@ -1255,6 +1262,12 @@ color: #FFFFFF;
     .email {
        text-align: center;
         margin-top: 20px;
+    }
+    .screen1 {
+        
+        
+  
+        
     }
 }
 

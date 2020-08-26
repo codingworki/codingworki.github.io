@@ -1108,7 +1108,7 @@ color: #FFFFFF;
     .photos_of_members{
         width:550px;
         margin-left: 600px;
-        margin-top: -350px;
+        margin-top: -400px;
     }
 
 
@@ -1312,7 +1312,8 @@ color: #FFFFFF;
     margin-left: 300px;
     }
     .wbt_text{
-    margin-left: 100px;    
+    margin-left: 100px;
+        margin-top: 170px;
     } 
     .text_under_wbt_text{
     margin-left: 100px;     
@@ -1341,6 +1342,7 @@ color: #FFFFFF;
     .photos_of_members{
         width: 550px;
         margin-left: 600px;
+        
     }
 
 
@@ -1485,7 +1487,9 @@ color: #FFFFFF;
     .text_linkus {
         width: 300px;
     }
-    
+    .photos_of_members {
+        margin-top: -400px; 
+    }
 
 .button_text{
 margin: 10px 10px 10px 10px;
@@ -1685,8 +1689,26 @@ color: #FFFFFF;
 }
 
 @media (max-width: 600px) {
-    
+    .photos_of_members {
+        margin-top: -400px; 
+    }
 }
+@media (max-width: 532px) {
+    .photos_of_members {
+        margin-top: -400px; 
+    }
+}
+@media (max-width: 518px) {
+    .photos_of_members {
+        margin-top: -440px; 
+    }
+}
+@media (max-width: 375px) {
+    .photos_of_members {
+        margin-top: -470px; 
+    }
+}
+
 
 @media (max-width: 300px){
 .photos_of_members{

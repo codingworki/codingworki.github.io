@@ -978,7 +978,7 @@ button::-moz-focus-inner {
     }
     .header_burger.active:before{
         transform: rotate(45deg);
-        top: 33px;
+        top: 31px;
     }
     .header_burger.active:after{
         transform: rotate(-45deg);

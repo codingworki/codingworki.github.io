@@ -123,43 +123,45 @@ top: 72px;
     
 width: 767px;
 height: 241px;
-margin-left: 225px;
-margin-top: 100px;
+margin-left: 550px;
+margin-top: 150px;
+         text-align: center;
 
-font-family: Montserrat;
+font-family: 'Roboto Slab', serif;
 font-style: normal;
 font-weight: bold;
-font-size: 56px;
-line-height: 141.68%;
-/* or 79px */
+font-size: 70px;
+line-height: 101.68%;
+
 
 letter-spacing: 0.055em;
 
 color: #FEFDFD;
 
 }
-.text_of_music {
+    
+    .text_of_music {
 position: absolute;
 width: 619px;
 height: 83px;
-left: 225px;
-top: 433px;
-
-font-family: Roboto;
+left: 610px;
+top: 470px;
+text-align: center;
+font-family: 'Roboto Slab', serif;
+        margin: 5px;
 font-style: normal;
 font-weight: normal;
-font-size: 14px;
-line-height: 16px;
+font-size: 24px;
+line-height: 25px;
 
 color: #FFFFFF;
 }
-
-.button {
+    .button {
     position: absolute;
-width: 240px;
-height: 45px;
-left: 230px;
-top: 538px;
+width: 340px;
+height: 75px;
+left: 750px;
+top: 675px;
 
 background: #FCF00B;
 border-radius: 100px;
@@ -171,13 +173,13 @@ border-radius: 100px;
 .text_button {
     position: absolute;
 
-left: 50px;
-top: 10px;
+left: 60px;
+top: 25px;
 
 font-family: Roboto;
 font-style: normal;
 font-weight: bold;
-font-size: 16px;
+font-size: 26px;
 line-height: 19px;
 /* identical to box height */
 
@@ -1037,27 +1039,35 @@ color: #FEFDFD;
 }
 
 @media only screen and (max-width:1869px) {
-    .header_logo {
-        margin-left: 60px;
+    .header_logo img  {
+        margin-top: 0px;
     }
     .header_list {
-        margin-right: 30px;
+        margin-right: 200px;
         margin-left: 0px;
     }
+    .circle {
+    position: absolute;
+width: 192px;
+height: 31px;
+left: 125px;
+top: 52px;
+}
     
     .text_block {
     
 width: 767px;
 height: 241px;
-margin-left: 200px;
-margin-top: 100px;
+margin-left: 500px;
+margin-top: 150px;
+         text-align: center;
 
-font-family: Montserrat;
+font-family: 'Roboto Slab', serif;
 font-style: normal;
 font-weight: bold;
-font-size: 56px;
-line-height: 141.68%;
-/* or 79px */
+font-size: 70px;
+line-height: 101.68%;
+
 
 letter-spacing: 0.055em;
 
@@ -1069,23 +1079,24 @@ color: #FEFDFD;
 position: absolute;
 width: 619px;
 height: 83px;
-left: 200px;
-top: 449px;
-
-font-family: Roboto;
+left: 560px;
+top: 470px;
+text-align: center;
+font-family: 'Roboto Slab', serif;
+        margin: 5px;
 font-style: normal;
 font-weight: normal;
-font-size: 14px;
-line-height: 16px;
+font-size: 24px;
+line-height: 25px;
 
 color: #FFFFFF;
 }
     .button {
     position: absolute;
-width: 240px;
-height: 45px;
-left: 205px;
-top: 538px;
+width: 340px;
+height: 75px;
+left: 700px;
+top: 675px;
 
 background: #FCF00B;
 border-radius: 100px;
@@ -1097,13 +1108,13 @@ border-radius: 100px;
 .text_button {
     position: absolute;
 
-left: 50px;
-top: 10px;
+left: 60px;
+top: 25px;
 
 font-family: Roboto;
 font-style: normal;
 font-weight: bold;
-font-size: 16px;
+font-size: 26px;
 line-height: 19px;
 /* identical to box height */
 
@@ -1977,15 +1988,16 @@ color: #FEFDFD;
     
 width: 767px;
 height: 241px;
-margin-left: 200px;
-margin-top: 100px;
+margin-left: 350px;
+margin-top: 150px;
+         text-align: center;
 
-font-family: Montserrat;
+font-family: 'Roboto Slab', serif;
 font-style: normal;
 font-weight: bold;
-font-size: 56px;
-line-height: 141.68%;
-/* or 79px */
+font-size: 70px;
+line-height: 101.68%;
+
 
 letter-spacing: 0.055em;
 
@@ -1997,23 +2009,24 @@ color: #FEFDFD;
 position: absolute;
 width: 619px;
 height: 83px;
-left: 200px;
-top: 449px;
-
-font-family: Roboto;
+left: 430px;
+top: 470px;
+text-align: center;
+font-family: 'Roboto Slab', serif;
+        margin: 5px;
 font-style: normal;
 font-weight: normal;
-font-size: 14px;
-line-height: 16px;
+font-size: 24px;
+line-height: 25px;
 
 color: #FFFFFF;
 }
     .button {
     position: absolute;
-width: 240px;
-height: 45px;
-left: 205px;
-top: 538px;
+width: 340px;
+height: 75px;
+left: 560px;
+top: 675px;
 
 background: #FCF00B;
 border-radius: 100px;
@@ -2025,13 +2038,13 @@ border-radius: 100px;
 .text_button {
     position: absolute;
 
-left: 50px;
-top: 10px;
+left: 60px;
+top: 25px;
 
 font-family: Roboto;
 font-style: normal;
 font-weight: bold;
-font-size: 16px;
+font-size: 26px;
 line-height: 19px;
 /* identical to box height */
 
@@ -2900,19 +2913,20 @@ color: #FEFDFD;
         margin-right: 30px;
         margin-left: 0px;
     }
-    .text_block {
+   .text_block {
     
 width: 767px;
 height: 241px;
-margin-left: 100px;
-margin-top: 100px;
+margin-left: 300px;
+margin-top: 150px;
+         text-align: center;
 
-font-family: Montserrat;
+font-family: 'Roboto Slab', serif;
 font-style: normal;
 font-weight: bold;
-font-size: 56px;
-line-height: 141.68%;
-/* or 79px */
+font-size: 70px;
+line-height: 101.68%;
+
 
 letter-spacing: 0.055em;
 
@@ -2924,23 +2938,24 @@ color: #FEFDFD;
 position: absolute;
 width: 619px;
 height: 83px;
-left: 100px;
-top: 449px;
-
-font-family: Roboto;
+left: 350px;
+top: 470px;
+text-align: center;
+font-family: 'Roboto Slab', serif;
+        margin: 5px;
 font-style: normal;
 font-weight: normal;
-font-size: 14px;
-line-height: 16px;
+font-size: 24px;
+line-height: 25px;
 
 color: #FFFFFF;
 }
     .button {
     position: absolute;
-width: 240px;
-height: 45px;
-left: 105px;
-top: 538px;
+width: 340px;
+height: 75px;
+left: 510px;
+top: 675px;
 
 background: #FCF00B;
 border-radius: 100px;
@@ -2952,13 +2967,13 @@ border-radius: 100px;
 .text_button {
     position: absolute;
 
-left: 50px;
-top: 10px;
+left: 60px;
+top: 25px;
 
 font-family: Roboto;
 font-style: normal;
 font-weight: bold;
-font-size: 16px;
+font-size: 26px;
 line-height: 19px;
 /* identical to box height */
 
@@ -3845,15 +3860,16 @@ top: 52px;
     
 width: 767px;
 height: 241px;
-margin-left: 100px;
-margin-top: 100px;
+margin-left: 220px;
+margin-top: 150px;
+         text-align: center;
 
-font-family: Montserrat;
+font-family: 'Roboto Slab', serif;
 font-style: normal;
 font-weight: bold;
-font-size: 56px;
-line-height: 141.68%;
-/* or 79px */
+font-size: 70px;
+line-height: 101.68%;
+
 
 letter-spacing: 0.055em;
 
@@ -3865,23 +3881,24 @@ color: #FEFDFD;
 position: absolute;
 width: 619px;
 height: 83px;
-left: 100px;
-top: 449px;
-
-font-family: Roboto;
+left: 280px;
+top: 470px;
+text-align: center;
+font-family: 'Roboto Slab', serif;
+        margin: 5px;
 font-style: normal;
 font-weight: normal;
-font-size: 14px;
-line-height: 16px;
+font-size: 24px;
+line-height: 25px;
 
 color: #FFFFFF;
 }
     .button {
     position: absolute;
-width: 240px;
-height: 45px;
-left: 105px;
-top: 538px;
+width: 340px;
+height: 75px;
+left: 420px;
+top: 675px;
 
 background: #FCF00B;
 border-radius: 100px;
@@ -3893,13 +3910,13 @@ border-radius: 100px;
 .text_button {
     position: absolute;
 
-left: 50px;
-top: 10px;
+left: 60px;
+top: 25px;
 
 font-family: Roboto;
 font-style: normal;
 font-weight: bold;
-font-size: 16px;
+font-size: 26px;
 line-height: 19px;
 /* identical to box height */
 
@@ -3909,7 +3926,6 @@ text-align: center;
 
 color: #1A1915;
 }
-
 .screen_why {
  
     position: absolute;
@@ -4778,15 +4794,16 @@ color: #FEFDFD;
     
 width: 767px;
 height: 241px;
-margin-left: 100px;
-margin-top: 100px;
+margin-left: 160px;
+margin-top: 150px;
+         text-align: center;
 
-font-family: Montserrat;
+font-family: 'Roboto Slab', serif;
 font-style: normal;
 font-weight: bold;
-font-size: 56px;
-line-height: 141.68%;
-/* or 79px */
+font-size: 70px;
+line-height: 101.68%;
+
 
 letter-spacing: 0.055em;
 
@@ -4798,23 +4815,24 @@ color: #FEFDFD;
 position: absolute;
 width: 619px;
 height: 83px;
-left: 100px;
-top: 449px;
-
-font-family: Roboto;
+left: 220px;
+top: 470px;
+text-align: center;
+font-family: 'Roboto Slab', serif;
+        margin: 5px;
 font-style: normal;
 font-weight: normal;
-font-size: 14px;
-line-height: 16px;
+font-size: 24px;
+line-height: 25px;
 
 color: #FFFFFF;
 }
     .button {
     position: absolute;
-width: 240px;
-height: 45px;
-left: 105px;
-top: 538px;
+width: 340px;
+height: 75px;
+left: 360px;
+top: 675px;
 
 background: #FCF00B;
 border-radius: 100px;
@@ -4826,13 +4844,13 @@ border-radius: 100px;
 .text_button {
     position: absolute;
 
-left: 50px;
-top: 10px;
+left: 60px;
+top: 25px;
 
 font-family: Roboto;
 font-style: normal;
 font-weight: bold;
-font-size: 16px;
+font-size: 26px;
 line-height: 19px;
 /* identical to box height */
 
@@ -5712,15 +5730,16 @@ color: #FEFDFD;
     
 width: 767px;
 height: 241px;
-margin-left: 100px;
-margin-top: 100px;
+margin-left: 120px;
+margin-top: 150px;
+         text-align: center;
 
-font-family: Montserrat;
+font-family: 'Roboto Slab', serif;
 font-style: normal;
 font-weight: bold;
-font-size: 56px;
-line-height: 141.68%;
-/* or 79px */
+font-size: 70px;
+line-height: 101.68%;
+
 
 letter-spacing: 0.055em;
 
@@ -5732,23 +5751,24 @@ color: #FEFDFD;
 position: absolute;
 width: 619px;
 height: 83px;
-left: 100px;
-top: 449px;
-
-font-family: Roboto;
+left: 190px;
+top: 470px;
+text-align: center;
+font-family: 'Roboto Slab', serif;
+        margin: 5px;
 font-style: normal;
 font-weight: normal;
-font-size: 14px;
-line-height: 16px;
+font-size: 24px;
+line-height: 25px;
 
 color: #FFFFFF;
 }
     .button {
     position: absolute;
-width: 240px;
-height: 45px;
-left: 105px;
-top: 538px;
+width: 340px;
+height: 75px;
+left: 330px;
+top: 675px;
 
 background: #FCF00B;
 border-radius: 100px;
@@ -5760,13 +5780,13 @@ border-radius: 100px;
 .text_button {
     position: absolute;
 
-left: 50px;
-top: 10px;
+left: 60px;
+top: 25px;
 
 font-family: Roboto;
 font-style: normal;
 font-weight: bold;
-font-size: 16px;
+font-size: 26px;
 line-height: 19px;
 /* identical to box height */
 
@@ -5776,7 +5796,6 @@ text-align: center;
 
 color: #1A1915;
 }
-
 .screen_why {
  
     position: absolute;
@@ -6752,19 +6771,20 @@ color: #FEFDFD;
         width: 240px;
         height: 40px;
     }
-     .text_block {
+.text_block {
     
 width: 767px;
 height: 241px;
 margin-left: 100px;
 margin-top: 150px;
+         text-align: center;
 
-font-family: Montserrat;
+font-family: 'Roboto Slab', serif;
 font-style: normal;
 font-weight: bold;
-font-size: 56px;
-line-height: 141.68%;
-/* or 79px */
+font-size: 70px;
+line-height: 101.68%;
+
 
 letter-spacing: 0.055em;
 
@@ -6776,23 +6796,24 @@ color: #FEFDFD;
 position: absolute;
 width: 619px;
 height: 83px;
-left: 100px;
-top: 450px;
-
-font-family: Roboto;
+left: 160px;
+top: 440px;
+text-align: center;
+font-family: 'Roboto Slab', serif;
+        margin: 5px;
 font-style: normal;
 font-weight: normal;
-font-size: 18px;
-line-height: 16px;
+font-size: 25px;
+line-height: 25px;
 
 color: #FFFFFF;
 }
     .button {
     position: absolute;
-width: 240px;
-height: 45px;
-left: 105px;
-top: 568px;
+width: 340px;
+height: 75px;
+left: 310px;
+top: 655px;
 
 background: #FCF00B;
 border-radius: 100px;
@@ -6804,13 +6825,13 @@ border-radius: 100px;
 .text_button {
     position: absolute;
 
-left: 50px;
-top: 10px;
+left: 60px;
+top: 25px;
 
 font-family: Roboto;
 font-style: normal;
 font-weight: bold;
-font-size: 16px;
+font-size: 26px;
 line-height: 19px;
 /* identical to box height */
 
@@ -7817,14 +7838,15 @@ color: #FEFDFD;
     
 width: 767px;
 height: 241px;
-margin-left: 100px;
-margin-top: 210px;
+margin-left: 50px;
+margin-top: 230px;
+         text-align: center;
 
-font-family: Montserrat;
+font-family: 'Roboto Slab', serif;
 font-style: normal;
 font-weight: bold;
-font-size: 56px;
-line-height: 141.68%;
+font-size: 65px;
+line-height: 101.68%;
 /* or 79px */
 
 letter-spacing: 0.055em;
@@ -7837,23 +7859,24 @@ color: #FEFDFD;
 position: absolute;
 width: 619px;
 height: 83px;
-left: 100px;
-top: 470px;
-
-font-family: Roboto;
+left: 120px;
+top: 460px;
+text-align: center;
+font-family: 'Roboto Slab', serif;
+        margin: 5px;
 font-style: normal;
 font-weight: normal;
-font-size: 18px;
-line-height: 16px;
+font-size: 22px;
+line-height: 22px;
 
 color: #FFFFFF;
 }
     .button {
     position: absolute;
-width: 240px;
-height: 45px;
-left: 105px;
-top: 600px;
+width: 340px;
+height: 75px;
+left: 255px;
+top: 630px;
 
 background: #FCF00B;
 border-radius: 100px;
@@ -7865,13 +7888,13 @@ border-radius: 100px;
 .text_button {
     position: absolute;
 
-left: 50px;
-top: 10px;
+left: 60px;
+top: 25px;
 
 font-family: Roboto;
 font-style: normal;
 font-weight: bold;
-font-size: 16px;
+font-size: 26px;
 line-height: 19px;
 /* identical to box height */
 

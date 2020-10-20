@@ -7,12 +7,31 @@ body {
 	overflow-x: hidden;
 }
 .nav-link{
-	font-size: 25px;
+	
+	font-size: 20px;
 	margin-top: 10px;
 	margin-right: 10px;
 	color: #1F0500;
   
  
+}
+.zapis:link {
+	color: #000000;
+	text-decoration: none;
+}
+.zapis:active {
+	color: #000000;
+	text-decoration: none;
+}
+.zapis:hover {
+	opacity: 0.5;
+	color: #000000;
+	text-decoration: none;
+	transition-duration: 0.4s;
+}
+.zapis:visited {
+	color: #000000;
+	text-decoration: none;
 }
 .hr {
 	margin-top: 90px;
@@ -23,7 +42,8 @@ body {
 	margin-top: 10px;
 }
 .fedula{
-	color: #454141;
+	opacity: 80%;
+	color: #000000;
 	text-decoration: none;
 	font-family: Taviraj;
 font-style: normal;
@@ -31,7 +51,8 @@ font-style: normal;
 }
 
 .fedula:hover{
-	color: grey;
+	opacity: 70%;
+color: #000000;
 	transition-duration: 0.4s;
 }
 .instagrami{
@@ -530,7 +551,7 @@ line-height: 48px;
 	font-family: Open Sans;
 	font-style: normal;
 	font-weight: bold;
-	font-size: 45px;
+	font-size: 40px;
 	margin-top: 20px;
 	margin-left: 10px;
 }
@@ -682,7 +703,32 @@ line-height: 48px;
 		transition: max-height 500ms ease-in-out;
 	  }
 	
+.studio-footer{
+	font-size: 25px;
+	font-style: normal;
+	font-family: 'Roboto Slab', serif;
 
+}
+.politics{
+	font-size: 20px;
+	font-style: normal;
+	font-family: 'Roboto Slab', serif;
+}
+.nomer-footer{
+	font-size: 20px;
+}
+.fedula-footer{
+	color: #454141;
+	text-decoration: none;
+	font-family: Taviraj;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 15px;
+}
+.fedula-footer:hover{
+	color: grey;
+	transition-duration: 0.4s;
+}
 @media (max-width: 1800px) {
    
 }
@@ -777,6 +823,13 @@ line-height: 48px;
 }
 .voprosi{
 	font-size: 20px;
+}
+
+.fedula-footer{
+	font-size: 12px;
+}
+.nomer-footer{
+	font-size: 17px;
 }
 } 
 @media (max-width: 1296px) {
@@ -967,6 +1020,13 @@ font-family: 'Playfair Display', serif;
 .study{
 	font-size: 25px;
 	margin-left: 0px;
+}
+
+.fedula-footer{
+	font-size: 8px;
+}
+.nomer-footer{
+	font-size: 15px;
 }
 }
  
@@ -1183,6 +1243,10 @@ font-family: 'Playfair Display', serif;
 .button-form{
 	margin-top: 25px;
 	width: 300px;
+}
+
+.texts-footer{
+	text-align: center;
 }
 }
 
@@ -1545,7 +1609,7 @@ margin-left: 20px;
 }
 	.text-papa {
 		line-height: 30px;
-		font-size: 30px;
+		font-size: 25px;
 		margin-right: 30px;
 		margin-left: -230px;
 	}
@@ -1557,7 +1621,7 @@ margin-left: 20px;
 	}
 	.text-mama {
 		line-height: 30px;
-		font-size: 30px;
+		font-size: 25px;
 		margin-right: -230px;
 		margin-left: 30px;
 	}
@@ -1940,6 +2004,10 @@ margin-left: 0px;
 		font-size: 30px;
 		
 		
+	}
+	.place {
+	
+		line-height: 50px;
 	}
 }
 @media (max-width:460px) {

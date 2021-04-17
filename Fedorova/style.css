@@ -490,6 +490,7 @@ html,body {
     .image {
         max-width: 130%;
         width: 130%;
+        align-self: flex-start;
         height: auto;
         overflow-x: hidden;
        

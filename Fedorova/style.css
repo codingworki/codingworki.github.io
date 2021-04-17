@@ -92,6 +92,8 @@ html,body {
 .image {
     display: flex;
     margin: auto;
+    height: auto;
+    align-self: flex-start;
     left: 0;
     width: 100%;
     flex-direction: row;
@@ -166,6 +168,7 @@ html,body {
     .image {
         display: flex;
         margin: auto;
+        height: auto;
         left: 0;
         width: 100%;
         flex-direction: row;
@@ -490,7 +493,7 @@ html,body {
     .image {
         max-width: 130%;
         width: 130%;
-        align-self: flex-start;
+        
         height: auto;
         overflow-x: hidden;
        

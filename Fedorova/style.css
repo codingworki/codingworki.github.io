@@ -441,6 +441,7 @@ html,body {
 @media(max-width: 440px) {
     .image {
         width: 110%;
+        overflow-x: hidden;
     }
     .fedorova {
         font-size: 16px;
@@ -487,6 +488,8 @@ html,body {
     }
     .image {
         width: 130%;
+        overflow-x: hidden;
+       
     }
     .fedorova {
         font-size: 16px;

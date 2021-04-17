@@ -441,6 +441,7 @@ html,body {
 @media(max-width: 440px) {
     .image {
         width: 110%;
+        height: auto;
         overflow-x: hidden;
     }
     .fedorova {
@@ -488,6 +489,7 @@ html,body {
     }
     .image {
         width: 130%;
+        height: auto;
         overflow-x: hidden;
        
     }

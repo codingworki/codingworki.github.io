@@ -88,9 +88,15 @@ html,body {
     transform: rotate(-45deg);
     bottom: 9px;
 }
-
+.section1 {
+    
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
 .image {
     display: flex;
+    position: absolute;
     margin: auto;
     height: auto;
     align-self: flex-start;
@@ -103,11 +109,13 @@ html,body {
 .img {
     width: 100%;
 }
+
 .name__insta {
+    z-index: 1;
     display: flex;
     flex-direction: column;
-    position: absolute;
-    margin-top: -950px;
+    
+
     color: #FFDAC8;
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
@@ -120,7 +128,7 @@ html,body {
 }
 .fedorova {
     font-size: 52px;
-
+    margin-top: 200px;
 }
 .insta__link {
     display: flex;
@@ -142,15 +150,15 @@ html,body {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 100px;
-    position: absolute;
-    margin-top: -800px;
+    
+   margin-top: 50px;
     color: #CCAB9B;
     width: 1100px;
     margin-left: 100px;
 }
 .button {
-    position: absolute;
-    margin-top: -350px;
+
+    margin-top: 50px;
     color: #FFDAC8;
     text-decoration: none;
     border: 1px solid;
@@ -178,15 +186,14 @@ html,body {
     .img {
         width: 70%;
     }
-    .texts {
-        margin-top: 250px;
-    }
+    
     .fedorova {
         font-size: 30px;
+        margin-top: 180px;
     }
     .name__insta {
         margin-left: 40px;
-        margin-top: -900px;
+       
     }
     .master {
         font-size: 70px;
@@ -195,22 +202,20 @@ html,body {
     }
     .button {
         margin-left: 40px;
-        margin-top: -510px;
+        
         width: 250px;
         height: 45px;
         padding-top: 15px;
     }
 }
 @media (max-width:855px) {
-    .texts {
-        margin-top: 260px;
-    }
+    
     .fedorova {
         font-size: 26px;
     }
     .name__insta {
         margin-left: 40px;
-        margin-top: -900px;
+      
     }
     .master {
         font-size: 63px;
@@ -219,7 +224,7 @@ html,body {
     }
     .button {
         margin-left: 40px;
-        margin-top: -530px;
+        
         width: 250px;
         height: 40px;
         padding-top: 15px;
@@ -295,25 +300,29 @@ html,body {
     .image {
         margin-top: 50px;
     }
-    .texts {
-        margin-top: 430px;
-  
-    }
+    
     .fedorova {
         font-size: 22px;
+        margin-right: 10%;
+        margin-top: 100px;
         
     }
     .insta {
         font-size: 15px;
         padding-left: 5px;
+        
+    }
+    .insta__link {
+        margin-right: 8%;
     }
     .insta__logo {
         width: 23%;
     }
     .name__insta {
-       left: 25%;
-        margin-top: -870px;
-        align-items: center;
+       left: 15%;
+        
+       align-items: center;
+       text-align: center;
         right: 30%;
      
     }
@@ -326,11 +335,12 @@ html,body {
     .master {
         font-size: 53px;
         width: 600px;
-        margin-left: 37%;
+        margin-left: 58%;
+        margin-top: 20px;
     }
     .button {
-        margin-left: 38%;
-        margin-top: -580px;
+        margin-left: 58%;
+        margin-top: 30px;
         width: 200px;
         height: 35px;
         padding-top: 10px;
@@ -338,19 +348,17 @@ html,body {
         
     }
 }
-@media (max-width:705px) {
-    .texts {
-        margin-top: 460px;
-    }
-}
+
 @media (max-width:650px) {
-    .texts {
-        margin-top: 500px;
-    }
+    
     
     .fedorova {
         font-size: 19px;
-        
+        margin-top: 80px;
+        margin-right: 10%;
+    }
+    .insta__link {
+        margin-right: 8%;
     }
     .insta {
         font-size: 13px;
@@ -361,7 +369,7 @@ html,body {
     }
     .name__insta {
        left: 25%;
-        margin-top: -860px;
+       
         align-items: center;
         right: 30%;
      
@@ -375,11 +383,11 @@ html,body {
     .master {
         font-size: 43px;
         width: 500px;
-        margin-left: 37%;
+        margin-left: 58%;
     }
     .button {
-        margin-left: 38%;
-        margin-top: -620px;
+        margin-left: 58%;
+        
         width: 150px;
         height: 30px;
         padding-top: 10px;
@@ -388,29 +396,27 @@ html,body {
     }
     
 }
-@media(max-width:590px) {
-    .texts {
-        margin-top: 530px;
-    }
-}
+
 @media(max-width:540px) {
-    .texts {
-        margin-top: 550px;
-    }
+    
     .fedorova {
         font-size: 16px;
-        
+        margin-right: 10%;
     }
     .insta {
         font-size: 10px;
         padding-left: 5px;
+        
+    }
+    .insta__link {
+        margin-right: 5%;
     }
     .insta__logo {
         width: 15%;
     }
     .name__insta {
        left: 25%;
-        margin-top: -850px;
+     
         align-items: center;
         right: 30%;
      
@@ -424,11 +430,11 @@ html,body {
     .master {
         font-size: 35px;
         width: 400px;
-        margin-left: 37%;
+        margin-left: 58%;
     }
     .button {
-        margin-left: 38%;
-        margin-top: -650px;
+        margin-left: 58%;
+       
         width: 120px;
         height: 27px;
         padding-top: 10px;
@@ -436,20 +442,19 @@ html,body {
         
     }
 }
-@media(max-width: 480px) {
-    .texts {
-        margin-top: 580px;
-    }
-}
+
 @media(max-width: 440px) {
     .image {
-        width: 110%;
+        width: 100%;
         height: auto;
         overflow-x: hidden;
     }
     .fedorova {
-        font-size: 16px;
-        
+        font-size: 14px;
+        margin-right: 12%;
+    }
+    .insta__link {
+        margin-right: 7%;
     }
     .insta {
         font-size: 10px;
@@ -460,7 +465,7 @@ html,body {
     }
     .name__insta {
        left: 25%;
-        margin-top: -850px;
+       
         align-items: center;
         right: 20%;
      
@@ -469,41 +474,44 @@ html,body {
       align-items: center;
        text-align: center;
        margin-right: 38%;
+      
        
     }
     .master {
-        font-size: 35px;
-        width: 400px;
-        margin-left: 47%;
+        font-size: 32px;
+        width: 300px;
+        margin-left: 57%;
+        margin-top: 15px;
     }
     .button {
-        margin-left: 48%;
-        margin-top: -650px;
+        margin-left: 58%;
+        margin-top: 12px;
         width: 120px;
-        height: 27px;
-        padding-top: 10px;
-        font-size: 13px;
+        height: 22px;
+        padding-top: 7px;
+        font-size: 12px;
         
     }
 }
 @media(max-width:400px) {
-    .texts {
-        margin-top: 560px;
-    }
+    
     .image {
-        max-width: 130%;
-        width: 130%;
+   
+        width: 103%;
         
         height: auto;
         overflow-x: hidden;
        
     }
     .fedorova {
-        font-size: 16px;
-        
+        font-size: 14px;
+        margin-right: 7%;
+    }
+    .insta__link {
+        margin-right: 2%;
     }
     .insta {
-        font-size: 10px;
+        font-size: 8px;
         padding-left: 5px;
     }
     .insta__logo {
@@ -511,7 +519,7 @@ html,body {
     }
     .name__insta {
        left: 35%;
-        margin-top: -850px;
+       
         align-items: center;
         right: 10%;
      
@@ -523,17 +531,17 @@ html,body {
        
     }
     .master {
-        font-size: 35px;
-        width: 400px;
+        font-size: 30px;
+        width: 300px;
         margin-left: 67%;
     }
     .button {
         margin-left: 68%;
-        margin-top: -650px;
-        width: 120px;
-        height: 27px;
-        padding-top: 10px;
-        font-size: 13px;
+        
+        width: 100px;
+        height: 20px;
+        padding-top: 7px;
+        font-size: 10px;
         
     }
 }

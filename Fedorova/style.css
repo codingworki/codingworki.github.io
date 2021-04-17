@@ -488,6 +488,7 @@ html,body {
         margin-top: 560px;
     }
     .image {
+        max-width: 130%;
         width: 130%;
         height: auto;
         overflow-x: hidden;

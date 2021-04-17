@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <div class="header__body">
+                    <a href="#" class="header__logo">
+                        <img src="IMG_87524 1.png" alt="">
+                    </a>
+                    <div class="header__burger">
+                        <span></span>
+                    </div>
+                    <nav class="header__menu">
+                        <ul class="header__list">
+                            <li>
+                                <a href="" class="header__link">Обо мне</a>
+                            </li>
+                            <li>
+                                <a href="" class="header__link">Услуги</a>
+                            </li>
+                            <li>
+                                <a href="" class="header__link">Отзывы</a>
+                            </li>
+                            <li>
+                                <a href="" class="header__link">Карта</a>
+                            </li>
+                            <li>
+                                <a href="" class="header__link">FAQ</a>
+                            </li>
+                            <li> <div class="info">
+                                <a href="tel:+7-951-520-34-89" class="header__link phone">+7-951-520-34-89</a>
+                                <div class="town">г.Новочеркасск</div>
+                                </div>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+    </div>
+    <section class="section1">
+        <div class="image">
+            <img src="Group 115 (6).png" alt="" class="img">
+            <img src="photo_2021-04-11_22-34-48 1 (5).png" alt="" class="img">
+            
+        </div>
+        <div class="texts">
+            <div class="name__insta">
+                <div class="fedorova">Юлия Федорова</div>
+                <div class="insta__link"><img src="2362135-instagram-photo-round-social_85523 1.png" class="insta__logo"><a href="#" class="insta">fedula.pm</a> </div>
+            </div>
+            <div class="master__insta"> <div class="master">Мастер 
+                Перманентного Макияжа
+                </div>
+                <a href="" class="button">Записаться</a>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('.header__burger').click(function(event) {
+                $('.header__burger,.header__menu').toggleClass('active');
+                $('body').toggleClass('lock');
+            });
+        });
+    </script>
+</body>
+</html>

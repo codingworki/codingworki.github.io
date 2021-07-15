@@ -803,6 +803,7 @@ body {
     }
     .image__gallery {
         margin-top: 10px;
+        width: 100%;
     }
 }
 @media (max-width: 350px) {

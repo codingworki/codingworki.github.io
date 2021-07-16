@@ -780,6 +780,7 @@ body {
     }
     .image__gallery {
         margin-top: 20px;
+        margin-bottom: 50px;
     }
     .carousel-control-prev {
         display: none; 

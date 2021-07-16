@@ -263,11 +263,20 @@ body {
 .section5 {
     background-color: #212121;
 }
+
+.title__otz {
+    color: #FFA36C;
+    font-weight: 600;
+    font-size: 48px;
+    margin-top: 70px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+}
 .block {
     color: #fff;
     background-color: #C4C4C4;
     border-radius: 20px;
-    margin-top: 60px;
+    margin-top: 0px;
     margin-bottom: 30px;
     margin-left: 20px;
     width: 90%;
@@ -289,8 +298,9 @@ body {
     margin-top: -40px;
 }
 .text__otz {
+    margin-top: -10px;
     margin-left: 40px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
 }
 
 
@@ -355,6 +365,12 @@ body {
     .gallery {
         margin-top: 50px;
         font-size: 40px;
+        
+    }
+    .title__otz {
+        margin-top: 50px;
+        font-size: 40px;
+        margin-bottom: 50px;
     }
     .phone {
         padding-left: 0px;
@@ -459,6 +475,9 @@ body {
         font-size: 36px;
     }
     .gallery {
+        font-size: 36px;
+    }
+    .title__otz {
         font-size: 36px;
     }
     .header__logo img {
@@ -768,6 +787,12 @@ body {
      .carousel-control-next {
          display: none; 
       }
+      .title__otz {
+        text-align: center;
+        margin-left: 0px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+      }
       .block {
         width: 90%;
           display: block;
@@ -923,6 +948,9 @@ body {
     .gallery {
         font-size: 30px;
     }
+    .title__otz {
+        font-size: 30px;
+    }
     .icon__otz {
         margin-top: 10px;
         width: 40px;
@@ -988,6 +1016,10 @@ body {
     }
     .gallery {
         font-size: 26px;
+    }
+    .title__otz {
+        font-size: 26px;
+        margin-bottom: 10px;
     }
     .menu {
         font-size: 26px;

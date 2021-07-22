@@ -1231,6 +1231,9 @@ body {
     .menu {
         font-size: 30px;
     }
+    .title__contacts {
+        font-size: 30px;
+    }
     .gallery {
         font-size: 30px;
     }
@@ -1310,6 +1313,9 @@ body {
     .menu {
         font-size: 26px;
     }
+    .title__contacts {
+        font-size: 26px;
+    }
     .image__gallery {
         margin-top: 10px;
         width: 100%;
@@ -1355,6 +1361,12 @@ body {
     .button__window {
         width: 60%;
         height: 30px;
+    }
+    .title__contacts {
+        margin-bottom: 10px;
+    }
+    .me__contacts {
+        font-size: 12px;
     }
 }
 @media (max-width: 350px) {

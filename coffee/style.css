@@ -277,7 +277,7 @@ body {
     background-color: #414141;
     border-radius: 20px;
     margin-top: 0px;
-    margin-bottom: 30px;
+    margin-bottom: 80px;
     margin-left: 20px;
     width: 90%;
 }
@@ -288,9 +288,9 @@ body {
     margin-left: 35px;
 }
 .name {
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 500;
-    padding-left: 45px;
+    padding-left: 50px;
     padding-top: 0px;
 }
 .stars {
@@ -304,6 +304,107 @@ body {
 }
 
 
+.section6 {
+    background-image: url(foncoffee.png);
+}
+.window {
+    display: flex;
+    flex-direction: column;
+    
+}
+.title__contacts {
+    color: #FFA36C;
+    font-weight: 600;
+    font-size: 48px;
+    margin-top: 70px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+}
+.me__contacts {
+    color: white;
+    margin-left: 100px;
+    font-size: 24px;
+    width: 60%;
+    font-weight: 600;
+    
+}
+.town {
+    color: white;
+    margin-left: 100px;
+    margin-top: 40px;
+    font-size: 20px;
+}
+.email1 {
+    color: white;
+    margin-left: 100px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.number {
+    color: white;
+    margin-left: 100px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.time {
+    color: white;
+    margin-left: 100px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.title__window {
+    color: white;
+    font-weight: 700;
+    font-size: 36px;
+    margin-top: 100px;
+    margin-left: 25%;
+}
+.name__window {
+    width: 45%;
+    height: 50px;
+    padding-left: 20px;
+    font-size: 18px;
+    background-color: #545454;
+    border: none;
+    color: #BFBFBF;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 25%;
+}
+.email {
+    margin-top: 15px;
+    padding-left: 20px;
+    width: 45%;
+    height: 50px;
+    font-size: 18px;
+    background-color: #545454;
+    border: none;
+    color: #BFBFBF;
+    border-radius: 10px;
+    margin-left: 25%;
+}
+.sms {
+    margin-top: 20px;
+    width: 45%;
+    padding-left: 20px;
+    height: 50px;
+    font-size: 18px;
+    background-color: #545454;
+    border: none;
+    color: #BFBFBF;
+    border-radius: 10px;
+    margin-left: 25%;
+}
+.button__window {
+    width: 45%;
+    height: 50px;
+    border: none;
+    background-color: #FFA36C;
+    color: white;
+    margin-top: 20px;
+    border-radius: 10px ;
+    margin-left: 25%;
+}
 
 
 @media (max-width: 1522px) {
@@ -312,6 +413,21 @@ body {
     }
     .text__plus {
         margin-left: 0px;
+    }
+    .name__window {
+        width: 55%;
+    }
+    .email {
+        width: 55%;
+    }
+    .sms {
+        width: 55%;
+    }
+    .button__window {
+        width: 55%;
+    }
+    .me__contacts {
+        width: 75%;
     }
 }
 @media (max-width: 1455px) {
@@ -362,6 +478,15 @@ body {
     .menu {
         font-size: 40px;
     }
+    .title__contacts {
+        font-size: 40px;
+        margin-bottom: 20px;
+       
+    }
+    .me__contacts {
+        font-size: 18px;
+       
+    }
     .gallery {
         margin-top: 50px;
         font-size: 40px;
@@ -401,6 +526,52 @@ body {
         font-size: 14px;
         padding-right: 15px;
     }
+    .town {
+        font-size: 16px;
+        margin-top: 10px;
+        
+    }
+    .time {
+        font-size: 16px;
+        
+    }
+    .number {
+        font-size: 16px;
+      
+    }
+    .email1 {
+        font-size: 16px;
+        
+    }
+    .title__window {
+        font-size: 26px;
+        margin-top: 90px;
+        
+    }
+    .name__window {
+        width: 60%;
+        height: 12%;
+        font-size: 12px;
+        margin-top: 0px;
+    }
+    .email {
+        width: 60%;
+        height: 12%;
+        font-size: 12px;
+        margin-top: 5px;
+    }
+    .sms {
+        width: 60%;
+        height: 12%;
+        font-size: 12px;
+        margin-top: 5px;
+    }
+    .button__window {
+        width: 60%;
+        height: 12%;
+        font-size: 14px;
+        margin-top: 5px;
+       
 }
 @media (max-width: 1150px) {
     .coffee {
@@ -474,6 +645,9 @@ body {
     .menu {
         font-size: 36px;
     }
+    .title__contacts {
+        font-size: 36px;
+    }
     .gallery {
         font-size: 36px;
     }
@@ -515,6 +689,24 @@ body {
         padding-bottom: 15px;
         font-size: 12px;
         padding-right: 15px;
+    }
+    .me__contacts {
+        font-size: 14px;
+    }
+    .town {
+        font-size: 12px;
+    }
+    .number {
+        font-size: 12px;
+    }
+    .email1 {
+        font-size: 12px;
+    }
+    .time {
+        font-size: 12px;
+    }
+    .title__window {
+        font-size: 22px;
     }
 
 }
@@ -800,6 +992,9 @@ body {
           margin: auto;
           margin-top: 20px;
       }
+      .block1 {
+          margin-bottom: 70px;
+      }
       .icon__otz {
     
         margin-top: 10px;
@@ -824,6 +1019,78 @@ body {
         font-size: 14px;
         padding-right: 15px;
     }
+    .title__contacts {
+        text-align: center;
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+    .title__window {
+        text-align: center;
+        margin-left: 0px;
+     
+        margin-top: 10px;
+    }
+    .me__contacts {
+        font-size: 14px;
+        text-align: center;
+        margin-left: 0px;
+        width: auto;
+    }
+    .town {
+        font-size: 12px;
+        text-align: center;
+        margin-left: 0px;
+    }
+    .number {
+        font-size: 12px;
+        text-align: center;
+        margin-left: 0px;
+    }
+    .email1 {
+        font-size: 12px;
+        text-align: center;
+        margin-left: 0px;
+    }
+    .time {
+        font-size: 12px;
+        text-align: center;
+        margin-left: 0px;
+    }
+    .name__window {
+        height: 40px;
+        width: 40%;
+        margin-left: 0px;
+        display: block;
+        margin: auto;
+        margin-top: 0px;
+    }
+    .email {
+        width: 40%;
+        height: 40px;
+        margin-left: 0px;
+        display: block;
+        margin: auto;
+        margin-top: 10px;
+       
+    }
+    .sms {
+        height: 40px;
+        width: 40%;
+        margin-left: 0px;
+        display: block;
+        margin: auto;
+        margin-top: 10px;
+    }
+    .button__window {
+        height: 40px;
+        width: 40%;
+        margin-left: 0px;
+        display: block;
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+   
 }
 @media (max-width: 674px) {
     .white__fon {
@@ -880,7 +1147,25 @@ body {
     .section2 {
         height: 462px;
     }
-    
+    .title__window {
+        font-size: 20px;
+    }
+    .name__window {
+        width: 50%;
+        height: 35px;
+    }
+    .email {
+        width: 50%;
+        height: 35px;
+    }
+    .sms {
+        width: 50%;
+        height: 35px;
+    }
+    .button__window {
+        width: 50%;
+        height: 35px;
+    }
     
 }
 @media (max-width: 518px) {
@@ -1055,6 +1340,22 @@ body {
         font-size: 8px;
         padding-right: 15px;
     }
+    .name__window {
+        width: 60%;
+        height: 30px;
+    }
+    .email {
+        width: 60%;
+        height: 30px;
+    }
+    .sms {
+        width: 60%;
+        height: 30px;
+    }
+    .button__window {
+        width: 60%;
+        height: 30px;
+    }
 }
 @media (max-width: 350px) {
     .coffee {
@@ -1090,4 +1391,5 @@ body {
     .section2 {
         height: 395px;
     }
+}
 }

@@ -277,7 +277,7 @@ body {
     background-color: #414141;
     border-radius: 20px;
     margin-top: 0px;
-    margin-bottom: 80px;
+    margin-bottom: 30px;
     margin-left: 20px;
     width: 90%;
 }
@@ -303,6 +303,17 @@ body {
     padding-bottom: 20px;
 }
 
+.button__otz {
+    width: 20%;
+    height: 50px;
+    border: none;
+    background-color: #FFA36C;
+    color: white;
+    margin-top: 20px;
+    border-radius: 10px ;
+    margin-left: 3%;
+    margin-bottom: 50px;
+}
 
 .section6 {
     background-image: url(foncoffee.png);
@@ -596,7 +607,11 @@ body {
         height: 12%;
         font-size: 14px;
         margin-top: 5px;
-       
+    }
+    .button__otz {
+        font-size: 14px;
+        width: 25%;
+    }
 }
 @media (max-width: 1150px) {
     .coffee {
@@ -1032,7 +1047,7 @@ body {
           margin-top: 20px;
       }
       .block1 {
-          margin-bottom: 70px;
+          margin-bottom: 30px;
       }
       .icon__otz {
     
@@ -1057,6 +1072,15 @@ body {
         padding-bottom: 15px;
         font-size: 14px;
         padding-right: 15px;
+    }
+    .button__otz {
+        height: 50px;
+        width: 40%;
+        margin-left: 0px;
+        display: block;
+        margin: auto;
+        margin-top: 0px;
+        margin-bottom: 55px;
     }
     .title__contacts {
         text-align: center;
@@ -1305,6 +1329,16 @@ body {
         font-size: 8px;
         padding-right: 15px;
     }
+    .button__otz {
+        height: 35px;
+        width: 45%;
+        margin-left: 0px;
+        display: block;
+        margin: auto;
+        font-size: 12px;
+        margin-top: 0px;
+        margin-bottom: 55px;
+    }
 }
 @media (max-width: 414px) {
     .coffee {
@@ -1400,6 +1434,7 @@ body {
     .button__window {
         width: 60%;
         height: 30px;
+        font-size: 12px;
     }
     .title__contacts {
         margin-bottom: 10px;
@@ -1442,5 +1477,4 @@ body {
     .section2 {
         height: 395px;
     }
-}
 }

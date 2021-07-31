@@ -407,6 +407,30 @@ body {
 }
 
 
+@media (max-width: 1600px) {
+    .text__nas {
+        font-size: 18px;
+        margin-left: 50px;
+    }
+    .line {
+        margin-left: 50px;
+    }
+    .nas {
+        margin-left: 50px;
+    }
+    .text__zerna {
+        font-size: 18px;
+    }
+    .text__zerna1 {
+        font-size: 18px;
+    }
+    .text__zerna2 {
+        font-size: 18px;
+    }
+    .text__plus {
+        margin-top: 165px;
+    }
+}
 @media (max-width: 1522px) {
     .line2 {
         margin-left: 50px;
@@ -429,6 +453,7 @@ body {
     .me__contacts {
         width: 75%;
     }
+    
 }
 @media (max-width: 1455px) {
     .coffee {
@@ -660,6 +685,7 @@ body {
     }
     .header__link {
         font-size: 12px;
+       
         
     }
     .header__list li, .header__list a{
@@ -761,8 +787,15 @@ body {
     }
     .header__body{
         height: 50px;
+        text-align: center;
+        margin-left: 0px;
+       
       }
-    
+    .header__link {
+        font-size: 20px;
+        justify-content: center;
+        
+    }
       .header__logo{
         flex: 0 0 60px;
       }
@@ -825,7 +858,7 @@ body {
         width: 100%;
         height: 100%;
         transition: all 0.3s ease 0s;
-        background-color: black;
+        background-color: rgba(21, 21, 21, 0.728);
         padding: 70px 10px 20px 10px;
       }
     
@@ -835,10 +868,16 @@ body {
     
       .header__list{
         display: block;
+        padding-left: 0px;
       }
-    
+    .header__list a {
+        margin-left: 0px;
+    }
       .header__list li{
         margin-bottom: 0px 0px 20px 0px;
+        margin-left: 0px;
+        padding-left: 0px;
+        text-align: center;
       }
     
       .nav__button{

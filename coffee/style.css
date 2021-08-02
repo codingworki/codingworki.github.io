@@ -1371,7 +1371,7 @@ body {
         width: 200px;
         height: 30px;
         font-size: 12px;
-        margin-top: 5px;
+        margin-top: 10px;
     }
     .nas {
         font-size: 26px;
@@ -1380,7 +1380,7 @@ body {
         font-size: 12px;
     }
     .image {
-        margin-bottom: 70px;
+        margin-bottom: 65px;
     }
     
 }

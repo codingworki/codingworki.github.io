@@ -654,8 +654,12 @@ body {
 }
 
 @media (max-width: 430px) {
+  .title {
+    margin-top: 20px;
+  }
   .digital {
     font-size: 42px;
+    
   }
   .book {
     font-size: 42px;
@@ -664,18 +668,26 @@ body {
     font-size: 12px;
   }
   .proga {
-    font-size: 18px;
+    font-size: 20px;
   }
   .button__title {
     width: 200px;
-    height: 30px;
-    font-size: 14px;
+    height: 40px;
+    font-size: 18px;
+    margin-top: 0px;
+  }
+  .text__info {
+    margin-top: 40px;
   }
   .practice {
+    margin-left: 10px;
     font-size: 14px;
   }
   .text__obook {
     font-size: 12px;
+  }
+  .img__book {
+    width: 80%;
   }
   .o__book {
     font-size: 36px;

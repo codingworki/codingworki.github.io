@@ -1,0 +1,688 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+.header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 50;
+    background-color: #183253;
+  }
+  
+  .header:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+  }
+  .header__body{
+    position: relative;
+    display: flex;
+   justify-content: space-between;
+    height: 70px;
+    align-items: center;
+  }
+  
+  .header__logo{
+    flex: 0 0 100px;
+   
+    position: relative;
+    z-index: 3;
+  }
+  
+  .header__logo img{
+    max-width: 200%;
+    display: block;
+  }
+  
+  .header__burger{
+    display: none;
+  }
+  .header__list{
+    display: flex;
+    position: relative;
+    align-items: center;
+    z-index: 2;
+    margin-top: 15px;
+    margin-left: 100px;
+  }
+  
+  .header__list li, .header__list a{
+    list-style: none;
+    margin: 0px 0px 0px 20px;
+  }
+  
+  .header__link{
+    font-family: Raleway;
+    font-style: normal;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all .2s linear;
+    
+  }
+  .header__link:hover{
+    font-weight: 600;
+    color: #FFA36C;
+    transition: all .2s linear;
+  }
+  .button {
+      width: 200px;
+      border: none;
+      border-radius: 40px;
+      background-color: #70BDE9;
+      color: white;
+      height: 40px;
+      box-sizing: border-box;
+      font-size: 18px;
+      font-weight: 600;
+      margin-left: 50px;
+  }
+
+
+
+  .section1 {
+    background: linear-gradient(360deg, #FFFFFF, #7DD0FF)
+  }
+  .title {
+    margin-top: 300px;
+    margin-left: 200px;
+  }
+  .digital {
+      color: #ECBC00;
+      font-size: 120px;
+      font-weight: 900;
+     
+  }
+  .book {
+    color: white;
+    font-size: 120px;
+    font-weight: 900;
+  }
+  .middle {
+      font-size: 24px;
+      color: #ECBC00;
+  }
+  .proga {
+      color: white;
+      font-size: 44px;
+      margin-top: -50px;
+      margin-left: 200px;
+  }
+  .button__title {
+    width: 300px;
+    height: 50px;
+    color: white;
+    font-size: 18px;
+    background-color: #ECBC00;
+    border: none;
+    border-radius: 40px;
+    margin-bottom: 40px;
+    margin-left: 200px;
+  }
+  .text__info {
+      display: flex;
+      flex-direction: row;
+      margin-left: 200px;
+      color: #183253;
+      font-family: 'Montserrat', sans-serif;
+  }
+  .practice {
+    text-align: center;
+    margin-left: 20px;
+    font-style: italic;
+    font-size: 24px;
+    margin-bottom: 100px;
+  }
+  .practice1 {
+      margin-top: -10px;
+  }
+  .img__book {
+      margin-top: 300px;
+      width: 90%;
+      margin-bottom: 150px;
+  }
+
+
+
+
+  .section2 {
+    background-color: #fff;
+  }
+  .img__obook {
+    margin-left: 200px;
+    margin-top: 30px;
+    width: 70%;
+  }
+  .o__book {
+    font-size: 44px;
+    font-weight: 900;
+    margin-top: 100px;
+  }
+  .text__obook {
+    font-size: 24px;
+    color: black;
+    width: 800px;
+  }
+  .button__obook {
+    width: 350px;
+    height: 50px;
+    border: none;
+    border-radius: 20px;
+    background-color: #D7AB00;
+    color: white;
+    font-size: 18px;
+    margin-bottom: 100px;
+  }
+
+@media (max-width: 1820px) {
+  .title {
+    margin-top: 200px;
+  }
+  .digital {
+    font-size: 100px;
+  }
+  .book {
+    font-size: 100px;
+  }
+  .img__book {
+    width: 85%;
+    margin-top: 210px;
+  }
+  .practice {
+    font-size: 18px;
+  }
+  .img__obook {
+    margin-left: 200px;
+  }
+  .text__obook {
+   font-size: 18px; 
+    width: 600px;
+  }
+  .o__book {
+    margin-top: 100px;
+  }
+  
+}
+
+@media (max-width: 1545px) {
+  .digital {
+    font-size: 80px;
+  }
+  .book {
+    font-size: 80px;
+  }
+  .button__title {
+    width: 300px;
+  }
+  .practice {
+    font-size: 14px;
+    margin-top: -10px;
+  }
+  .practice1 {
+    margin-top: -5px;
+  }
+  .proga {
+    margin-top: -35px;
+    font-size: 36px;
+  }
+  .img__book {
+    margin-top: 190px;
+  }
+  .text__obook {
+    font-size: 16px; 
+     width: 600px;
+   }
+   .o__book {
+     font-size: 36px;
+     margin-top: 100px;
+   }
+   .button__obook {
+     width: 250px;
+     font-size: 16px;
+     height: 40px;
+   }
+}
+
+@media (max-width: 1415px) {
+    .header__link {
+        font-size: 14px;
+    }
+    .button {
+        width: 150px;
+        height: 30px;
+        font-size: 14px;
+    }
+    
+    .header__logo {
+        flex: 0 0 80px;
+    }
+    .img__book {
+      margin-top: 220px;
+    }
+    .text__obook {
+      font-size: 14px; 
+       width: 500px;
+     }
+     .o__book {
+       margin-top: 100px;
+     }
+}
+
+@media (max-width: 1340px) {
+    .digital {
+      font-size: 72px;
+    }
+    .title {
+      margin-top: 150px;
+    }
+    .book {
+      font-size: 72px;
+    }
+    .proga {
+      font-size: 24px;
+      margin-top: -30px;
+    }
+    .button__title {
+      height: 40px;
+      width: 300px;
+      font-size: 18px;
+    }
+    .practice {
+      margin-top: -10px;
+      font-size: 14px;
+    }
+    .img__book {
+      margin-top: 140px;
+    }
+    .o__book {
+      margin-top: 80px;
+    }
+}
+
+@media (max-width: 1230px) {
+  .title {
+    margin-left: 100px;
+  }
+  .proga {
+    margin-left: 100px;
+  }
+  .button__title {
+    margin-left: 100px;
+  }
+  .text__info {
+    margin-left: 100px;
+  }
+  .img__book {
+    margin-top: 170px;
+  }
+  .text__obook {
+    width: 400px;
+  }
+  .o__book {
+    margin-top: 60px;
+    font-size: 28px;
+  }
+  .button__obook {
+    width: 200px;
+    font-size: 12px;
+  }
+  .img__obook {
+    width: 78%;
+  }
+}
+
+@media (max-width: 1192px) {
+    .header__link {
+        font-size: 12px;
+    }
+    .header__list li, .header__list a{
+        list-style: none;
+        margin: 0px 0px 0px 10px;
+      }
+    .button {
+        width: 120px;
+        height: 25px;
+        font-size: 12px;
+    }
+    .img__book {
+      width: 85%;
+      margin-top: 170px;
+    }
+}
+@media (max-width: 1055px) {
+  .title {
+    margin-left: 50px;
+  }
+  .digital {
+    font-size: 56px;
+  }
+  .book {
+    font-size: 56px;
+  }
+  .middle {
+    font-size: 16px;
+  }
+  .proga {
+    font-size: 22px;
+    margin-left: 50px;
+  }
+  .button__title {
+    width: 200px;
+    height: 30px;
+    font-size: 14px;
+    margin-top: -30px;
+    margin-left: 50px;
+  }
+  .text__info {
+    margin-left: 40px;
+    margin-top: -10px;
+  }
+  .practice {
+    font-size: 12px;
+    margin-left: 20px;
+  }
+  .practice1 {
+    margin-top: -5px;
+  }
+  .img__book {
+    width: 85%;
+    margin-top: 160px;
+  }
+  .text__obook {
+    font-size: 12px;
+  }
+  .o__book {
+    font-size: 24px;
+    margin-top: 80px;
+  }
+  .button__obook {
+    width: 150px;
+    height: 30px;
+    font-size: 10px;
+  }
+}
+@media (max-width: 990px) {
+    .header__list {
+        margin-left: 50px;
+    }
+    .header__logo {
+        flex: 0 0 60px;
+    }
+    .header__link {
+        font-size: 10px;
+    }
+    .header__list li, .header__list a{
+        list-style: none;
+        margin: 0px 0px 0px 5px;
+      }
+    .button {
+        width: 100px;
+        height: 20px;
+        font-size: 10px;
+    }
+    .img__book {
+      width: 85%;
+      margin-top: 170px;
+    }
+    .img__obook {
+      margin-left: 100px;
+    }
+    .o__book {
+     margin-top: 60px;
+    }
+    .text__obook {
+      font-size: 10px;
+      width: 320px;
+    }
+}
+
+  @media (max-width: 768px) {
+    .header__logo img {
+        max-width: 200%;
+        margin-left: 0px;
+    }
+    .header__body{
+        height: 50px;
+        text-align: center;
+        margin-left: 0px;
+       
+      }
+    .header__link {
+        font-size: 20px;
+        justify-content: center;
+        
+    }
+      .header__logo{
+        flex: 0 0 60px;
+      }
+    
+      .header__burger{
+        display: block;
+        position: relative;
+        width: 30px;
+        height: 20px;
+        z-index: 3;
+      }
+    
+      .header__burger:before, 
+      .header__burger:after{
+        content: '';
+        background-color: #fff;
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        left: 0;
+        transition: all 0.3s ease 0s;
+      }
+    
+      .header__burger span{
+        position: absolute;
+        background-color: #fff;
+        left: 0;
+        width: 100%;
+        height: 2px;
+        top: 9px;
+        transition: all 0.3s ease 0s;
+      }
+    
+      .header__burger:before{
+        top: 0;
+      }
+    
+      .header__burger:after{
+        bottom: 0;
+      }
+    
+      .header__burger.active span{
+        transform: scale(0);
+      }
+    
+      .header__burger.active:before{
+        transform: rotate(45deg);
+        top: 9px;
+      }
+    
+      .header__burger.active:after{
+        transform: rotate(-45deg);
+        bottom: 9px;
+      }
+    
+      .header__menu{
+        position: fixed;
+        top: -100%;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        transition: all 0.3s ease 0s;
+        background-color: rgba(24, 50, 83, 0.728);
+        padding: 70px 10px 20px 10px;
+      }
+    
+      .header__menu.active{
+        top: 0;
+      }
+    
+      .header__list{
+        display: block;
+        padding-left: 0px;
+        margin-left: 0px;
+      }
+    .header__list a {
+        margin-left: 0px;
+    }
+      .header__list li{
+        margin-bottom: 0px 0px 20px 0px;
+        margin-left: 0px;
+        padding-left: 0px;
+        margin-top: 10px;
+        text-align: center;
+      }
+    
+      .nav__button{
+        font-size: 16px;
+      }
+    .button {
+        width: 200px;
+        height: 40px;
+        font-size: 16px;
+        margin-left: 0px;
+    }
+    .books {
+      display: flex;
+      flex-direction: column-reverse;
+    }
+    .img__book {
+      width: 70%;
+      display: block;
+      margin: auto;
+      margin-top: 100px;
+      margin-bottom: 0px;
+    }
+    .title {
+      text-align: center;
+      margin-left: 0px;
+      margin-top: 0px;
+    }
+    .digital {
+      font-size: 74px;
+    }
+    .book {
+      font-size: 74px;
+    }
+    .proga {
+      font-size: 36px;
+      text-align: center;
+      margin-left: 0px;
+    }
+    .button__title {
+      width: 300px;
+      height: 40px;
+      font-size: 24px;
+      display: block;
+      margin: auto;
+    }
+    .text__info {
+      justify-content: center;
+      margin-left: 0px;
+      margin-top: 30px;
+    }
+    .practice {
+      font-size: 18px;
+    }
+    .o__book {
+      text-align: center;
+      margin-left: 0px;
+      margin-top: 0px;
+      font-size: 54px;
+    }
+    .img__obook {
+      margin-left: 0px;
+      display: block;
+      margin: auto;
+    }
+    .text__obook {
+      font-size: 18px;
+      width: auto;
+      text-align: center;
+    }
+    .button__obook {
+       width: 350px;
+       height: 50px;
+       font-size: 24px;
+       display: block;
+       margin: auto;
+    }
+    }
+
+@media (max-width: 564px) {
+  .digital {
+    font-size: 48px;
+  }
+  .book {
+    font-size: 48px;
+  }
+  .proga {
+    margin-top: -25px;
+    font-size: 24px;
+  }
+  .button__title {
+    width: 200px;
+    font-size: 16px;
+    height: 30px;
+    margin-top: -10px;
+  }
+  .practice {
+    font-size: 14px;
+  }
+  .o__book {
+    font-size: 48px;
+  }
+  .button__obook {
+    width: 250px;
+    font-size: 16px;
+    height: 40px;
+  }
+}
+
+@media (max-width: 430px) {
+  .digital {
+    font-size: 36px;
+  }
+  .book {
+    font-size: 36px;
+  }
+  .middle {
+    font-size: 12px;
+  }
+  .proga {
+    font-size: 18px;
+  }
+  .button__title {
+    width: 150px;
+    height: 25px;
+    font-size: 12px;
+  }
+  .practice {
+    font-size: 10px;
+  }
+  .text__obook {
+    font-size: 12px;
+  }
+  .o__book {
+    font-size: 36px;
+  }
+  .button__obook  {
+    width: 180px;
+    height: 25px;
+    font-size: 12px;
+  }
+}

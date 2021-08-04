@@ -212,11 +212,13 @@ body {
     font-weight: 600;
     font-size: 18px;
     margin-top: 50px;
+    font-weight: 700;
   }
   .content__text {
     margin-top: 105px;
     font-weight: 600;
     font-size: 18px;
+    font-weight: 700;
   }
   .button__content {
     border: 2px solid #FFCB00;
@@ -231,6 +233,23 @@ body {
     height: 50px;
     font-weight: 600;
   }
+
+
+
+  .title__why {
+    font-size: 44px;
+    text-align: center;
+    font-weight: 900;
+    margin-top: 100px;
+    margin-bottom: 50px;
+  }
+  .img__why {
+    display: block;
+    margin: auto;
+    width: 90%;
+    
+  }
+ 
 
 
 
@@ -302,6 +321,9 @@ body {
      height: 40px;
    }
    .title__content {
+     font-size: 36px;
+   }
+   .title__why {
      font-size: 36px;
    }
    .text__content1 {
@@ -409,6 +431,9 @@ body {
   .title__content {
     font-size: 28px;
   }
+  .title__why {
+    font-size: 28px;
+  }
   .button__obook {
     width: 200px;
     font-size: 12px;
@@ -494,6 +519,9 @@ body {
   .title__content {
     font-size: 24px;
     padding-top: 30px;
+  }
+  .title__why {
+    font-size: 24px;
   }
   .content__text1 {
     margin-top: 30px;
@@ -740,6 +768,9 @@ body {
       margin-left: 0px;
       font-size: 54px;
     }
+    .title__why {
+      font-size: 54px;
+    }
     .content__text1 {
       margin-left: 0px;
       text-align: center;
@@ -791,6 +822,9 @@ body {
     height: 40px;
   }
   .title__content {
+    font-size: 48px;
+  }
+  .title__why {
     font-size: 48px;
   }
   .content__text1 {
@@ -856,6 +890,9 @@ body {
     height: 30px;
   }
   .title__content {
+    font-size: 36px;
+  }
+  .title__why {
     font-size: 36px;
   }
   .content__text1 {

@@ -247,10 +247,47 @@ body {
     display: block;
     margin: auto;
     width: 90%;
-    
+    margin-bottom: 100px;
   }
  
 
+  .section5 {
+    background-color: #94D8FF;
+  }
+  .title__otz {
+    color: white;
+    text-align: center;
+    font-size: 44px;
+    font-weight: 900;
+    margin-top: 50px;
+  }
+  .otz {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+  }
+  .image__otz {
+    width: 8%;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+  }
+  .line {
+    width: 15%;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+  }
+  .text__otz {
+    font-size: 18px;
+    width: 60%;
+    color: white;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 100px;
+  }
 
 
 @media (max-width: 1820px) {
@@ -864,16 +901,18 @@ body {
   }
   .text__info {
     margin-top: 40px;
+    margin-bottom: 90px;
   }
   .practice {
     margin-left: 10px;
     font-size: 14px;
+   
   }
   .text__obook {
     font-size: 12px;
   }
   .img__book {
-    width: 80%;
+    width: 90%;
   }
   .o__book {
     font-size: 36px;

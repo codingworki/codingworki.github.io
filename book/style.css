@@ -205,7 +205,7 @@ body {
     display: block;
     margin: auto;
     margin-top: 100px;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
   }
   .content__text1 {
     margin-left: 150px;
@@ -325,6 +325,7 @@ body {
    }
    .title__why {
      font-size: 36px;
+     margin-top: 50px;
    }
    .text__content1 {
     font-size: 16px;
@@ -781,6 +782,9 @@ body {
       text-align: center;
       margin-top: 10px;
       font-size: 18px;
+    }
+    .img__why {
+      margin-bottom: 20px;
     }
     }
 

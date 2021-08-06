@@ -1005,21 +1005,23 @@ font-size: 16px;
     .form {
       display: block;
       margin: auto;
-      height: 320px;
+      height: 370px;
       margin-bottom: 100px;
+    width: 90%;
     }
     .text__order {
-      font-size: 18px;
+      font-size: 24px;
       padding-top: 30px;
+      margin-bottom: 0px;
     }
     .name__order {
       
-      padding: 10px;
+      padding: 15px;
     }
-    ::-webkit-input-placeholder { font-size: 16px;}
+    ::-webkit-input-placeholder { font-size: 22px;}
 
     .button__order {
-      font-size: 16px;
+      font-size: 24px;
       
     }
     }
@@ -1082,9 +1084,9 @@ font-size: 16px;
   .text__otz {
     font-size: 16px;
   }
-  ::-webkit-input-placeholder { font-size: 12px;}
+  ::-webkit-input-placeholder { font-size: 16px;}
   .text__order  {
-    font-size: 14px;
+    font-size: 18px;
   }
   .name__order {
   padding: 5px;
@@ -1161,7 +1163,7 @@ font-size: 16px;
     font-size: 36px;
   }
   .title__order {
-    font-size: 36px;
+    font-size: 28px;
    }
   .title__otz {
     font-size: 36px;
@@ -1175,18 +1177,18 @@ font-size: 16px;
   .text__otz {
     font-size: 12px;
   }
-  ::-webkit-input-placeholder { font-size: 10px;}
+  ::-webkit-input-placeholder { font-size: 14px;}
   .text__order {
-    font-size: 12px;
+    font-size: 16px;
   }
   .name__order {
-    padding: 2px;
+    padding: 5px;
     padding-left: 10px;
   }
   .button__order {
-    font-size: 12px;
+    font-size: 16px;
   }
   .form {
-    height: 250px;
+    height: 280px;
   }
 }

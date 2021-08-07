@@ -457,7 +457,7 @@ color: white;
     }
 
     .acc {
-      margin-bottom: 50px;
+      margin-bottom: 100px;
     }
     .footer {
       background-color: #183253;
@@ -854,7 +854,7 @@ color: white;
    }
   .o__book {
     font-size: 24px;
-    margin-top: 80px;
+    margin-top: 50px;
   }
   .img__obook {
     margin-left: 50px;
@@ -874,10 +874,15 @@ color: white;
   }
   .title__why {
     font-size: 24px;
+    
+  }
+  .form {
+    margin-top: 50px;
+    margin-bottom: 50px;
   }
   .title__order {
     font-size: 24px;
-    margin-top: 130px;
+    margin-top: 50px;
    }
    .accordeon__title {
     font-size: 14px;
@@ -887,6 +892,7 @@ color: white;
   }
    .faq {
      font-size: 24px;
+     margin-top: 50px;
    }
    .digital__footer {
     font-size: 24px;   
@@ -899,6 +905,7 @@ color: white;
    }
    .title__avtor {
     font-size: 24px;
+    margin-top: 50px;
   }
   .content__text1 {
     margin-top: 30px;
@@ -936,6 +943,15 @@ color: white;
   ::-webkit-input-placeholder { font-size: 12px;}
   .image__avtor {
     margin-top: 160px;
+  }
+  .oleg {
+    margin-top: -50px;
+  }
+  .acc {
+    margin-bottom: 50px;
+  }
+  .img__why {
+    margin-bottom: 50px;
   }
 }
 @media (max-width: 990px) {
@@ -986,7 +1002,7 @@ color: white;
       margin-left: 140px;
     }
     .image__avtor {
-      width: 15%;
+      width: 20%;
       margin-top: 160px;
     }
     .name__oleg {
@@ -1484,13 +1500,15 @@ color: white;
   }
   .button__obook  {
     width: 200px;
-    height: 30px;
+    height: 40px;
     font-size: 14px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
   }
   .content {
     width: 300px;
     height: 480px;
+    margin-top: 50px;
+    margin-bottom: 50px;
   }
   .button__content {
     width: 200px;
@@ -1548,15 +1566,24 @@ color: white;
     height: 280px;
   }
   .oleg {
-    margin-top: -700px;
+    margin-top: -650px;
   }
   .text__avtor {
     margin-top: 220px;
   }
+  .text__otz {
+    margin-bottom: 50px;
+  }
+  .image__why {
+    margin-bottom: 50px;
+  }
+  .text__avtor {
+    margin-bottom: 50px;
+  }
 }
 @media (max-width: 386px) {
   .oleg {
-    margin-top: -710px;
+    margin-top: -660px;
   }
   .text__avtor {
     margin-top: 200px;

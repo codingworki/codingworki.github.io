@@ -459,7 +459,24 @@ color: white;
     .acc {
       margin-bottom: 50px;
     }
-
+    .footer {
+      background-color: #183253;
+    }
+    .title__footer {
+      margin-top: 10px;
+      text-align: center;
+    }
+    .digital__footer {
+        color: #ECBC00;
+        font-size: 44px;
+        font-weight: 900;
+       
+    }
+    .book__footer {
+      color: white;
+      font-size: 44px;
+      font-weight: 900;
+    }
 
 
 
@@ -548,6 +565,12 @@ color: white;
    .faq {
      font-size: 36px;
    }
+   .digital__footer {
+    font-size: 36px;   
+}
+.book__footer {
+  font-size: 36px;
+}
    .title__otz {
     font-size: 36px;
    }
@@ -717,6 +740,12 @@ color: white;
    .faq {
      font-size: 28px;
    }
+   .digital__footer {
+    font-size: 28px;   
+}
+.book__footer {
+  font-size: 28px;
+}
    .image__order {
      margin-left: 220px;
    }
@@ -859,6 +888,12 @@ color: white;
    .faq {
      font-size: 24px;
    }
+   .digital__footer {
+    font-size: 24px;   
+}
+.book__footer {
+  font-size: 24px;
+}
   .title__otz {
     font-size: 24px;
    }
@@ -1168,6 +1203,12 @@ color: white;
      .faq {
        font-size: 54px;
      }
+     .digital__footer {
+      font-size: 54px;   
+  }
+  .book__footer {
+    font-size: 54px;
+  }
     .title__otz {
       font-size: 54px;
      }
@@ -1332,6 +1373,12 @@ color: white;
    .faq {
      font-size: 42px;
    }
+   .digital__footer {
+    font-size: 42px;   
+}
+.book__footer {
+  font-size: 42px;
+}
    .accordeon__title {
     font-size: 14px;
   }
@@ -1462,6 +1509,12 @@ color: white;
    .faq {
      font-size: 28px;
    }
+   .digital__footer {
+    font-size: 28px;   
+}
+.book__footer {
+  font-size: 28px;
+}
   .title__otz {
     font-size: 36px;
    }

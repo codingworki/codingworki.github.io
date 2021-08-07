@@ -267,6 +267,43 @@ III. Приложения ......................................................
         </div>
       </section>
 
+      <section class="section8">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-12">
+              <h1 class="faq">Часто задаваемые вопросы </h1>
+             
+
+              <div class="accordeon__item">
+                <div class="accordion">
+                  <div class="accordeon__title">Что если я совсем не разбираюсь в теме? <span class="sp"></span></div>
+                </div>
+                <div class="panel">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+              </div>
+              <div class="accordeon__item">
+                <div class="accordion">
+                  <div class="accordeon__title">Что если я совсем не разбираюсь в теме? <span class="sp"></span></div>
+                </div>
+                <div class="panel">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+              </div>
+              <div class="accordeon__item acc">
+                <div class="accordion">
+                  <div class="accordeon__title">Что если я совсем не разбираюсь в теме? <span class="sp"></span></div>
+                </div>
+                <div class="panel">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </section>
+
 
 
       <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
@@ -281,6 +318,21 @@ III. Приложения ......................................................
                 $('.header__burger,.header__menu').removeClass('active');
             });
         });
+
+
+        var acc = document.getElementsByClassName("accordion");
+var i;
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    }
+  });
+}
     </script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>

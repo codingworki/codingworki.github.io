@@ -441,7 +441,7 @@ color: white;
     border-radius: 10px;
     width: 48%;
     min-height: 75px;
- 
+
     cursor: pointer;
     padding: 18px;
     transition: 0.4s; 
@@ -454,6 +454,7 @@ color: white;
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
+    font-size: 16px;
     
     }
     .accordeon__title span:before{
@@ -778,6 +779,10 @@ color: white;
   .text__order {
     font-size: 14px;
     margin-top: 30px;
+   
+  }
+  .panel {
+    font-size: 14px;
   }
   .button__order {
     padding: 8px;
@@ -955,6 +960,9 @@ color: white;
   .text__order {
     font-size: 12px;
     margin-top: 30px;
+  }
+  .panel {
+    font-size: 12px;
   }
   .button__order {
     padding: 5px;
@@ -1312,6 +1320,9 @@ color: white;
       padding-top: 30px;
       margin-bottom: 0px;
     }
+    .panel {
+      font-size: 24px;
+    }
     .name__order {
       
       padding: 15px;
@@ -1449,6 +1460,9 @@ color: white;
   .text__order  {
     font-size: 18px;
   }
+  .panel {
+    font-size: 18px;
+  }
   .name__order {
   padding: 5px;
   padding-left: 10px;
@@ -1578,6 +1592,9 @@ color: white;
   }
   ::-webkit-input-placeholder { font-size: 14px;}
   .text__order {
+    font-size: 16px;
+  }
+  .panel {
     font-size: 16px;
   }
   .name__order {

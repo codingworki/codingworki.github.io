@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+  
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -173,7 +174,7 @@ III. Приложения ......................................................
               <img src="Group 40 (1).png" alt="" class="img__why">
             </div>
             <div class="col-md-4">
-              <img src="Group 41 (1).png" alt="" class="img__why">
+              <img src="Group 41 (1).png" alt="" class="img__why image__why">
             </div>
           </div>
         </div>
@@ -236,12 +237,12 @@ III. Приложения ......................................................
               <img class="image__order" src="book1.png" alt="">
             </div>
             <div class="col-md-6">
-              <form class="form" action="">
+              <form class="form" action="https://codologia.intermir.ru/php/feadback__digitalbook__middle.php" method="POST">
                 <p class="text__order">*Для заказа заполните форму ниже</p>
-                <input class="name__order" type="text" placeholder="Имя">
-                <input class="name__order" type="text" placeholder="Номер телефона">
-                <input class="name__order" type="text" placeholder="Почта">
-                <button class="button__order">Заказать</button>
+                <input class="name__order" name="name" type="text" placeholder="Имя" required>
+                <input class="name__order" id="phone" name="phone" placeholder="Номер телефона"  required>
+                <input class="name__order" name="email" type="text" placeholder="Почта" required>
+                <button class="button__order" type="submit">Заказать</button>
               </form>
             </div>
           </div>
@@ -314,9 +315,14 @@ III. Приложения ......................................................
         </div>
        
       </footer>
+     
+
 
       <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+      <script src="dist/jquery.maskedinput.min.js"></script>
     <script>
+       $("#phone").mask("+7 (999) 999-99-99");
+
       $(document).ready(function() {
         $('.header__burger').click(function(event) {
           $('.header__burger,.header__menu').toggleClass('active');

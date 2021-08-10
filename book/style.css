@@ -344,22 +344,26 @@ body {
     border-radius: 50px;
     padding: 10px;
     padding-left: 20px;
-    background-color: #FFCB00;
-    color: white;
+    background-color: rgba(255, 255, 255, 0.712);
+    color:rgb(32, 32, 32);
     outline: none;
     
   }
+  .name__order:hover {
+    width: 65%;
+    padding: 12px;
+    transition: all .3s linear;
+  }
 
-  ::-webkit-input-placeholder {color:white; font-size: 16px;}
-
-
+  ::-webkit-input-placeholder {color:rgb(32, 32, 32); font-size: 16px;}
+  
 
   .button__order {
     width: 40%;
     display:block;
 margin:0 auto;
 border: 2px solid white;
-color: white;
+color:rgb(32, 32, 32);
 border-radius: 50px;
 background-color: #FFCB00;
 padding: 10px;
@@ -368,8 +372,10 @@ margin-bottom: 50px;
 font-size: 16px;
   }
   .button__order:hover {
-    opacity: 90%;
-    background-color:white;
+    width: 45%;
+    padding: 12px;
+    opacity: 100%;
+    background-color: rgba(255, 255, 255, 0.712);
     color: black;
      transition: all .2s linear;
    }

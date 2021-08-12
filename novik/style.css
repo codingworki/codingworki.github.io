@@ -1,0 +1,383 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    box-sizing: border-box;
+}
+ .container {
+    max-width: 1380px;
+    margin: 0px auto;
+    padding: 0px 10px;
+  }
+ 
+.header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 50;
+    background-color: #fff;
+    
+  }
+  
+  .header:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+  }
+  .header__body{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+  }
+  
+  .header__menu {
+      width: 100%;
+      
+  }
+
+  .header__burger{
+    display: none;
+  }
+  .header__list{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    z-index: 2;
+    margin-top: 30px;
+    padding: 0%;
+   
+  }
+  
+  .header__list li, .header__list a{
+    list-style: none;
+   
+  }
+  
+  .header__link{
+    font-family: Raleway;
+    font-style: normal;
+    color: rgba(130, 130, 130, 1);
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all .2s linear;
+    justify-content: space-between;
+    
+  }
+  .header__link:hover{
+    font-weight: 600;
+    color: black;
+    transition: all .2s linear;
+  }
+  .header__line {
+    margin-top: 30px;
+    width: 100%;
+    border: 1px solid #828282;
+    
+  }
+
+
+
+
+
+
+  .title {
+      display: flex;
+      flex-direction: row;
+      margin-top: 100px;
+      justify-content: space-between;
+     
+  }
+  .name {
+      font-size: 47px;
+      margin-left: 60px;
+  }
+  .design {
+      font-size: 18px;
+      margin-top: 110px;
+      
+  }
+  .lang {
+    transform: rotate(-90deg);
+    font-size: 16px;
+    margin-top: 60px;
+    margin-right: 10px;
+  }
+  .image__novik {
+      width: 100%;
+      display: block;
+      margin: 0 auto;
+      
+  }
+
+  .section2 {
+    background-color: #F6F6F6;
+    margin-top: 100px;
+  }
+  .about {
+    text-align: center;
+    padding-top: 100px;
+    font-size: 34px;
+    font-weight: 700;
+  }
+  .about__text {
+    text-align: center;
+  padding-top: 17px;
+  padding-bottom: 100px;
+  font-size: 18px;
+  }
+
+  .skills {
+    text-align: center;
+    margin-top: 90px;
+    font-size: 34px;
+    font-weight: 700;
+  }
+  .skills__text {
+    text-align: center;
+    margin-top: 70px;
+    font-size: 18px;
+    font-weight: 200;
+  }
+  .icons {
+    margin-top: 80px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .photoshop {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .ps__text {
+    text-align: center;
+    margin-top: 20px;
+    font-style: 14px;
+    font-weight: 700;
+    color: #828282;
+  }
+  .image__ps {
+    margin-top: 40px;
+    margin-bottom: 100px;
+  }
+
+
+
+  .section4 {
+    background-color: #F6F6F6;
+  }
+  .portfolio__title {
+    text-align: center;
+    font-size: 34px;
+    font-weight: 700;
+    padding-top: 100px;
+  }
+  .portfolio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .portfolio__text {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 18px;
+  }
+  .reebok {
+    padding-top: 100px;
+  }
+  .levis {
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+    margin-top: 47px;
+  }
+  .braun {
+    padding-bottom: 100px;
+  }
+  .contacts__title {
+    text-align: center;
+    font-size: 34px;
+    font-weight: 700;
+    margin-top: 100px;
+  }
+  .contacts__text {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .button__contacts {
+    display: block;
+    margin: 0 auto;
+    width: 180px;
+    height: 42px;
+    background-color: black;
+    border-radius: 20px;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 30px;
+  }
+  
+  .icons__footer {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+  }
+  .image__contacts {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .text__footer {
+    text-align: center;
+    margin-top: 45px;
+    margin-bottom: 100px;
+    color: #828282;
+  }
+
+
+
+
+  @media (max-width: 768px) {
+  .header__body{
+    height: 50px;
+    text-align: center;
+    margin-left: 0px;
+    
+   
+  }
+    .header__link {
+    font-size: 20px;
+    
+    
+    }
+
+
+  .header__burger{
+    display: block;
+    position: relative;
+    width: 30px;
+    height: 20px;
+    z-index: 3;
+   margin-left: 90%;
+    
+  }
+
+  .header__burger:before, 
+  .header__burger:after{
+    content: '';
+    background-color: black;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    left: 0;
+    transition: all 0.3s ease 0s;
+  }
+
+  .header__burger span{
+    position: absolute;
+    background-color: black;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    top: 9px;
+    transition: all 0.3s ease 0s;
+    
+  }
+
+  .header__burger:before{
+    top: 0;
+  }
+
+  .header__burger:after{
+    bottom: 0;
+  }
+
+  .header__burger.active span{
+    transform: scale(0);
+  }
+
+  .header__burger.active:before{
+    transform: rotate(45deg);
+    top: 9px;
+  }
+
+  .header__burger.active:after{
+    transform: rotate(-45deg);
+    bottom: 9px;
+  }
+
+  .header__menu{
+    position: fixed;
+    top: -100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: all 0.3s ease 0s;
+    background-color: rgba(255, 255, 255, 0.726);
+    padding: 70px 10px 20px 10px;
+  }
+
+  .header__menu.active{
+    top: 0;
+  }
+
+  .header__list{
+    display: block;
+    padding-left: 0px;
+    margin-left: 10px;
+    margin-top: -80px;
+  }
+.header__list a {
+    margin-left: 0px;
+    font-size: 34px;
+}
+  .header__list li{
+    margin-bottom: 0px 0px 20px 0px;
+    margin-left: 0px;
+    padding-left: 0px;
+    margin-top: 60px;
+    text-align: left;
+  
+  }
+  .title {
+      flex-direction: column;
+      margin-top: -20px;
+      
+  }
+  .name {
+      margin-left: 5%;
+  }
+  .design {
+      margin-top: 0px;
+    margin-left: 5%;
+  }
+  .lang {
+      display: none;
+  }
+  .image__novik {
+      width: 90%;
+  }
+  .icons {
+    margin-top: 80px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .reebok {
+    padding-top: 50px;
+  }
+  }

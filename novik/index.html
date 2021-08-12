@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+          <div class="header__body">
+            
+            <div class="header__burger">
+              <span></span>
+            </div>
+            <nav class="header__menu">
+              <ul class="header__list">
+                <li>
+                  <a href="#section1" class="header__link">Home</a>
+                </li>
+    
+                <li>
+                  <a href="#section2" class="header__link">About me</a>
+                </li>
+    
+                <li>
+                  <a href="#section3" class="header__link">Skills</a>
+                </li>
+    
+                <li>
+                  <a href="#section4" class="header__link">Portfolio</a>
+                </li>
+    
+                <li>
+                  <a href="#section5" class="header__link">Contacts</a>
+                </li>
+                
+    
+                
+              </ul>
+              <div class="header__line"></div>
+            </nav>
+          </div>
+        </div>
+      </header>
+
+
+
+
+      <section class="section1">
+          <div class="container">
+              <div class="title">
+
+              <h1 class="name">Denis <br> Novik</h1>
+
+              <p class="design">UX | UI designer<br>
+                24 years old, Minsk</p>
+
+                <h2 class="lang">RU | ENG</h2>
+
+            </div>
+            <img src="BSPP2266.png" alt="" class="image__novik" id="image__novik">
+          </div>
+      </section>
+
+      <section class="section2">
+        <div class="container">
+          <div class="about">About me</div>
+          <div class="about__text">
+            Hi, I'm Denis – UX/UI designer from Minsk.<br> I'm interested in design and everything connected with it. 
+            <br><br> I'm studying at courses "Web and mobile design <br> interfaces" in IT-Academy. 
+            <br><br> Ready to implement excellent projects <br> with wonderful people.
+          </div>
+        </div>
+      </section>
+
+      <section class="section3">
+        <div class="container">
+          <div class="skills">Skills</div>
+          <div class="skills__text">I work in such programs as</div>
+          <div class="icons">
+            <div class="photoshop">
+              <img src="ps.png" alt="" srcset="">
+              <div class="ps__text">Adobe <br>
+                Photoshop</div>
+                <img src="star__ps.png" alt="" class="image__ps">
+            </div>
+
+            <div class="photoshop">
+              <img src="ai.png" alt="" srcset="">
+              <div class="ps__text">Adobe <br>
+                Photoshop</div>
+                <img src="star__ai.png" alt="" class="image__ps">
+            </div>
+
+            <div class="photoshop">
+              <img src="ae.png" alt="" srcset="">
+              <div class="ps__text">Adobe <br>
+                Photoshop</div>
+                <img src="star__ps.png" alt="" class="image__ps">
+            </div>
+
+            <div class="photoshop">
+              <img src="figma.png" alt="" srcset="">
+              <div class="ps__text">Adobe <br>
+                Photoshop</div>
+                <img src="star__ps.png" alt="" class="image__ps">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section4">
+        <div class="container">
+          <div class="portfolio__title">Portfolio</div>
+          <div class="portfolio">
+            <img src="levis.png" alt="" class="levis">
+            <a class="portfolio__text">Online fashion store - Homepage</a>
+
+            <img src="reebok.png" alt="" class="levis reebok">
+            <a class="portfolio__text">Reebok Store - Concept</a>
+
+            <img src="braun.png" alt="" class="levis reebok">
+            <a class="portfolio__text braun">Braun Landing Page - Concept</a>
+          </div>
+        </div>
+      </section>
+
+
+
+      <footer class="section5">
+        <div class="container">
+          <div class="contacts__title">Contacts</div>
+          <div class="contacts__text">Want to know more or just chat? <br>
+            You are welcome!</div>
+            <button class="button__contacts">Send message</button>
+            <div class="icons__footer">
+              <img src="Group 2 (6).png" alt="" class="image__contacts">
+              <img src="Group 8 (5).png" alt="" class="image__contacts">
+              <img src="Group 9 (4).png" alt="" class="image__contacts">
+              <img src="Group 10 (2).png" alt="" class="image__contacts">
+            </div>
+            <div class="text__footer">Like me on <br>
+              LinkedIn, Instagram, Behance, Dribble</div>
+        </div>
+      </footer>
+
+
+
+      <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script>
+        
+        $(document).ready(function() {
+        $('.header__burger').click(function(event) {
+          $('.header__burger,.header__menu').toggleClass('active');
+        });
+      });
+      $(document).ready(function() {
+            $('.header__link').click(function(event) {
+                $('.header__burger,.header__menu').removeClass('active');
+            });
+        });
+
+        window.addEventListener('load', changePhoto);
+        let width=window.innerWidth;
+        let mainpic=document.getElementById('image__novik');
+        function changePhoto(){
+	if (width<768){
+		mainpic.src="BSPP2267.png";
+	}else{
+		mainpic.src="BSPP2266.png";
+	}
+}
+
+
+    </script>
+</body>
+</html>

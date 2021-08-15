@@ -3,7 +3,9 @@ body {
     padding: 0;
     font-family: 'Raleway', sans-serif;
 }
-
+a {
+  text-decoration: none;
+}
 .header{
     position: fixed;
     width: 100%;
@@ -242,6 +244,8 @@ body {
     font-size: 18px;
     height: 50px;
     font-weight: 600;
+    
+    
   }
   .button__content:hover {
     opacity: 90%;
@@ -1557,8 +1561,8 @@ color: white;
   }
   .button__content {
     width: 200px;
-    font-size: 16px;
-    height: 30px;
+    height: 40px;
+    font-size: 14px;
   }
   .title__content {
     font-size: 36px;

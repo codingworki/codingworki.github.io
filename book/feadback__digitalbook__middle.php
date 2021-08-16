@@ -25,7 +25,7 @@ header('Refresh: 3; URL=index.html');
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<meta http-equiv="refresh" content="3; url=index.html">
+<meta http-equiv="refresh" content="3; url=https://codingworki.github.io/book/">
 <link href="../css/animate.css" rel="stylesheet">
 <title>Спасибо! Мы свяжемся с Вами!</title>
 <meta name="generator">

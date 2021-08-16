@@ -19,7 +19,7 @@ $email='order'; // от кого
 $send = mail ($myaddres,$sub,$mes,"Content-type:text/plain; charset = UTF-8\r\nFrom:$email");
  
 ini_set('short_open_tag', 'On');
-header('Refresh: 3; URL=index.html');
+header('Refresh: 3; URL=https://codingworki.github.io/book/');
 ?>
 <!DOCTYPE HTML">
 <html>

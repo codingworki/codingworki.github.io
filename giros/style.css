@@ -1,0 +1,252 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    background: url(image.png);
+  
+    max-height: 100%;
+}
+a {
+  text-decoration: none;
+}
+
+.text__giros {
+    display: block;
+    margin: 0 auto;
+    width: 30%;
+    margin-top: 30px;
+}
+.text__delivery {
+    display: block;
+    margin: 0 auto;
+    width: 40%;
+    margin-top: -25px;
+}
+.order {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.order__delivery {
+    background-color: rgba(0, 0, 0, 0.726);
+    height: 100%;
+    border-radius: 40px;
+    width: 60%;
+}
+.zakaz {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    margin-bottom: 30px;
+    align-items: center;
+}
+.text__zakaz {
+    width: 300px;
+    padding-left: 20px;
+    font-size: 24px;
+}
+.text__number {
+    width: 300px;
+    padding-left: 20px;
+    font-size: 24px;
+}
+.text__adress {
+    padding-left: 20px;
+    font-size: 24px;
+    width: 300px;
+}
+.order__form {
+    width: 100%;
+    padding: 0px;
+    padding-left: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    outline: none;
+    border-radius: 40px;
+    text-decoration: none;
+    height: 60px;
+    border: 2px solid #FFD600;
+    font-size: 22px;
+}
+.adress {
+    height: 60px;
+        width: 100%;
+        padding: 0px;
+        padding-left: 20px;
+        margin-right: 20px;
+        margin-left: 20px;
+        outline: none;
+        border-radius: 40px;
+        text-decoration: none;
+        border: 2px solid #FFD600;
+        font-size: 22px;
+}
+.number {
+    height: 60px;
+    width: 100%;
+    padding: 0px;
+    padding-left: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    outline: none;
+    border-radius: 40px;
+    text-decoration: none;
+    border: 2px solid #FFD600;
+    font-size: 22px;
+}
+.button__order {
+    width: 30%;
+    display: block;
+    margin: 0 auto;
+    font-size: 24px;
+    color: white;
+    font-weight: 700;
+    background-color: rgba(0, 0, 0, 0.726);
+    border: 3px solid #FFD600;
+    border-radius: 40px;
+    margin-bottom: 30px;
+    padding: 10px;
+    box-shadow: 0 0 10px #FFD600;
+    
+}
+.button__order:hover {
+    background-color: #FFD600;
+    transition: all .2s linear;
+    color: black;
+    width: 35%;
+}
+.forma {
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}
+.menu {
+    width: 25%;
+    margin-left: 10%;
+    border-radius: 20px;
+    
+
+}
+
+@media (max-width: 1612px) {
+    .text__number {
+        width: 350px;
+    }
+    .text__adress {
+        width: 350px;
+    }
+    .text__zakaz {
+        width: 350px;
+    }
+}
+@media (max-width: 1478px) {
+   
+    
+    .text__zakaz {
+        font-size: 18px;
+        width: 350px;
+    }
+    .text__adress {
+        font-size: 18px;
+        width: 350px;
+    }
+    .text__number {
+        font-size: 18px;
+        width: 350px;
+    }
+    .button__order {
+        font-size: 18px;
+        padding: 8px;
+        margin-top: 20px;
+    }
+    .zakaz {
+        margin-bottom: 10px;
+    }
+    .order__form {
+       font-size: 16px;
+        height: 35px;
+    }
+    .adress {
+        height: 35px;
+        font-size: 16px;
+    }
+    .number {
+        height: 35px;
+        font-size: 16px;
+    }
+    
+}
+@media (max-width: 1070px) {
+    .menu {
+        width: 32%;
+        margin-left: 30px;
+    }
+}
+@media (max-width: 768px) {
+    .text__giros {
+        width: 40%;
+    }
+    .text__delivery {
+        width: 50%;
+    }
+    .order {
+        flex-direction: column-reverse;
+        margin-left: 0px;
+        margin-top: 30px;
+    }
+    .menu {
+        display: block;
+        margin: 0 auto;
+        width: 40%;
+    }
+    .order__delivery {
+        width: 90%;
+        margin-top: 20px;
+        margin-bottom: 100px;
+    }
+}
+
+@media (max-width: 560px) {
+    .text__zakaz {
+        font-size: 16px;
+        width: 250px;
+    }
+    .text__adress {
+        font-size: 16px;
+        width: 250px;
+    }
+    .text__number {
+        font-size: 16px;
+        width: 250px;
+    }
+    .forma {
+        font-size: 14px;
+       
+    }
+    .menu {
+        width: 45%;
+    }
+    .text__giros {
+        width: 50%;
+    }
+    .text__delivery {
+        width: 60%;
+    }
+    .order__form {
+        font-size: 14px;
+     }
+     .adress {
+         font-size: 14px;
+     }
+     .number {
+         font-size: 14px;
+     }
+     .button__order {
+         width: 40%;
+     }
+     .button__order:hover {
+        width: 45%;
+    }
+}

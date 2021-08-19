@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700;800&display=swap" rel="stylesheet">
+    <title>Доставка</title>
+</head>
+<body>
+    
+
+        <img src="text__giros.png" alt="" class="text__giros"> <br>
+        <img src="text__delivery.png" alt="" class="text__delivery">
+
+        <div class="order">
+            <form action="" class="order__delivery">
+                <p class="forma">*для заказа заполните форму ниже</p>
+               <div class="zakaz"> <p class="text__zakaz">Ваш заказ:</p> <input type="text" class="order__form"> </div>
+               <div class="zakaz"> <p class="text__adress">Адрес:</p> <input type="text" class="adress"> </div>
+               <div class="zakaz"> <p class="text__number">Номер телефона:</p> <input type="text" class="number" id="phone"> </div>
+               <button class="button__order">Заказать</button>
+            </form>
+            <img src="menu.png" alt="" class="menu">
+        </div>
+
+  
+
+
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+        <script src="dist/jquery.maskedinput.min.js"></script>
+        <script>
+            $("#phone").mask("+7 (999) 999-99-99");
+        </script>
+    
+</body>
+</html>

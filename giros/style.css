@@ -245,6 +245,7 @@ a {
      }
      .button__order {
          width: 40%;
+         font-size: 16px;
      }
      .button__order:hover {
         width: 45%;

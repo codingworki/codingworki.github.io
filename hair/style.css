@@ -379,21 +379,21 @@ body {
 }
 @media (max-width: 460px) {
   .carousel__img {
-    width: 700px;
+    width: 1000px;
   }
   .text__glav {
     font-size: 36px;
     width: 350px;
-    top: 140px;
+    top: 200px;
   }
   .dutova1 {
     font-size: 36px;
   }
   .button__glav {
-    top: 235px;
-    font-size: 12px;
+    top: 295px;
+    font-size: 14px;
     width: 45%;
     border: 3px solid white;
-    height: 30px;
+    height: 35px;
   }
 }

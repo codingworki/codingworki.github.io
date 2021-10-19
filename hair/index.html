@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="slick.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+          <div class="header__body">
+            <a href="#" class="header__logo">
+              <div class="logo">Hair Accessories by <br>
+               <span class="dutova">Dutova</span> </div>
+            </a>
+            <div class="header__burger">
+              <span></span>
+            </div>
+            <nav class="header__menu">
+              <ul class="header__list">
+                <li>
+                  <a href="" class="header__link">Главная</a>
+                </li>
+    
+                <li>
+                  <a href="" class="header__link">Каталог товаров</a>
+                </li>
+    
+                <li>
+                  <a href="" class="header__link">Галерея</a>
+                </li>
+    
+                <li>
+                  <a href="" class="header__link">Отзывы</a>
+                </li>
+    
+                <li>
+                  <a href="" class="header__link">О мастере</a>
+                </li>
+    
+                
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </header>
+
+
+      <section class="glav">
+
+        <div class="title__glav">
+        <div class="text__glav">Hair Accessories by <br>
+          <span class="dutova1">Dutova</span></div>
+          <button class="button__glav">Каталог товаров</button>
+        </div>
+
+        <div class="carousel__inner">
+          
+          <div>
+            <img class="carousel__img" src="Group 21.png" alt="">
+          </div>
+          <div>
+            <img class="carousel__img" src="Group 22.png" alt="">
+          </div>
+          
+          </div>
+          
+      </section>
+    
+
+      <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+      <script type="text/javascript" src="slick.min.js"></script>
+
+      <script>
+        $('.carousel__inner').slick({
+          slidesToScroll: 1,
+          autoplay: true,
+          autoplaySpeed: 1000,
+          arrows: false
+        });
+
+        $(document).ready(function() {
+          $('.header__burger').click(function(event) {
+            $('.header__burger,.header__menu').toggleClass('active');
+          });
+        });
+        $(document).ready(function() {
+              $('.header__link').click(function(event) {
+                  $('.header__burger,.header__menu').removeClass('active');
+              });
+          });
+          </script>
+</body>
+</html>

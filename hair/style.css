@@ -133,6 +133,21 @@ body {
   .button__glav:hover {
     background-color: rgba(31,31,31,0.5);
   }
+
+
+  .text {
+    background-color: #E1D8C7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .text__text {
+    text-align: left;
+    font-size: 36px;
+    padding-top: 70px;
+    
+    padding-bottom: 70px;
+  }
   
 
 
@@ -157,6 +172,9 @@ body {
     }
     .button__glav {
       top: 500px;
+    }
+    .text__text {
+      font-size: 32px;
     }
   }
   @media(max-width:1150px) {
@@ -189,6 +207,9 @@ body {
     .text__glav {
       top: 170px;
     }
+    .text__text {
+      font-size: 28px;
+    }
     
     
   }
@@ -218,6 +239,9 @@ body {
       top: 360px;
       font-size: 22px;
       width: 35%;
+    }
+    .text__text {
+      font-size: 24px;
     }
   }
     
@@ -355,6 +379,9 @@ body {
         width: 40%;
         height: 50px;
       }
+      .text__text {
+        font-size: 20px;
+      }
     }
 
 @media (max-width: 600px) {
@@ -376,6 +403,11 @@ body {
     border: 3px solid white;
     height: 40px;
   }
+  .text__text {
+    padding-top: 50px;
+    font-size: 16px;
+    padding-bottom: 50px;
+  }
 }
 @media (max-width: 460px) {
   .carousel__img {
@@ -395,5 +427,8 @@ body {
     width: 45%;
     border: 3px solid white;
     height: 35px;
+  }
+  .text__text {
+    font-size: 12px;
   }
 }

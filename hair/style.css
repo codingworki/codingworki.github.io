@@ -145,7 +145,7 @@ body {
     text-align: left;
     font-size: 36px;
     padding-top: 70px;
-    
+    width: 1100px;
     padding-bottom: 70px;
   }
   .catalog {
@@ -267,6 +267,7 @@ body {
     }
     .text__text {
       font-size: 32px;
+      width: 1000px;
     }
     
     .title__catalog {
@@ -329,6 +330,7 @@ body {
     }
     .text__text {
       font-size: 28px;
+      width: 850px;
     }
     .icons {
       width: 25%;
@@ -367,6 +369,7 @@ body {
     }
     .text__text {
       font-size: 24px;
+      width: 730px;
     }
     .icons__catalog {
       margin-top: 50px;
@@ -531,7 +534,10 @@ body {
         height: 50px;
       }
       .text__text {
-        font-size: 20px;
+        font-size: 24px;
+        width: 700px;
+        margin-left: 50px;
+        margin-right: 50px;
       }
       .icons__catalog {
         flex-direction: column;
@@ -569,8 +575,11 @@ body {
   }
   .text__text {
     padding-top: 50px;
-    font-size: 16px;
+    font-size: 20px;
     padding-bottom: 50px;
+    width: 700px;
+    margin-left: 50px;
+    margin-right: 50px;
   }
 }
 @media (max-width: 550px) {
@@ -614,7 +623,10 @@ body {
     height: 35px;
   }
   .text__text {
-    font-size: 12px;
+    font-size: 16px;
+    width: 700px;
+        margin-left: 50px;
+        margin-right: 50px;
   }
   .title__catalog {
     font-size: 34px;

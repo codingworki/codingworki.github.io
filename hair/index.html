@@ -73,11 +73,78 @@
           
       </section>
 
+
+      
+
       <section class="text">
         <div class="text__text">—Рожденный с любовью к искусству и резинкам для волос.<br>
           Охватывающий эстетический аксессуар.<br>
           Пришло время быть еще более красивее  —<br>
            как можно лучше.</div>
+      </section>
+
+
+
+      <section class="catalog">
+
+        <div class="title__catalog">Каталог товаров</div>
+        <div class="icons__catalog">
+          <div class="icons">
+
+            <div class="icon1">
+              <div class="wrapper">
+              <div class="text__icon">Артикул: 1</div>
+              <img src="image 7.png" alt="" class="img__rez" onmouseover="this.src='image.png'" onmouseout="this.src='image 7.png'">
+              <div class="name__icon">Резинки</div>
+
+              <div class="ellipses">
+                <div class="ellipse1"></div>
+                <div class="ellipse2"></div>
+              </div>
+
+              <div class="text__price">299₽</div>
+              
+            </div>
+
+              
+          </div>
+            
+          </div>
+
+          <div class="icons">
+            <div class="icon1">
+              <div class="text__icon">Артикул: 1</div>
+              <img src="image 7.png" alt="" class="img__rez" onmouseover="this.src='image.png'" onmouseout="this.src='image 7.png'">
+              <div class="name__icon">Резинки</div>
+
+              <div class="ellipses">
+                <div class="ellipse1"></div>
+                <div class="ellipse2"></div>
+              </div>
+
+              <div class="text__price">299₽</div>
+              
+            </div>
+          </div>
+          <div class="icons">
+            <div class="icon1">
+              <div class="text__icon">Артикул: 1</div>
+              <img src="image 7.png" alt="" class="img__rez" onmouseover="this.src='image.png'" onmouseout="this.src='image 7.png'">
+              <div class="name__icon">Резинки</div>
+
+              <div class="ellipses">
+                <div class="ellipse1"></div>
+                <div class="ellipse2"></div>
+              </div>
+
+              <div class="text__price">299₽</div>
+             
+            </div>
+          </div>
+        </div>
+        <div class="but__cat">
+        <button class="button__catalog">ЗАГРУЗИТЬ ЕЩЁ</button>
+      </div>
       </section>
     
 
@@ -85,6 +152,20 @@
       <script type="text/javascript" src="slick.min.js"></script>
 
       <script>
+
+$(document).ready(function() {
+      $('.ellipse1').click(function(){
+    $(".img__rez").attr("src", "image.png");
+    return false;
+  }); 
+ }); 
+
+ $(document).ready(function() {
+      $('.ellipse2').click(function(){
+    $(".img__rez").attr("src", "image 7.png");
+    return false;
+  }); 
+ }); 
         $('.carousel__inner').slick({
           slidesToScroll: 1,
           autoplay: true,
@@ -102,6 +183,13 @@
                   $('.header__burger,.header__menu').removeClass('active');
               });
           });
+
+          $(document).ready(function() {
+              $('.tap').click(function(r) {
+                  $('.catalog__list,.icon1').toggleClass('active');
+              });
+          });
+          
           </script>
 </body>
 </html>

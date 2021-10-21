@@ -148,6 +148,98 @@ body {
     
     padding-bottom: 70px;
   }
+  .catalog {
+    background-color: #ACA297;
+    
+  }
+  .img__rez {
+    max-width: 70%;
+    padding-left: 50px;
+  }
+  .img__rez:active {
+    transition: all .2s linear;
+  }
+  .title__catalog {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 70px;
+    font-size: 48px;
+    color: white;
+  }
+  .icons__catalog {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 70px;
+  }
+  
+  .icons {
+    width: 20%;
+    border: 2px solid #A39081;
+    margin-bottom: 70px;
+    border-radius: 10px;
+    background-color: white;
+  }
+  .icon1 {
+    display: flex;
+    flex-direction: column;
+  }
+ 
+  .ellipses {
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+    margin-top: 5px;
+  }
+  .ellipse1 {
+    width: 20px;
+    height: 20px;
+    background-color: yellow;
+    border-radius: 50%;
+    
+  }
+  .ellipse2 {
+    width: 20px;
+    height: 20px;
+    background-color: grey;
+    margin-left: 5px;
+    border-radius: 50%;
+  }
+  .text__icon {
+    font-size: 16px;
+    padding-top: 20px;
+    padding-left: 50px;
+    color: #A39081;
+  }
+  .name__icon {
+    font-size: 30px;
+    padding-left: 50px;
+    color: #A39081;
+  }
+  .text__price {
+    font-size: 20px;
+    padding-left: 50px;
+    color: #A39081;
+    margin-top: 5px;
+    padding-bottom: 20px;
+  }
+  .but__cat {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .button__catalog {
+    margin-bottom: 70px;
+    width: 25%;
+    height: 70px;
+    background-color: #D7E9F7;
+    color: #414141;
+    border: none;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    font-size: 26px;
+  }
+  
   
 
 
@@ -175,6 +267,34 @@ body {
     }
     .text__text {
       font-size: 32px;
+    }
+    
+    .title__catalog {
+      font-size: 44px;
+    }
+    .text__icon {
+      padding-left: 35px;
+    }
+    .name__icon {
+      padding-left: 35px;
+      font-size: 24px;
+    }
+    .ellipses {
+      margin-left: 35px;
+    }
+    .text__price {
+      padding-left: 35px;
+    }
+    .icons {
+      margin-bottom: 50px;
+    }
+    .button__catalog {
+      font-size: 22px;
+      height: 60px;
+      
+    }
+    .img__rez {
+      padding-left: 35px;
     }
   }
   @media(max-width:1150px) {
@@ -210,7 +330,12 @@ body {
     .text__text {
       font-size: 28px;
     }
-    
+    .icons {
+      width: 25%;
+    }
+    .icons__catalog {
+      margin-top: 50px;
+    }
     
   }
   @media(max-width:1000px) {
@@ -242,6 +367,32 @@ body {
     }
     .text__text {
       font-size: 24px;
+    }
+    .icons__catalog {
+      margin-top: 50px;
+    }
+    .button__catalog {
+      font-size: 18px;
+      height: 55px;
+    }
+    .img__rez {
+      max-width: 80%;
+      padding-left: 25px;
+    }
+    .name__icon {
+      padding-left: 25px;
+    }
+    .text__icon {
+      padding-left: 25px;
+    }
+    .ellipses {
+      margin-left: 25px;
+    }
+    .text__price {
+      padding-left: 25px;
+    }
+    .title__catalog {
+      font-size: 40px;
     }
   }
     
@@ -382,6 +533,19 @@ body {
       .text__text {
         font-size: 20px;
       }
+      .icons__catalog {
+        flex-direction: column;
+        justify-content: center;
+        align-items:center;
+      }
+      .icons {
+        width: 50%;
+      }
+      .button__catalog {
+        width: 55%;
+        height: 60px;
+        font-size: 18px;
+      }
     }
 
 @media (max-width: 600px) {
@@ -409,6 +573,27 @@ body {
     padding-bottom: 50px;
   }
 }
+@media (max-width: 550px) {
+  .text__icon {
+    font-size: 14px;
+  }
+  .name__icon {
+    font-size: 20px;
+  }
+  .ellipse1 {
+    width: 15px;
+    height: 15px;
+  }
+  .ellipse2 {
+    width: 15px;
+    height: 15px;
+  }
+  .button__catalog {
+    width: 50%;
+    height: 55px;
+    font-size: 16px;
+  }
+}
 @media (max-width: 460px) {
   .carousel__img {
     width: 1000px;
@@ -430,5 +615,40 @@ body {
   }
   .text__text {
     font-size: 12px;
+  }
+  .title__catalog {
+    font-size: 34px;
+  }
+  .text__icon {
+    font-size: 14px;
+    padding-left: 15px;
+  }
+  .name__icon {
+    font-size: 20px;
+    padding-left: 15px;
+  }
+  .ellipses {
+    margin-left: 15px;
+  }
+  .img__rez {
+    padding-left: 15px;
+  }
+  .ellipse1 {
+    width: 15px;
+    height: 15px;
+  }
+  .ellipse2 {
+    width: 15px;
+    height: 15px;
+   
+  }
+  .text__price {
+    font-size: 18px;
+    padding-left: 15px;
+  }
+  .button__catalog {
+    width: 55%;
+    height: 50px;
+    font-size: 14px;
   }
 }

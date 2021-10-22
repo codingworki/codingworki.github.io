@@ -239,7 +239,80 @@ body {
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
     font-size: 26px;
   }
+  .gallery {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E1D8C7;
+  }
+  .text__gallery {
+    font-size: 48px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+  }
+  .slick-prev {
+   
+    
+    border: none;
+    background: none;
+    position: absolute;
+    left: -10%;
+    z-index: 1;
+    top: 40%;
+    transform: rotate(180deg);
+    
+    
+}
+.slick-next {
+    
+  border: none;
+  background: none;
+  position: absolute;
+  left: 105%;
+  z-index: 1;
+  top: 40%;
   
+  
+}
+.carousel__inner1 {
+  width: 60%;
+  justify-content: center;
+  margin-bottom: 70px;
+  
+}
+.carousel__inner1  img {
+  max-width: 100%;
+}
+.carousel__img1 {
+  display: block;
+  margin: auto;
+
+  
+}
+
+.slick-dots {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 0px;
+}
+.slick-dots li {
+  list-style: none;
+}
+.slick-dots button {
+  font-size: 0;
+  width: 50px;
+  height: 5px;
+  border-radius: 20%;
+  margin-right: 10px;
+  background-color: #A39081;
+  border: none;
+} 
+.slick-dots li.slick-active button {
+  background-color: #cfb8a7;
+  
+}
   
 
 
@@ -269,7 +342,9 @@ body {
       font-size: 32px;
       width: 1000px;
     }
-    
+    .text__gallery {
+      font-size: 44px;
+    }
     .title__catalog {
       font-size: 44px;
     }
@@ -397,6 +472,18 @@ body {
     .title__catalog {
       font-size: 40px;
     }
+    .text__gallery {
+      font-size: 40px;
+    }
+    .slick-dots button {
+      font-size: 0;
+      width: 30px;
+      height: 5px;
+      border-radius: 20%;
+      margin-right: 10px;
+      background-color: #A39081;
+      border: none;
+    } 
   }
     
 
@@ -602,6 +689,15 @@ body {
     height: 55px;
     font-size: 16px;
   }
+  .slick-dots button {
+    font-size: 0;
+    width: 20px;
+    height: 3px;
+    border-radius: 25%;
+    margin-right: 10px;
+    background-color: #A39081;
+    border: none;
+  } 
 }
 @media (max-width: 460px) {
   .carousel__img {
@@ -629,6 +725,9 @@ body {
         margin-right: 25px;
   }
   .title__catalog {
+    font-size: 34px;
+  }
+  .text__gallery {
     font-size: 34px;
   }
   .text__icon {

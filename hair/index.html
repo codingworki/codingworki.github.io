@@ -77,9 +77,9 @@
       
 
       <section class="text">
-        <div class="text__text">—Рожденный с любовью к искусству и резинкам для волос.<br>
-          Охватывающий эстетический аксессуар.<br>
-          Пришло время быть еще более красивее  —<br>
+        <div class="text__text">—Рожденный с любовью к искусству и резинкам для волос.
+          Охватывающий эстетический аксессуар. <br>
+          Пришло время быть еще более красивее  —
            как можно лучше.</div>
       </section>
 
@@ -146,6 +146,32 @@
         <button class="button__catalog">ЗАГРУЗИТЬ ЕЩЁ</button>
       </div>
       </section>
+
+
+      <section class="gallery">
+        <div class="text__gallery">Галерея</div>
+        <div class="carousel__inner1">
+          
+          <div>
+            <img class="carousel__img1" src="Group 13 (29).png" alt="">
+          </div>
+          
+          <div>
+            <img class="carousel__img1" src="Group 14 (10).png" alt="">
+          </div>
+          <div>
+            <img class="carousel__img1" src="Group 15 (8).png" alt="">
+          </div>
+          <div>
+            <img class="carousel__img1" src="Group 16 (14).png" alt="">
+          </div>
+         
+          <div>
+            <img class="carousel__img1" src="Group 18 (25).png" alt="">
+          </div>
+          
+          </div>
+      </section>
     
 
       <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
@@ -169,9 +195,27 @@ $(document).ready(function() {
         $('.carousel__inner').slick({
           slidesToScroll: 1,
           autoplay: true,
-          autoplaySpeed: 1000,
+          autoplaySpeed: 2000,
           arrows: false
         });
+
+        $('.carousel__inner1').slick({
+          autoplay: true,
+          arrows: false,
+          
+          speed: 1000,
+          autoplaySpeed: 1500,
+          dots: true,
+          infinite: true,
+          responsive: [
+      {
+      breakpoint: 768,
+      settings: {
+        arrows: false
+      }
+      }]
+        });
+
 
         $(document).ready(function() {
           $('.header__burger').click(function(event) {

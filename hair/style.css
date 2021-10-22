@@ -413,6 +413,12 @@ body {
     .icons__catalog {
       margin-top: 50px;
     }
+    .carousel__inner1 {
+      width: 80%;
+    }
+    .carousel__inner1  img {
+      max-width: 80%;
+    }
     
   }
   @media(max-width:1000px) {

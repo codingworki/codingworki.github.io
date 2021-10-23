@@ -536,7 +536,7 @@ body {
         height: 2px;
         left: 0;
         transition: all 0.3s ease 0s;
-        margin-left: -20%;
+        margin-left: -50%;
       }
     
       .header__burger span{
@@ -547,7 +547,7 @@ body {
         height: 2px;
         top: 9px;
         transition: all 0.3s ease 0s;
-        margin-left: -20%;
+        margin-left: -50%;
       }
     
       .header__burger:before{
@@ -706,6 +706,13 @@ body {
   } 
 }
 @media (max-width: 460px) {
+  .logo {
+    font-size: 16px;
+  }
+  .dutova {
+    font-size: 22px;
+    line-height: 10px;
+  }
   .carousel__img {
     width: 1000px;
   }

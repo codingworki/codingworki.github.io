@@ -77,10 +77,8 @@
       
 
       <section class="text">
-        <div class="text__text">—Рожденный с любовью к искусству и резинкам для волос.
-          Охватывающий эстетический аксессуар. <br>
-          Пришло время быть еще более красивее  —
-           как можно лучше.</div>
+        <div class="text__text">—Рождённые из любви к искусству и волосам <br>  Имидж дизайнером Dutova Elena <br>
+          За 15 лет опыта работы с клиентами я раскрыла тайну красивых волос. </div>
       </section>
 
 
@@ -172,6 +170,41 @@
           
           </div>
       </section>
+
+      <section class="otz">
+        <div class="title__otz">Отзывы</div>
+       
+          <div class="carousel__inner2">
+            
+            <div class="block">
+              <img src="Ellipse 4 (2).png" alt="" class="icon__otz">
+              <div class="text__name">Дарья</div>
+              <div class="text__otz">Леночка, спасибо тебе огромное за твои золотые ручки!!! <br>
+                Я счастлива!</div>
+            </div>
+            <div class="block">
+              <img src="Ellipse 4 (2).png" alt="" class="icon__otz">
+              <div class="text__name">Дарья</div>
+              <div class="text__otz">Резинка огонь, Спасибо!<br>
+              Такая осенняя осенняя <br> Хочу ещё!</div>
+            </div>
+            <div class="block">
+              <img src="Ellipse 4 (2).png" alt="" class="icon__otz">
+              <div class="text__name">Дарья</div>
+              <div class="text__otz">Леночка, спасибо тебе огромное за твои золотые ручки!!! <br>
+                Я счастлива!</div>
+            </div>
+            <div class="block">
+              <img src="Ellipse 4 (2).png" alt="" class="icon__otz">
+              <div class="text__name">Дарья</div>
+              <div class="text__otz">Леночка, спасибо тебе огромное за твои золотые ручки!!! <br>
+                Я счастлива!</div>
+            </div>
+          </div>
+          <div class="but__cat">
+            <button class="button__catalog">ОСТАВИТЬ ОТЗЫВ</button>
+          </div>
+      </section>
     
 
       <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
@@ -215,6 +248,24 @@ $(document).ready(function() {
       }
       }]
         });
+
+        $(document).ready(function(){
+  $('.carousel__inner2').slick({
+    prevArrow: '<button type="button" class="slick-prev"><img class="prev1" src="Group 5 (7).png"></button>',
+    nextArrow: '<button type="button" class="slick-next"><img class="next1" src="Group 5 (7).png"></button>',
+    slidesToShow: 3,
+    speed: 1000,
+    autoplaySpeed: 1500,
+    responsive: [
+      {
+      breakpoint: 768,
+      settings: {
+        arrows: false,
+        slidesToShow: 1
+      }
+      }]
+  });
+  });
 
 
         $(document).ready(function() {

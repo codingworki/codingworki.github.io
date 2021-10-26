@@ -416,9 +416,78 @@ background-color: #E1D8C7;
   width: 700px;
   margin-right: 70px;
   font-size: 20px;
+  padding-bottom: 70px;
 }
 .img__master {
   width: 350px;
+  margin-bottom: 70px;
+}
+.contacts {
+  background-color: #1F1F1F;
+ 
+}
+.title__contact {
+  padding-top: 70px;
+  font-size: 48px;
+  text-align: center;
+  color: white;
+}
+.menu__contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.menu__contact li, .menu__contact a{
+  list-style: none;
+  margin: 0px 10px 0px 10px;
+}
+.contact__link{
+  font-family: Raleway;
+  font-style: normal;
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+  text-decoration: none;
+  transition: all .2s linear;
+ 
+}
+.networks {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  padding-bottom: 50px;
+}
+.networks a {
+  text-decoration: none;
+}
+.insta {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.whats {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.text__insta {
+  color: white;
+  padding-left: 10px;
+}
+.text__whats {
+  color: white;
+  padding-left: 10px;
+}
+.insta__contact {
+  width: 30px;
+}
+.whats__contact {
+  width: 30px;
 }
 
   @media(max-width:1550px) {
@@ -459,6 +528,9 @@ background-color: #E1D8C7;
     .title__master {
       font-size: 44px;
      
+    }
+    .title__contact {
+      font-size: 44px;
     }
     .text__icon {
       padding-left: 35px;
@@ -627,6 +699,9 @@ background-color: #E1D8C7;
       font-size: 40px;
     }
     .title__master {
+      font-size: 40px;
+    }
+    .title__contact {
       font-size: 40px;
     }
     .text__gallery {
@@ -840,13 +915,32 @@ background-color: #E1D8C7;
       .title__master {
        padding-bottom: 40px;
       }
+      
       .omastere {
         flex-direction: column-reverse;
+      }
+      .img__master {
+        margin-bottom: 50px;
       }
       .text__master {
         text-align: center;
         margin-right: 0px;
-        margin-top: 30px;
+        margin-top: 0px;
+        margin-bottom: 50px;
+        padding-bottom: 0px;
+      }
+      .menu__contact {
+        flex-direction: column;
+      }
+      .menu__contact li, .menu__contact a{
+        list-style: none;
+        margin: 0px 10px 10px 10px;
+      }
+      .networks {
+        flex-direction: column;
+      }
+      .whats {
+        margin-top: 10px;
       }
     }
 
@@ -954,6 +1048,9 @@ background-color: #E1D8C7;
     
   }
   .title__master {
+    font-size: 34px;
+  }
+  .title__contact {
     font-size: 34px;
   }
   .text__gallery {

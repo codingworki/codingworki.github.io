@@ -490,6 +490,56 @@ background-color: #E1D8C7;
   width: 30px;
 }
 
+.button__pluse {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  color: #303030;
+  border-radius: 50%;
+  height: 120px;
+  width: 120px;
+  font-weight: 600;
+  top: 82%;
+  left: 90%;
+  z-index: 50;
+  border: none;
+  background-color: #bee0fa;
+}
+.img__shop {
+  width: 45%;
+}
+
+.button__pluse::before {
+  content: ''; 
+  position: fixed;
+  border: 4px solid #bee0fa; 
+  opacity: 0;
+  
+  border-radius: 50%;
+  height: 140px;
+  width: 140px;
+  z-index: 1;
+  animation: pulse 3s linear infinite; 
+}
+.button__pluse::after {
+  animation-delay: 1.25s;
+}
+@keyframes pulse {
+  0% {
+    transform: scale(0.5);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1.2);
+    opacity: 0;
+  }
+}
+
   @media(max-width:1550px) {
     .header__list{
         
@@ -565,6 +615,11 @@ background-color: #E1D8C7;
     .text__master {
       font-size: 18px;
     }
+    .button__pluse {
+      top: 82%;
+      left: 87%;
+      
+    }
   }
   @media (max-width: 1300px) {
     .block {
@@ -578,6 +633,18 @@ background-color: #E1D8C7;
       justify-content: space-evenly;
       margin-left: 100px;
       margin-right: 100px;
+    }
+    .button__pluse {
+      top: 86%;
+      left: 83%;
+      width: 100px;
+      height: 100px;
+      
+    }
+    .button__pluse::before {
+      
+      height: 120px;
+      width: 120px;
     }
   }
   @media(max-width:1150px) {
@@ -942,6 +1009,18 @@ background-color: #E1D8C7;
       .whats {
         margin-top: 10px;
       }
+      .button__pluse {
+        top: 86%;
+        left: 78%;
+        width: 100px;
+        height: 100px;
+        
+      }
+      .button__pluse::before {
+        
+        height: 110px;
+        width: 110px;
+      }
     }
 
 @media (max-width: 600px) {
@@ -1006,6 +1085,18 @@ background-color: #E1D8C7;
   }
   .text__master {
     width: 400px;
+  }
+  .button__pluse {
+    top: 86%;
+    left: 75%;
+    width: 90px;
+    height: 90px;
+    
+  }
+  .button__pluse::before {
+    
+    height: 100px;
+    width: 100px;
   }
 }
 @media (max-width: 460px) {
@@ -1094,5 +1185,17 @@ background-color: #E1D8C7;
   .text__master {
     width: 300px;
     font-size: 12px;
+  }
+  .button__pluse {
+    top: 88%;
+    left: 70%;
+    width: 80px;
+    height: 80px;
+    
+  }
+  .button__pluse::before {
+    
+    height: 90px;
+    width: 90px;
   }
 }

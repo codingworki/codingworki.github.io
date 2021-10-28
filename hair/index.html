@@ -359,10 +359,14 @@ $(document).ready(function() {
 
           $('.button__pluse').on('click', function(){
     $('.overlay, #modal1').show();
+    $('.button__pluse').hide();
   });
+  
   $('.modal__close').on('click', function(){
     $('.overlay, #modal1').hide();
+    $('.button__pluse').show();
   });
+  
           
           </script>
 </body>

@@ -255,8 +255,24 @@
           </a>
         </div>
       </footer>
+
+      <section class="overlay">
+      <div class="modal1" id="modal1">
+        <div class="modal__title">Заполните форму для заказа</div>
+        <div class="modal__close">&times;</div>
+        <div class="forma">
+          <p class="product">Артикул товара: <input class="articul zakaz" type="text" placeholder="1,2,3"></p>
+          <p class="product">Цвет: <input class="color1 zakaz" type="text" placeholder="Синий"></p>
+          <p class="product">Количество: <input class="lot zakaz" type="text" placeholder="1,5,3"></p>
+          <p class="product">Город: <input class="city zakaz" type="text" placeholder="Новочеркасск"></p>
+          <p class="product">Адрес: <input class="address zakaz" type="text" placeholder="Московская 51"></p>
+          <p class="product">Номер телефона: <input class="phone zakaz" type="text" placeholder="+7-908-509-34-96"></p>
+          <p class="product">Ваше имя: <input class="your__name zakaz" type="text" placeholder="Елена"></p>
+        
+            <button class="button__window">Заказать</button>
+          </div>
     
-      
+    </section>
       
         <button class = "button__pluse"> <img src="shop.png" alt="" class="img__shop"> Заказать</button>
     
@@ -340,6 +356,13 @@ $(document).ready(function() {
                   $('.catalog__list,.icon1').toggleClass('active');
               });
           });
+
+          $('.button__pluse').on('click', function(){
+    $('.overlay, #modal1').show();
+  });
+  $('.modal__close').on('click', function(){
+    $('.overlay, #modal1').hide();
+  });
           
           </script>
 </body>

@@ -96,7 +96,7 @@ body {
     
     margin-top: 40px;
     text-align: center;
-
+   
   }
   .title__glav {
     display: flex;
@@ -335,6 +335,7 @@ body {
   justify-content: space-evenly;
   margin-left: 200px;
   margin-right: 200px;
+  padding-bottom: 90px;
 }
 
 .block {
@@ -349,7 +350,7 @@ body {
  
   margin-right: 50px;
   border-radius: 10px;
-  margin-bottom: 70px;
+  
   
 }
 
@@ -540,6 +541,128 @@ background-color: #E1D8C7;
   }
 }
 
+.overlay {
+  
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  background-color: rgba(0,0,0, .56);
+ 
+}
+.modal__title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 800;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  color: #F1D1B1;
+}
+
+.modal1 {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 45%;
+ transform: translate(-50%,-50%);
+ background-color: #1F1F1F;
+ border-radius: 20px;
+ z-index: 500;
+ 
+}
+#modal1, .overlay {
+  display: none;
+}
+.modal__close {
+  position: absolute;
+  top: -20px;
+  right: 30px;
+  cursor: pointer;
+  font-size: 75px;
+  color: #F1D1B1;
+}
+.forma {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  
+  
+}
+.product {
+  color: #F1D1B1;
+}
+.city {
+  margin-left: 100px;
+  border: 1px solid #F1D1B1;
+  border-radius: 10px;
+  height: 20px;
+  width: 250px;
+}
+.color1 {
+  margin-left: 110px;
+  border: 1px solid #F1D1B1;
+  border-radius: 10px;
+  height: 20px;
+  width: 250px;
+}
+.lot {
+  margin-left: 60px;
+  border: 1px solid #F1D1B1;
+  border-radius: 10px;
+  height: 20px;
+  width: 250px;
+  
+}
+.address {
+  margin-left: 100px;
+  border: 1px solid #F1D1B1;
+  border-radius: 10px;
+  height: 20px;
+  width: 250px;
+}
+.your__name {
+  margin-left: 75px;
+  border: 1px solid #F1D1B1;
+  border-radius: 10px;
+  height: 20px;
+  width: 250px;
+}
+.phone {
+  border: 1px solid #F1D1B1;
+  border-radius: 10px;
+  margin-left: 20px;
+  height: 20px;
+  width: 250px;
+}
+.articul {
+  border: 1px solid #F1D1B1;
+  border-radius: 10px;
+  margin-left: 25px;
+  height: 20px;
+  width: 250px;
+}
+.button__window {
+  width: 350px;
+  height: 50px;
+  border: 2px solid #F1D1B1;
+  border-radius: 50px;
+  margin-bottom: 50px;
+  margin-top: 30px;
+  font-size: 24px;
+  background: none;
+  color: #F1D1B1;
+  box-shadow: 0 0 10px rgba(211,175,139,0.5);
+  cursor: pointer;
+}
+input {
+  padding-left: 10px;
+}
+
+
+
   @media(max-width:1550px) {
     .header__list{
         
@@ -646,6 +769,16 @@ background-color: #E1D8C7;
       height: 120px;
       width: 120px;
     }
+    .modal__title {
+      font-size: 24px;
+    }
+    .modal__close {
+      top: -5px;
+      font-size: 55px;
+    }
+    .modal1 {
+      width: 65%;
+    }
   }
   @media(max-width:1150px) {
     .header__list{
@@ -704,6 +837,7 @@ background-color: #E1D8C7;
       margin-right: 50px;
       width: 500px;
     }
+    
   }
   @media(max-width:1000px) {
     .header__list{
@@ -790,6 +924,7 @@ background-color: #E1D8C7;
     .carousel__inner2 {
       margin-left: 80px;
       margin-right: 80px;
+      padding-bottom: 50px;
     }
     .text__name {
       font-size: 16px;
@@ -818,6 +953,13 @@ background-color: #E1D8C7;
       
       width: 500px;
     }
+    .button__window {
+      width: 250px;
+      height: 40px;
+      font-size: 18px;
+     
+    }
+    
   }
     
 
@@ -1021,6 +1163,45 @@ background-color: #E1D8C7;
         height: 110px;
         width: 110px;
       }
+      .modal1 {
+        width: 80%;
+      }
+      .zakaz {
+        width: 200px;
+        height: 18px;
+      }
+      .modal__title {
+        font-size: 18px;
+      }
+      .product {
+        font-size: 14px;
+      }
+      .button__window {
+        font-size: 14px;
+        width: 200px;
+        margin-bottom: 40px;
+      }
+      .city {
+        margin-left: 100px;
+      }
+      .color1 {
+        margin-left: 110px;
+      }
+      .lot {
+        margin-left: 65px;
+      }
+      .address {
+        margin-left: 100px;
+      }
+      .your__name {
+        margin-left: 75px;
+      }
+      .phone {
+        margin-left: 30px;
+      }
+      .articul {
+        margin-left: 35px;
+      }
     }
 
 @media (max-width: 600px) {
@@ -1097,6 +1278,51 @@ background-color: #E1D8C7;
     
     height: 100px;
     width: 100px;
+  }
+  .modal1 {
+    width: 90%;
+  }
+  .zakaz {
+    width: 150px;
+    height: 18px;
+    font-size: 12px;
+  }
+  .modal__title {
+    font-size: 16px;
+  }
+  .product {
+    font-size: 12px;
+  }
+  .button__window {
+    font-size: 14px;
+    width: 200px;
+    height: 35px;
+    margin-bottom: 40px;
+  }
+  .modal__close {
+    top: 0px;
+    font-size: 45px;
+  }
+  .city {
+    margin-left: 100px;
+  }
+  .color1 {
+    margin-left: 110px;
+  }
+  .lot {
+    margin-left: 70px;
+  }
+  .address {
+    margin-left: 100px;
+  }
+  .your__name {
+    margin-left: 75px;
+  }
+  .phone {
+    margin-left: 35px;
+  }
+  .articul {
+    margin-left: 50px;
   }
 }
 @media (max-width: 460px) {

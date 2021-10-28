@@ -1301,6 +1301,7 @@ input {
   }
   .modal__close {
     top: 0px;
+    right: 10px;
     font-size: 45px;
   }
   .city {

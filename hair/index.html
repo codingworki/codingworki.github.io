@@ -90,11 +90,15 @@
           <div class="icons">
 
             <div class="icon1">
-              <div class="wrapper">
-              <div class="text__icon">Артикул: 1</div>
-              <img src="image 7.png" alt="" class="img__rez" onmouseover="this.src='image.png'" onmouseout="this.src='image 7.png'">
+              
+              
+              
+              <div >
+                <a href="#" class="image__pic"></a> 
+          </div>
+             
               <div class="name__icon">Резинки</div>
-
+              <div class="text__icon">Артикул: 1</div>
               <div class="ellipses">
                 <div class="ellipse1"></div>
                 <div class="ellipse2"></div>
@@ -102,7 +106,7 @@
 
               <div class="text__price">299₽</div>
               
-            </div>
+          
 
               
           </div>
@@ -111,10 +115,12 @@
 
           <div class="icons">
             <div class="icon1">
-              <div class="text__icon">Артикул: 1</div>
-              <img src="image 7.png" alt="" class="img__rez" onmouseover="this.src='image.png'" onmouseout="this.src='image 7.png'">
+              
+              <div >
+               <a href="#" class="image__pic"></a> 
+          </div>
               <div class="name__icon">Резинки</div>
-
+              <div class="text__icon">Артикул: 1</div>
               <div class="ellipses">
                 <div class="ellipse1"></div>
                 <div class="ellipse2"></div>
@@ -126,10 +132,12 @@
           </div>
           <div class="icons">
             <div class="icon1">
-              <div class="text__icon">Артикул: 1</div>
-              <img src="image 7.png" alt="" class="img__rez" onmouseover="this.src='image.png'" onmouseout="this.src='image 7.png'">
+              
+              <div >
+                <a href="#" class="image__pic"></a> 
+          </div>
               <div class="name__icon">Резинки</div>
-
+              <div class="text__icon">Артикул: 1</div>
               <div class="ellipses">
                 <div class="ellipse1"></div>
                 <div class="ellipse2"></div>
@@ -284,18 +292,20 @@
       <script>
 
 $(document).ready(function() {
-      $('.ellipse1').click(function(){
-    $(".img__rez").attr("src", "image.png");
+      $('.ellipse1').hover(function(){
+    $(".image__pic").css('background', 'url("image.png")');
     return false;
   }); 
  }); 
 
  $(document).ready(function() {
-      $('.ellipse2').click(function(){
-    $(".img__rez").attr("src", "image 7.png");
-    return false;
-  }); 
+
+        $('.ellipse2').hover(function(){
+        $(".image__pic").css('background', 'url("image7.png")');
+        return false;
+  });
  }); 
+ 
         $('.carousel__inner').slick({
           slidesToScroll: 1,
           autoplay: true,
